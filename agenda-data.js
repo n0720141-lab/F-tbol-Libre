@@ -1,50 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-19 08:15:44Z
+ * Last Updated: 2026-10-19 18:28:08Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401874762",
-    "slug": "monza-vs-cagliari",
-    "tournament": "Serie A",
-    "flag": "img/flags/it.svg",
-    "homeTeam": "Monza",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
-    "awayTeam": "Cagliari",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
-    "utcKickoff": "2026-10-19T16:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ Premium",
-        "channel": "Disney+ Premium"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "U-Power Stadium",
-    "category": "europa",
-    "votes": {
-      "team1": 2000,
-      "draw": 575,
-      "team2": 2100
-    }
-  },
   {
     "id": "espn-401874784",
     "slug": "parma-vs-torino",
