@@ -219,92 +219,106 @@ def fetch_primary_competitor():
         print(f"[Pipeline] Competitor feed note ({e}). Proceeding to Secondary Source...")
         return None
 
+def parse_espn_event(event, league, today_str):
+    comp = event.get("competitions", [{}])[0]
+    competitors = comp.get("competitors", [])
+    if len(competitors) < 2:
+        return None
+    home = competitors[0] if competitors[0].get("homeAway") == "home" else competitors[1]
+    away = competitors[1] if competitors[0].get("homeAway") == "home" else competitors[0]
+    home_team = home.get("team", {}).get("displayName", "Equipo Local")
+    away_team = away.get("team", {}).get("displayName", "Equipo Visitante")
+    home_logo = home.get("team", {}).get("logo", get_logo(home_team))
+    away_logo = away.get("team", {}).get("logo", get_logo(away_team))
+
+    status_obj = event.get("status", {})
+    state = status_obj.get("type", {}).get("state", "pre")
+    if state == "post":
+        return None
+
+    status = "LIVE" if state == "in" else "UPCOMING"
+    minute = status_obj.get("displayClock", "") if state == "in" else ""
+    event_date = event.get("date", f"{today_str}T19:00:00Z")
+    slug = f"{clean_slugify(home_team)}-vs-{clean_slugify(away_team)}"
+    eid = str(event.get("id", slug))
+
+    channels_objs = []
+    for idx, ch_name in enumerate(league["channels"]):
+        channels_objs.append({
+            "name": f"Fuente {idx+1} {ch_name}",
+            "channel": ch_name
+        })
+
+    return {
+        "id": f"espn-{eid}",
+        "slug": slug,
+        "tournament": league["name"],
+        "flag": league["flag"],
+        "homeTeam": home_team,
+        "homeLogo": home_logo,
+        "awayTeam": away_team,
+        "awayLogo": away_logo,
+        "utcKickoff": event_date,
+        "status": status,
+        "minute": minute,
+        "homeScore": None,
+        "awayScore": None,
+        "channels": channels_objs,
+        "venue": comp.get("venue", {}).get("fullName", "Estadio Principal"),
+        "category": league["category"],
+        "votes": {
+            "team1": 1600 + (len(home_team) * 80),
+            "draw": 450 + (len(home_team) * 25),
+            "team2": 1500 + (len(away_team) * 75)
+        }
+    }
+
+def fetch_single_espn_url(url, league, today_str):
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/122.0.0.0 Safari/537.36"})
+    try:
+        resp = urllib.request.urlopen(req, timeout=3.5)
+        data = json.loads(resp.read().decode("utf-8"))
+        events = data.get("events", [])
+        parsed = []
+        for ev in events:
+            item = parse_espn_event(ev, league, today_str)
+            if item:
+                parsed.append(item)
+        return parsed
+    except Exception:
+        return []
+
 def fetch_secondary_espn():
-    """Fetches live and upcoming matches from ESPN global public API"""
-    print("[Pipeline] Attempting Secondary Source: ESPN Public Global Scoreboards...")
+    """Fetches live and upcoming matches from ESPN global public API concurrently"""
+    import concurrent.futures
+    print("[Pipeline] Attempting Secondary Source: ESPN Public Global Scoreboards (Parallel Engine)...")
     matches = []
     seen_ids = set()
     now_utc = datetime.datetime.utcnow()
     today_str = now_utc.strftime("%Y-%m-%d")
-    yesterday_str = (now_utc - datetime.timedelta(days=1)).strftime("%Y-%m-%d")
+    today_param = now_utc.strftime("%Y%m%d")
 
+    tasks = []
     for league in ESPN_LEAGUES:
         code = league['code']
-        url = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{code}/scoreboard"
-        try:
-            data = None
-            proc = subprocess.run(["curl.exe", "-s", "--compressed", url], capture_output=True, text=True, encoding="utf-8", errors="replace")
-            if proc.returncode == 0 and proc.stdout:
-                data = json.loads(proc.stdout)
-            else:
-                req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/122.0.0.0 Safari/537.36"})
-                resp = urllib.request.urlopen(req, timeout=8)
-                data = json.loads(resp.read().decode("utf-8"))
-            if not data:
-                continue
+        # Query 1: Today's date specifically
+        url_today = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{code}/scoreboard?dates={today_param}"
+        tasks.append((url_today, league, today_str))
+        # Query 2: Current round / general upcoming
+        url_general = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{code}/scoreboard"
+        tasks.append((url_general, league, today_str))
 
-            events = data.get("events", [])
-            for event in events:
-                eid = str(event.get("id", ""))
-                if eid in seen_ids:
-                    continue
-                comp = event.get("competitions", [{}])[0]
-                competitors = comp.get("competitors", [])
-                if len(competitors) < 2:
-                    continue
-                home = competitors[0] if competitors[0].get("homeAway") == "home" else competitors[1]
-                away = competitors[1] if competitors[0].get("homeAway") == "home" else competitors[0]
-                home_team = home.get("team", {}).get("displayName", "Equipo Local")
-                away_team = away.get("team", {}).get("displayName", "Equipo Visitante")
-                home_logo = home.get("team", {}).get("logo", get_logo(home_team))
-                away_logo = away.get("team", {}).get("logo", get_logo(away_team))
-
-                status_obj = event.get("status", {})
-                state = status_obj.get("type", {}).get("state", "pre")
-                
-                # Exclude finished matches completely (streaming users only want live & upcoming games, no spoilers)
-                if state == "post":
-                    continue
-
-                status = "LIVE" if state == "in" else "UPCOMING"
-                minute = status_obj.get("displayClock", "") if state == "in" else ""
-                event_date = event.get("date", f"{today_str}T19:00:00Z")
-
-                slug = f"{clean_slugify(home_team)}-vs-{clean_slugify(away_team)}"
-                seen_ids.add(eid)
-
-                channels_objs = []
-                for idx, ch_name in enumerate(league["channels"]):
-                    channels_objs.append({
-                        "name": f"Fuente {idx+1} {ch_name}",
-                        "channel": ch_name
-                    })
-
-                matches.append({
-                    "id": f"espn-{eid}",
-                    "slug": slug,
-                    "tournament": league["name"],
-                    "flag": league["flag"],
-                    "homeTeam": home_team,
-                    "homeLogo": home_logo,
-                    "awayTeam": away_team,
-                    "awayLogo": away_logo,
-                    "utcKickoff": event_date,
-                    "status": status,
-                    "minute": minute,
-                    "homeScore": None,
-                    "awayScore": None,
-                    "channels": channels_objs,
-                    "venue": comp.get("venue", {}).get("fullName", "Estadio Principal"),
-                    "category": league["category"],
-                    "votes": {
-                        "team1": 1600 + (len(home_team) * 80),
-                        "draw": 450 + (len(home_team) * 25),
-                        "team2": 1500 + (len(away_team) * 75)
-                    }
-                })
-        except Exception as e:
-            continue
+    with concurrent.futures.ThreadPoolExecutor(max_workers=12) as executor:
+        future_to_url = {executor.submit(fetch_single_espn_url, u, lg, ts): u for (u, lg, ts) in tasks}
+        for future in concurrent.futures.as_completed(future_to_url):
+            try:
+                res_list = future.result()
+                for m in res_list:
+                    if m["id"] not in seen_ids:
+                        seen_ids.add(m["id"])
+                        matches.append(m)
+            except Exception:
+                pass
 
     print(f"[Pipeline] ESPN retrieved {len(matches)} current & upcoming matches.")
     return matches

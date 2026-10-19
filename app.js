@@ -866,14 +866,21 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     try {
+      const todayParam = new Date().toISOString().slice(0, 10).replace(/-/g, "");
       const fetchPromises = espnLeagues.map(async (lg) => {
         try {
-          const resp = await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${lg.code}/scoreboard`, {
+          let resp = await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${lg.code}/scoreboard?dates=${todayParam}`, {
             headers: { "Accept": "application/json" }
           });
-          if (!resp.ok) return [];
-          const json = await resp.json();
-          const events = (json && json.events) || [];
+          let json = resp.ok ? await resp.json() : null;
+          let events = (json && json.events) || [];
+          if (events.length === 0) {
+            resp = await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${lg.code}/scoreboard`, {
+              headers: { "Accept": "application/json" }
+            });
+            json = resp.ok ? await resp.json() : null;
+            events = (json && json.events) || [];
+          }
           return events.map(ev => {
             const comp = (ev.competitions && ev.competitions[0]) || {};
             const comps = comp.competitors || [];

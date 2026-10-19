@@ -1,10 +1,406 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-19 05:37:08Z
+ * Last Updated: 2026-10-19 08:15:44Z
  */
 
 window.LIBREGOL_MATCHES = [
+  {
+    "id": "espn-401874762",
+    "slug": "monza-vs-cagliari",
+    "tournament": "Serie A",
+    "flag": "img/flags/it.svg",
+    "homeTeam": "Monza",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
+    "awayTeam": "Cagliari",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
+    "utcKickoff": "2026-10-19T16:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 1 HD",
+        "channel": "ESPN 1 HD"
+      },
+      {
+        "name": "Fuente 2 Star+ HD",
+        "channel": "Star+ HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ Premium",
+        "channel": "Disney+ Premium"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "U-Power Stadium",
+    "category": "europa",
+    "votes": {
+      "team1": 2000,
+      "draw": 575,
+      "team2": 2100
+    }
+  },
+  {
+    "id": "espn-401874784",
+    "slug": "parma-vs-torino",
+    "tournament": "Serie A",
+    "flag": "img/flags/it.svg",
+    "homeTeam": "Parma",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
+    "awayTeam": "Torino",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
+    "utcKickoff": "2026-10-19T18:45Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 1 HD",
+        "channel": "ESPN 1 HD"
+      },
+      {
+        "name": "Fuente 2 Star+ HD",
+        "channel": "Star+ HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ Premium",
+        "channel": "Disney+ Premium"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Ennio Tardini",
+    "category": "europa",
+    "votes": {
+      "team1": 2000,
+      "draw": 575,
+      "team2": 1950
+    }
+  },
+  {
+    "id": "espn-401882842",
+    "slug": "getafe-vs-rayo-vallecano",
+    "tournament": "LaLiga EA Sports",
+    "flag": "img/flags/es.svg",
+    "homeTeam": "Getafe",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+    "awayTeam": "Rayo Vallecano",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+    "utcKickoff": "2026-10-19T19:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Movistar Plus+",
+        "channel": "Movistar Plus+"
+      },
+      {
+        "name": "Fuente 2 DAZN LaLiga",
+        "channel": "DAZN LaLiga"
+      },
+      {
+        "name": "Fuente 3 ESPN Deportes",
+        "channel": "ESPN Deportes"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Coliseum",
+    "category": "espana",
+    "votes": {
+      "team1": 2080,
+      "draw": 600,
+      "team2": 2550
+    }
+  },
+  {
+    "id": "espn-401879257",
+    "slug": "tottenham-hotspur-vs-coventry-city",
+    "tournament": "Premier League",
+    "flag": "img/flags/england.svg",
+    "homeTeam": "Tottenham Hotspur",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+    "awayTeam": "Coventry City",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+    "utcKickoff": "2026-10-19T19:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 1 HD",
+        "channel": "ESPN 1 HD"
+      },
+      {
+        "name": "Fuente 2 DAZN 1",
+        "channel": "DAZN 1"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Tottenham Hotspur Stadium",
+    "category": "europa",
+    "votes": {
+      "team1": 2960,
+      "draw": 875,
+      "team2": 2475
+    }
+  },
+  {
+    "id": "espn-401841620",
+    "slug": "newell-s-old-boys-vs-central-cordoba-santiago-del-estero",
+    "tournament": "Liga Profesional",
+    "flag": "img/flags/ar.svg",
+    "homeTeam": "Newell's Old Boys",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
+    "awayTeam": "Central Córdoba (Santiago del Estero)",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11989.png",
+    "utcKickoff": "2026-10-19T22:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN Premium HD",
+        "channel": "ESPN Premium HD"
+      },
+      {
+        "name": "Fuente 2 TNT Sports HD",
+        "channel": "TNT Sports HD"
+      },
+      {
+        "name": "Fuente 3 TyC Sports",
+        "channel": "TyC Sports"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Marcelo Bielsa",
+    "category": "argentina",
+    "votes": {
+      "team1": 2960,
+      "draw": 875,
+      "team2": 4275
+    }
+  },
+  {
+    "id": "espn-401841617",
+    "slug": "sarmiento-junin-vs-barracas-central",
+    "tournament": "Liga Profesional",
+    "flag": "img/flags/ar.svg",
+    "homeTeam": "Sarmiento (Junín)",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10158.png",
+    "awayTeam": "Barracas Central",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10060.png",
+    "utcKickoff": "2026-10-19T22:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN Premium HD",
+        "channel": "ESPN Premium HD"
+      },
+      {
+        "name": "Fuente 2 TNT Sports HD",
+        "channel": "TNT Sports HD"
+      },
+      {
+        "name": "Fuente 3 TyC Sports",
+        "channel": "TyC Sports"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Eva Perón",
+    "category": "argentina",
+    "votes": {
+      "team1": 2960,
+      "draw": 875,
+      "team2": 2700
+    }
+  },
+  {
+    "id": "espn-401841272",
+    "slug": "corinthians-vs-vitoria",
+    "tournament": "Brasileirão",
+    "flag": "img/flags/br.svg",
+    "homeTeam": "Corinthians",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+    "awayTeam": "Vitória",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
+    "utcKickoff": "2026-10-19T23:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Premiere HD",
+        "channel": "Premiere HD"
+      },
+      {
+        "name": "Fuente 2 Globo",
+        "channel": "Globo"
+      },
+      {
+        "name": "Fuente 3 SporTV",
+        "channel": "SporTV"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Neo Química Arena",
+    "category": "brasil",
+    "votes": {
+      "team1": 2480,
+      "draw": 725,
+      "team2": 2025
+    }
+  },
+  {
+    "id": "espn-401929257",
+    "slug": "nacional-vs-deportivo-maldonado",
+    "tournament": "Primera División Uruguay",
+    "flag": "img/flags/uy.svg",
+    "homeTeam": "Nacional",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2684.png",
+    "awayTeam": "Deportivo Maldonado",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10000.png",
+    "utcKickoff": "2026-10-19T23:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 VTV Plus",
+        "channel": "VTV Plus"
+      },
+      {
+        "name": "Fuente 2 Star+ HD",
+        "channel": "Star+ HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Gran Parque Central",
+    "category": "uruguay",
+    "votes": {
+      "team1": 2240,
+      "draw": 650,
+      "team2": 2925
+    }
+  },
+  {
+    "id": "espn-401841625",
+    "slug": "deportivo-riestra-vs-union-santa-fe",
+    "tournament": "Liga Profesional",
+    "flag": "img/flags/ar.svg",
+    "homeTeam": "Deportivo Riestra",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/17702.png",
+    "awayTeam": "Unión (Santa Fe)",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
+    "utcKickoff": "2026-10-20T00:15Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN Premium HD",
+        "channel": "ESPN Premium HD"
+      },
+      {
+        "name": "Fuente 2 TNT Sports HD",
+        "channel": "TNT Sports HD"
+      },
+      {
+        "name": "Fuente 3 TyC Sports",
+        "channel": "TyC Sports"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Guillermo Laza",
+    "category": "argentina",
+    "votes": {
+      "team1": 2960,
+      "draw": 875,
+      "team2": 2700
+    }
+  },
+  {
+    "id": "espn-401878019",
+    "slug": "deportivo-pasto-vs-alianza-fc",
+    "tournament": "Liga BetPlay",
+    "flag": "img/flags/co.svg",
+    "homeTeam": "Deportivo Pasto",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5485.png",
+    "awayTeam": "Alianza FC",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9761.png",
+    "utcKickoff": "2026-10-20T01:05Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Win Sports+",
+        "channel": "Win Sports+"
+      },
+      {
+        "name": "Fuente 2 Win Sports Online",
+        "channel": "Win Sports Online"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Departamental Libertad",
+    "category": "colombia",
+    "votes": {
+      "team1": 2800,
+      "draw": 825,
+      "team2": 2250
+    }
+  },
   {
     "id": "espn-401915403",
     "slug": "fenerbahce-vs-slavia-prague",
