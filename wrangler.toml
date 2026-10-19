@@ -1,0 +1,6 @@
+name = "f-tbol-libre"
+compatibility_date = "2026-10-19"
+
+[assets]
+directory = "."
+run_worker_first = false
