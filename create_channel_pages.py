@@ -99,7 +99,7 @@ for ch in channels_data:
   
   <!-- Safe DMCA Protection: Do not index channel streams, concentrate 100% authority on Homepage -->
   <meta name="robots" content="noindex, follow">
-  <link rel="canonical" href="https://futbollibrefullhd.org/">
+  <link rel="canonical" href="https://futbollibrefullhd.online/">
 
   <link rel="icon" type="image/svg+xml" href="../../img/favicon.svg">
   <style>

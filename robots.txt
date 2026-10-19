@@ -3,4 +3,4 @@ Allow: /
 Disallow: /embed/
 Disallow: /canales/
 
-Sitemap: https://futbollibrefullhd.org/sitemap.xml
+Sitemap: https://futbollibrefullhd.online/sitemap.xml

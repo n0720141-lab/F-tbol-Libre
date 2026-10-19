@@ -341,7 +341,7 @@ window.LIBREGOL_MATCHES = {json.dumps(matches, indent=2, ensure_ascii=False)};
 def compile_master_sitemap():
     """Generates clean XML sitemap for Google (Only 1 Homepage URL)"""
     today_str = datetime.datetime.utcnow().strftime("%Y-%m-%d")
-    base_url = "https://futbollibrefullhd.org"
+    base_url = "https://futbollibrefullhd.online"
 
     xml_lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',

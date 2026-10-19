@@ -754,7 +754,7 @@ document.addEventListener("DOMContentLoaded", function () {
         
         return {
           "@type": "SportsEvent",
-          "@id": `https://futbollibrefullhd.org/#event-${m.id || idx}`,
+          "@id": `https://futbollibrefullhd.online/#event-${m.id || idx}`,
           "name": title,
           "description": `Partido en directo de ${title}. Transmisión oficial en vivo con Fútbol Libre TV y Pelota Libre.`,
           "sport": "Soccer",
@@ -770,7 +770,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
           "location": {
             "@type": "VirtualLocation",
-            "url": "https://futbollibrefullhd.org/"
+            "url": "https://futbollibrefullhd.online/"
           },
           "publication": {
             "@type": "BroadcastEvent",
