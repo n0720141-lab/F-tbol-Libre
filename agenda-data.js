@@ -1,130 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-19 18:28:08Z
+ * Last Updated: 2026-10-19 23:24:17Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401874784",
-    "slug": "parma-vs-torino",
-    "tournament": "Serie A",
-    "flag": "img/flags/it.svg",
-    "homeTeam": "Parma",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
-    "awayTeam": "Torino",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
-    "utcKickoff": "2026-10-19T18:45Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ Premium",
-        "channel": "Disney+ Premium"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Ennio Tardini",
-    "category": "europa",
-    "votes": {
-      "team1": 2000,
-      "draw": 575,
-      "team2": 1950
-    }
-  },
-  {
-    "id": "espn-401882842",
-    "slug": "getafe-vs-rayo-vallecano",
-    "tournament": "LaLiga EA Sports",
-    "flag": "img/flags/es.svg",
-    "homeTeam": "Getafe",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
-    "awayTeam": "Rayo Vallecano",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-    "utcKickoff": "2026-10-19T19:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Movistar Plus+",
-        "channel": "Movistar Plus+"
-      },
-      {
-        "name": "Fuente 2 DAZN LaLiga",
-        "channel": "DAZN LaLiga"
-      },
-      {
-        "name": "Fuente 3 ESPN Deportes",
-        "channel": "ESPN Deportes"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Coliseum",
-    "category": "espana",
-    "votes": {
-      "team1": 2080,
-      "draw": 600,
-      "team2": 2550
-    }
-  },
-  {
-    "id": "espn-401879257",
-    "slug": "tottenham-hotspur-vs-coventry-city",
-    "tournament": "Premier League",
-    "flag": "img/flags/england.svg",
-    "homeTeam": "Tottenham Hotspur",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-    "awayTeam": "Coventry City",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
-    "utcKickoff": "2026-10-19T19:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 DAZN 1",
-        "channel": "DAZN 1"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Tottenham Hotspur Stadium",
-    "category": "europa",
-    "votes": {
-      "team1": 2960,
-      "draw": 875,
-      "team2": 2475
-    }
-  },
   {
     "id": "espn-401841620",
     "slug": "newell-s-old-boys-vs-central-cordoba-santiago-del-estero",
@@ -135,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Central Córdoba (Santiago del Estero)",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11989.png",
     "utcKickoff": "2026-10-19T22:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "63'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -175,8 +55,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Barracas Central",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10060.png",
     "utcKickoff": "2026-10-19T22:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "64'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -215,8 +95,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Vitória",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
     "utcKickoff": "2026-10-19T23:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "20'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -255,8 +135,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Deportivo Maldonado",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10000.png",
     "utcKickoff": "2026-10-19T23:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "24'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
