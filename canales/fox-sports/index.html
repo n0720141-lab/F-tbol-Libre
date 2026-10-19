@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FOX SPORTS en vivo por internet - Fútbol Libre TV</title>
+  <meta name="description" content="Mira Fox Sports en vivo y en directo por internet en calidad Full HD. Horarios, partidos del día y programación deportiva oficial.">
+  
+  <!-- Safe DMCA Protection: Do not index channel streams, concentrate 100% authority on Homepage -->
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://futbollibrefullhd.org/">
+
+  <link rel="icon" type="image/svg+xml" href="../../img/favicon.svg">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    body {
+      background-color: #ffffff;
+      color: #1f2937;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.75rem 1.5rem;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+      color: #16a34a;
+      font-size: 1.35rem;
+      font-weight: 800;
+    }
+    .ball-icon {
+      font-size: 1.4rem;
+    }
+    .nav-back-home {
+      background-color: #16a34a;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 0.45rem 1rem;
+      border-radius: 9999px;
+      font-size: 0.88rem;
+      font-weight: 700;
+      transition: background 0.2s;
+    }
+    .nav-back-home:hover {
+      background-color: #15803d;
+    }
+    main {
+      max-width: 860px;
+      width: 92%;
+      margin: 1.5rem auto 3rem;
+      flex: 1;
+    }
+    .channel-header-title {
+      color: #16a34a;
+      font-size: 1.65rem;
+      font-weight: 800;
+      margin-bottom: 1.25rem;
+      text-align: center;
+      letter-spacing: -0.3px;
+    }
+    /* Video player matching Image 3 */
+    .player-box {
+      width: 100%;
+      background: #000000;
+      border-radius: 10px;
+      overflow: hidden;
+      aspect-ratio: 16 / 9;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      position: relative;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+    .btn-reload-channel {
+      width: 100%;
+      background-color: #16a34a;
+      color: #ffffff;
+      font-size: 1rem;
+      font-weight: 700;
+      padding: 0.75rem 1rem;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      margin-top: 0.75rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      transition: background-color 0.2s;
+    }
+    .btn-reload-channel:hover {
+      background-color: #15803d;
+    }
+    /* Channel Switcher Pills */
+    .channels-bar-wrap {
+      margin: 1.75rem 0 1rem;
+    }
+    .channels-bar-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #374151;
+      margin-bottom: 0.6rem;
+    }
+    .channels-pills-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .channel-pill {
+      background: #f3f4f6;
+      color: #4b5563;
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      transition: all 0.2s;
+    }
+    .channel-pill:hover {
+      background: #e5e7eb;
+      color: #16a34a;
+    }
+    .channel-pill.active {
+      background: #16a34a;
+      color: #ffffff;
+    }
+    /* Editorial Guide */
+    .editorial-section {
+      margin-top: 2rem;
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 1.5rem;
+      line-height: 1.6;
+    }
+    .editorial-section h2 {
+      color: #111827;
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+    .editorial-section p {
+      color: #4b5563;
+      font-size: 0.95rem;
+      margin-bottom: 0.85rem;
+    }
+    .editorial-section ul {
+      margin-left: 1.25rem;
+      color: #4b5563;
+      font-size: 0.92rem;
+    }
+    .editorial-section li {
+      margin-bottom: 0.4rem;
+    }
+    footer {
+      min-height: 2.75rem;
+      background-color: #1f2937;
+      color: #9ca3af;
+      padding: 0.85rem 1.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: auto;
+      border-top: 1px solid #374151;
+    }
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.88rem;
+      color: #9ca3af;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .footer-title {
+      font-weight: 700;
+      color: #f3f4f6;
+      letter-spacing: -0.2px;
+    }
+    .footer-sep {
+      color: #4b5563;
+    }
+    .footer-tagline {
+      color: #9ca3af;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../../index.html" class="logo" aria-label="Inicio Fútbol Libre">
+      <span class="ball-icon">⚽</span>
+      <span>Fútbol Libre</span>
+    </a>
+    <a href="../../index.html" class="nav-back-home">&#8592; Ver Agenda de Hoy</a>
+  </header>
+
+  <main>
+    <h1 class="channel-header-title">FOX SPORTS en vivo por internet</h1>
+
+    <div class="player-box">
+      <iframe id="channelPlayer" src="https://tvf90.com/2.php?stream=foxsports" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+    <button type="button" class="btn-reload-channel" onclick="reloadChannel()">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/>
+      </svg>
+      Recargar canal
+    </button>
+
+    <div class="channels-bar-wrap">
+      <p class="channels-bar-title">Cambiar a otro canal deportivo en vivo:</p>
+      <div class="channels-pills-row">
+        <a href="../liga-1-max/index.html" class="channel-pill">Liga 1 MAX</a>
+        <a href="../telemundo/index.html" class="channel-pill">Telemundo Deportes</a>
+        <a href="../dsports/index.html" class="channel-pill">DSports</a>
+        <a href="../dsports-2/index.html" class="channel-pill">DSports 2</a>
+        <a href="../espn-1/index.html" class="channel-pill">ESPN 1</a>
+        <a href="../espn-2/index.html" class="channel-pill">ESPN 2</a>
+        <a href="../espn-3/index.html" class="channel-pill">ESPN 3</a>
+        <a href="../fox-sports/index.html" class="channel-pill active">Fox Sports</a>
+      </div>
+    </div>
+
+    <section class="editorial-section">
+      <h2>Copa Libertadores de América y pasión deportiva</h2>
+      <p>Fox Sports es el hogar de la Copa Libertadores de América, con seguimiento a Boca Juniors, River Plate, Flamengo, Palmeiras y los mejores clubes del continente, además de programas de debate y automovilismo en vivo.</p>
+      <p><strong>Competiciones y torneos habituales:</strong></p>
+      <ul>
+        <li>Copa Libertadores, Automovilismo, WWE, Fútbol continental sudamericano.</li>
+        <li>Transmisión 24/7 en alta definición con compatibilidad móvil y Smart TV.</li>
+        <li>Información oficial de la fecha deportiva y enlaces actualizados.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-title">Fútbol Libre TV 2026</span>
+      <span class="footer-sep">•</span>
+      <span class="footer-tagline">Agenda Deportiva Oficial & Guía de Canales HD</span>
+    </div>
+  </footer>
+
+  <script>
+    function reloadChannel() {
+      const frame = document.getElementById('channelPlayer');
+      if (frame) {
+        const src = frame.src;
+        frame.src = 'about:blank';
+        setTimeout(() => {
+          frame.src = src;
+        }, 200);
+      }
+    }
+  </script>
+</body>
+</html>

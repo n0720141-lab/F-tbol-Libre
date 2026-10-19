@@ -1,0 +1,31 @@
+name: Auto Sync Live Football Matches
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync-matches:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Codebase
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Match Sync Pipeline
+        run: |
+          python auto_sync_pipeline.py
+
+      - name: Commit and Push Fresh Match Pages
+        run: |
+          git config --global user.name "Futbol Libre Bot"
+          git config --global user.email "bot@futbollibrefullhd.online"
+          git add -A
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(sync): Daily auto-sync matches and sitemap [skip ci]" && git push)

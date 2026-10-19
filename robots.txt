@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /embed/
+Disallow: /canales/
+
+Sitemap: https://futbollibrefullhd.org/sitemap.xml

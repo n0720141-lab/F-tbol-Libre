@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" width="200" height="80">
+  <defs>
+    <linearGradient id="teleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#b91c1c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Telemundo Iconic 'T' Emblem -->
+  <g transform="translate(18, 12)">
+    <circle cx="28" cy="28" r="28" fill="url(#teleGrad)"/>
+    <!-- Bold Stylized T -->
+    <path d="M 12 18 L 44 18 L 44 26 L 33 26 L 33 44 L 23 44 L 23 26 L 12 26 Z" fill="#ffffff"/>
+  </g>
+
+  <!-- Telemundo Wordmark -->
+  <text x="82" y="44" fill="#0f172a" font-family="Arial, sans-serif" font-weight="900" font-size="18" letter-spacing="1.5">TELEMUNDO</text>
+  <text x="82" y="58" fill="#ef4444" font-family="Arial, sans-serif" font-weight="700" font-size="10" letter-spacing="3">DEPORTES</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" width="200" height="80">
+  <defs>
+    <linearGradient id="foxBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#002d62"/>
+      <stop offset="100%" stop-color="#001838"/>
+    </linearGradient>
+    <linearGradient id="foxGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Blue Rounded Container -->
+  <rect x="10" y="10" width="180" height="60" rx="8" fill="url(#foxBlue)"/>
+  
+  <!-- FOX Text -->
+  <text x="100" y="42" fill="#ffffff" font-family="Arial, sans-serif" font-weight="900" font-size="34" letter-spacing="1" text-anchor="middle">FOX</text>
+  
+  <!-- SPORTS Yellow Badge -->
+  <rect x="25" y="48" width="150" height="16" rx="3" fill="url(#foxGold)"/>
+  <text x="100" y="60" fill="#001838" font-family="Arial, sans-serif" font-weight="900" font-size="12" letter-spacing="4" text-anchor="middle">SPORTS</text>
+</svg>

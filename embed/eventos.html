@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reproductor en Vivo - Fútbol Libre TV</title>
+  
+  <!-- Safe DMCA Protection: Do not index dynamic stream players -->
+  <meta name="robots" content="noindex, follow">
+  <meta name="referrer" content="no-referrer">
+  <link rel="canonical" href="https://futbollibrefullhd.org/">
+
+  <link rel="icon" type="image/svg+xml" href="../img/favicon.svg">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    body {
+      background-color: #0b0f19;
+      color: #ffffff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      background-color: #ffffff;
+      padding: 0.5rem 1.25rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+      color: #16a34a;
+      font-size: 1.25rem;
+      font-weight: 800;
+    }
+    .btn-home {
+      background-color: #16a34a;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 0.4rem 0.85rem;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+    .btn-home:hover {
+      background-color: #15803d;
+    }
+    main {
+      flex: 1;
+      width: 100%;
+      max-width: 980px;
+      margin: 1.25rem auto;
+      padding: 0 1rem;
+    }
+    .player-header {
+      margin-bottom: 0.75rem;
+    }
+    .player-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #f8fafc;
+      margin-bottom: 0.25rem;
+    }
+    .player-subtitle {
+      font-size: 0.85rem;
+      color: #94a3b8;
+    }
+    .player-container {
+      position: relative;
+      width: 100%;
+      background: #000000;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+      aspect-ratio: 16 / 9;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+    .controls-bar {
+      margin-top: 0.75rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .btn-reload {
+      background-color: #16a34a;
+      color: white;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      font-size: 0.9rem;
+      font-weight: 700;
+      border-radius: 6px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: background 0.2s;
+    }
+    .btn-reload:hover {
+      background-color: #15803d;
+    }
+    .status-text {
+      font-size: 0.85rem;
+      color: #64748b;
+    }
+    .info-box {
+      margin-top: 1.5rem;
+      background: #151d2e;
+      border: 1px solid #232f48;
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      font-size: 0.88rem;
+      line-height: 1.6;
+      color: #cbd5e1;
+    }
+    .info-box strong {
+      color: #f8fafc;
+    }
+    footer {
+      background-color: #1f2937;
+      color: #9ca3af;
+      padding: 0.85rem 1.5rem;
+      font-size: 0.85rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../" class="logo">
+      <span>⚽</span>
+      <span>Fútbol Libre</span>
+    </a>
+    <a href="../" class="btn-home">&#8592; Volver a la Agenda</a>
+  </header>
+
+  <main>
+    <div class="player-header">
+      <h1 class="player-title" id="eventTitle">Transmisión en Vivo HD</h1>
+      <p class="player-subtitle">Fútbol Libre TV • Señal deportiva optimizada</p>
+    </div>
+
+    <div class="player-container">
+      <iframe id="streamIframe" allow="autoplay; encrypted-media; fullscreen" allowfullscreen></iframe>
+    </div>
+
+    <div class="controls-bar">
+      <button class="btn-reload" id="btnReload" onclick="reloadStream()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/>
+        </svg>
+        Recargar canal
+      </button>
+      <span class="status-text">Si la señal se detiene, pulsa Recargar canal</span>
+    </div>
+
+    <div class="info-box">
+      <p><strong>Nota informativa:</strong> Este reproductor dinámico sincroniza las señales disponibles para el evento seleccionado. Puedes regresar a la agenda principal en cualquier momento para consultar otros horarios y partidos del día.</p>
+    </div>
+  </main>
+
+  <footer>
+    Fútbol Libre TV 2026 &copy; Todos los derechos reservados.
+  </footer>
+
+  <script>
+    function getQueryParam(param) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
+    }
+
+    function decodeStreamUrl(encoded) {
+      if (!encoded) return '';
+      try {
+        // Check if valid Base64
+        return atob(encoded);
+      } catch (e) {
+        // If not base64, return plain
+        return decodeURIComponent(encoded);
+      }
+    }
+
+    const rawR = getQueryParam('r');
+    const customTitle = getQueryParam('title');
+
+    if (customTitle) {
+      document.getElementById('eventTitle').textContent = decodeURIComponent(customTitle);
+      document.title = decodeURIComponent(customTitle) + ' - Fútbol Libre TV';
+    }
+
+    const streamUrl = decodeStreamUrl(rawR);
+    const iframe = document.getElementById('streamIframe');
+
+    if (streamUrl) {
+      iframe.src = streamUrl;
+    } else {
+      // Default placeholder if none supplied
+      iframe.srcdoc = '<body style="margin:0;background:#000;color:#fff;display:flex;align-items:center;justify-content:center;height:100vh;font-family:sans-serif;"><h3>Selecciona un partido desde la agenda de Fútbol Libre</h3></body>';
+    }
+
+    function reloadStream() {
+      if (iframe && iframe.src) {
+        const currentSrc = iframe.src;
+        iframe.src = 'about:blank';
+        setTimeout(() => {
+          iframe.src = currentSrc;
+        }, 150);
+      }
+    }
+  </script>
+</body>
+</html>

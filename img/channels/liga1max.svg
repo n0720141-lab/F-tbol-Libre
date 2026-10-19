@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" width="200" height="80">
+  <defs>
+    <linearGradient id="l1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e11d48"/>
+      <stop offset="100%" stop-color="#be123c"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Left Red Badge for Liga 1 -->
+  <path d="M 12 12 L 52 12 L 40 68 L 12 68 Z" fill="url(#l1Grad)" rx="3"/>
+  <text x="24" y="52" fill="#ffffff" font-family="Arial, sans-serif" font-weight="900" font-size="34" font-style="italic">1</text>
+  
+  <!-- Liga text -->
+  <text x="58" y="42" fill="#0f172a" font-family="Arial, sans-serif" font-weight="900" font-size="28" letter-spacing="-0.5">LIGA</text>
+  
+  <!-- MAX Badge -->
+  <rect x="58" y="48" width="80" height="20" rx="4" fill="url(#goldGrad)"/>
+  <text x="98" y="63" fill="#ffffff" font-family="Arial, sans-serif" font-weight="900" font-size="14" letter-spacing="2" text-anchor="middle">MAX</text>
+  
+  <!-- Star -->
+  <polygon points="128,26 130,30 134,30 131,32 132,36 128,34 124,36 125,32 122,30 126,30" fill="#f59e0b"/>
+</svg>
