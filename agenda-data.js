@@ -1,370 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-20 16:30:18Z
+ * Last Updated: 2026-10-20 22:58:44Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401915403",
-    "slug": "fenerbahce-vs-slavia-prague",
-    "tournament": "UEFA Champions League",
-    "flag": "img/flags/europa.svg",
-    "homeTeam": "Fenerbahce",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-    "awayTeam": "Slavia Prague",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
-    "utcKickoff": "2026-10-20T16:45Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Fox Sports 1 HD",
-        "channel": "Fox Sports 1 HD"
-      },
-      {
-        "name": "Fuente 3 Movistar Liga de Campeones",
-        "channel": "Movistar Liga de Campeones"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Şükrü Saracoğlu Stadium",
-    "category": "europa",
-    "votes": {
-      "team1": 2400,
-      "draw": 700,
-      "team2": 2475
-    }
-  },
-  {
-    "id": "espn-401915404",
-    "slug": "sabah-fk-vs-borussia-dortmund",
-    "tournament": "UEFA Champions League",
-    "flag": "img/flags/europa.svg",
-    "homeTeam": "Sabah FK",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
-    "awayTeam": "Borussia Dortmund",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
-    "utcKickoff": "2026-10-20T16:45Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Fox Sports 1 HD",
-        "channel": "Fox Sports 1 HD"
-      },
-      {
-        "name": "Fuente 3 Movistar Liga de Campeones",
-        "channel": "Movistar Liga de Campeones"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Baku Olympic Stadium",
-    "category": "europa",
-    "votes": {
-      "team1": 2240,
-      "draw": 650,
-      "team2": 2775
-    }
-  },
-  {
-    "id": "espn-401915402",
-    "slug": "as-roma-vs-slovan-bratislava",
-    "tournament": "UEFA Champions League",
-    "flag": "img/flags/europa.svg",
-    "homeTeam": "AS Roma",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
-    "awayTeam": "Slovan Bratislava",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/521.png",
-    "utcKickoff": "2026-10-20T19:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Fox Sports 1 HD",
-        "channel": "Fox Sports 1 HD"
-      },
-      {
-        "name": "Fuente 3 Movistar Liga de Campeones",
-        "channel": "Movistar Liga de Campeones"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Olimpico",
-    "category": "europa",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 2775
-    }
-  },
-  {
-    "id": "espn-401915398",
-    "slug": "fc-porto-vs-psv-eindhoven",
-    "tournament": "UEFA Champions League",
-    "flag": "img/flags/europa.svg",
-    "homeTeam": "FC Porto",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
-    "awayTeam": "PSV Eindhoven",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
-    "utcKickoff": "2026-10-20T19:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Fox Sports 1 HD",
-        "channel": "Fox Sports 1 HD"
-      },
-      {
-        "name": "Fuente 3 Movistar Liga de Campeones",
-        "channel": "Movistar Liga de Campeones"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estádio do Dragão",
-    "category": "europa",
-    "votes": {
-      "team1": 2240,
-      "draw": 650,
-      "team2": 2475
-    }
-  },
-  {
-    "id": "espn-401915397",
-    "slug": "liverpool-vs-villarreal",
-    "tournament": "UEFA Champions League",
-    "flag": "img/flags/europa.svg",
-    "homeTeam": "Liverpool",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-    "awayTeam": "Villarreal",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-    "utcKickoff": "2026-10-20T19:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Fox Sports 1 HD",
-        "channel": "Fox Sports 1 HD"
-      },
-      {
-        "name": "Fuente 3 Movistar Liga de Campeones",
-        "channel": "Movistar Liga de Campeones"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Anfield",
-    "category": "europa",
-    "votes": {
-      "team1": 2320,
-      "draw": 675,
-      "team2": 2250
-    }
-  },
-  {
-    "id": "espn-401915401",
-    "slug": "manchester-city-vs-aek-athens",
-    "tournament": "UEFA Champions League",
-    "flag": "img/flags/europa.svg",
-    "homeTeam": "Manchester City",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-    "awayTeam": "AEK Athens",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
-    "utcKickoff": "2026-10-20T19:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Fox Sports 1 HD",
-        "channel": "Fox Sports 1 HD"
-      },
-      {
-        "name": "Fuente 3 Movistar Liga de Campeones",
-        "channel": "Movistar Liga de Campeones"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Etihad Stadium",
-    "category": "europa",
-    "votes": {
-      "team1": 2800,
-      "draw": 825,
-      "team2": 2250
-    }
-  },
-  {
-    "id": "espn-401915400",
-    "slug": "napoli-vs-bodo-glimt",
-    "tournament": "UEFA Champions League",
-    "flag": "img/flags/europa.svg",
-    "homeTeam": "Napoli",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
-    "awayTeam": "Bodo/Glimt",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
-    "utcKickoff": "2026-10-20T19:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Fox Sports 1 HD",
-        "channel": "Fox Sports 1 HD"
-      },
-      {
-        "name": "Fuente 3 Movistar Liga de Campeones",
-        "channel": "Movistar Liga de Campeones"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Stadio Diego Armando Maradona",
-    "category": "europa",
-    "votes": {
-      "team1": 2080,
-      "draw": 600,
-      "team2": 2250
-    }
-  },
-  {
-    "id": "espn-401915399",
-    "slug": "paris-saint-germain-vs-barcelona",
-    "tournament": "UEFA Champions League",
-    "flag": "img/flags/europa.svg",
-    "homeTeam": "Paris Saint-Germain",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-    "awayTeam": "Barcelona",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-    "utcKickoff": "2026-10-20T19:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Fox Sports 1 HD",
-        "channel": "Fox Sports 1 HD"
-      },
-      {
-        "name": "Fuente 3 Movistar Liga de Campeones",
-        "channel": "Movistar Liga de Campeones"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Parc des Princes",
-    "category": "europa",
-    "votes": {
-      "team1": 3120,
-      "draw": 925,
-      "team2": 2175
-    }
-  },
-  {
-    "id": "espn-401915392",
-    "slug": "vfb-stuttgart-vs-atletico-madrid",
-    "tournament": "UEFA Champions League",
-    "flag": "img/flags/europa.svg",
-    "homeTeam": "VfB Stuttgart",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
-    "awayTeam": "Atlético Madrid",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-    "utcKickoff": "2026-10-20T19:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Fox Sports 1 HD",
-        "channel": "Fox Sports 1 HD"
-      },
-      {
-        "name": "Fuente 3 Movistar Liga de Campeones",
-        "channel": "Movistar Liga de Campeones"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "MHPArena",
-    "category": "europa",
-    "votes": {
-      "team1": 2640,
-      "draw": 775,
-      "team2": 2625
-    }
-  },
   {
     "id": "espn-401878040",
     "slug": "deportivo-pereira-vs-boyaca-chico-fc",
@@ -375,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Boyacá Chicó FC",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5480.png",
     "utcKickoff": "2026-10-20T21:30Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "72'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -1630,46 +1270,6 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
-    "id": "espn-401841638",
-    "slug": "gimnasia-la-plata-vs-sarmiento-junin",
-    "tournament": "Liga Profesional",
-    "flag": "img/flags/ar.svg",
-    "homeTeam": "Gimnasia La Plata",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9.png",
-    "awayTeam": "Sarmiento (Junín)",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10158.png",
-    "utcKickoff": "2026-10-23T20:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN Premium HD",
-        "channel": "ESPN Premium HD"
-      },
-      {
-        "name": "Fuente 2 TNT Sports HD",
-        "channel": "TNT Sports HD"
-      },
-      {
-        "name": "Fuente 3 TyC Sports",
-        "channel": "TyC Sports"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Juan Carmelo Zerillo (El Bosque)",
-    "category": "argentina",
-    "votes": {
-      "team1": 2960,
-      "draw": 875,
-      "team2": 2775
-    }
-  },
-  {
     "id": "espn-401886161",
     "slug": "atletico-grau-vs-adt",
     "tournament": "Liga 1 MAX",
@@ -1710,6 +1310,46 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
+    "id": "espn-401841638",
+    "slug": "gimnasia-la-plata-vs-sarmiento-junin",
+    "tournament": "Liga Profesional",
+    "flag": "img/flags/ar.svg",
+    "homeTeam": "Gimnasia La Plata",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9.png",
+    "awayTeam": "Sarmiento (Junín)",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10158.png",
+    "utcKickoff": "2026-10-23T21:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN Premium HD",
+        "channel": "ESPN Premium HD"
+      },
+      {
+        "name": "Fuente 2 TNT Sports HD",
+        "channel": "TNT Sports HD"
+      },
+      {
+        "name": "Fuente 3 TyC Sports",
+        "channel": "TyC Sports"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Juan Carmelo Zerillo (El Bosque)",
+    "category": "argentina",
+    "votes": {
+      "team1": 2960,
+      "draw": 875,
+      "team2": 2775
+    }
+  },
+  {
     "id": "espn-401841637",
     "slug": "gimnasia-mendoza-vs-platense",
     "tournament": "Liga Profesional",
@@ -1747,6 +1387,82 @@ window.LIBREGOL_MATCHES = [
       "team1": 3040,
       "draw": 900,
       "team2": 2100
+    }
+  },
+  {
+    "id": "espn-401841287",
+    "slug": "cruzeiro-vs-remo",
+    "tournament": "Brasileirão",
+    "flag": "img/flags/br.svg",
+    "homeTeam": "Cruzeiro",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+    "awayTeam": "Remo",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
+    "utcKickoff": "2026-10-23T23:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Premiere HD",
+        "channel": "Premiere HD"
+      },
+      {
+        "name": "Fuente 2 Globo",
+        "channel": "Globo"
+      },
+      {
+        "name": "Fuente 3 SporTV",
+        "channel": "SporTV"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Mineirão",
+    "category": "brasil",
+    "votes": {
+      "team1": 2240,
+      "draw": 650,
+      "team2": 1800
+    }
+  },
+  {
+    "id": "espn-401850668",
+    "slug": "audax-italiano-vs-huachipato",
+    "tournament": "Primera División Chile",
+    "flag": "img/flags/cl.svg",
+    "homeTeam": "Audax Italiano",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4138.png",
+    "awayTeam": "Huachipato",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4134.png",
+    "utcKickoff": "2026-10-23T23:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 TNT Sports Chile",
+        "channel": "TNT Sports Chile"
+      },
+      {
+        "name": "Fuente 2 Estadio TNT",
+        "channel": "Estadio TNT"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Municipal de La Florida",
+    "category": "chile",
+    "votes": {
+      "team1": 2720,
+      "draw": 800,
+      "team2": 2250
     }
   },
   {
@@ -1827,82 +1543,6 @@ window.LIBREGOL_MATCHES = [
       "team1": 2240,
       "draw": 650,
       "team2": 2025
-    }
-  },
-  {
-    "id": "espn-401841287",
-    "slug": "cruzeiro-vs-remo",
-    "tournament": "Brasileirão",
-    "flag": "img/flags/br.svg",
-    "homeTeam": "Cruzeiro",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
-    "awayTeam": "Remo",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
-    "utcKickoff": "2026-10-23T23:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Premiere HD",
-        "channel": "Premiere HD"
-      },
-      {
-        "name": "Fuente 2 Globo",
-        "channel": "Globo"
-      },
-      {
-        "name": "Fuente 3 SporTV",
-        "channel": "SporTV"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Mineirão",
-    "category": "brasil",
-    "votes": {
-      "team1": 2240,
-      "draw": 650,
-      "team2": 1800
-    }
-  },
-  {
-    "id": "espn-401850668",
-    "slug": "audax-italiano-vs-huachipato",
-    "tournament": "Primera División Chile",
-    "flag": "img/flags/cl.svg",
-    "homeTeam": "Audax Italiano",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4138.png",
-    "awayTeam": "Huachipato",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4134.png",
-    "utcKickoff": "2026-10-23T23:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 TNT Sports Chile",
-        "channel": "TNT Sports Chile"
-      },
-      {
-        "name": "Fuente 2 Estadio TNT",
-        "channel": "Estadio TNT"
-      },
-      {
-        "name": "Fuente 3 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Municipal de La Florida",
-    "category": "chile",
-    "votes": {
-      "team1": 2720,
-      "draw": 800,
-      "team2": 2250
     }
   },
   {
