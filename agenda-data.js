@@ -1,7 +1,7 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-20 09:15:19Z
+ * Last Updated: 2026-10-20 16:30:18Z
  */
 
 window.LIBREGOL_MATCHES = [
@@ -678,7 +678,7 @@ window.LIBREGOL_MATCHES = [
     "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/232.png",
     "awayTeam": "León",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/228.png",
-    "utcKickoff": "2026-10-21T03:00Z",
+    "utcKickoff": "2026-10-21T03:10Z",
     "status": "UPCOMING",
     "minute": "",
     "homeScore": null,
@@ -1630,6 +1630,46 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
+    "id": "espn-401841638",
+    "slug": "gimnasia-la-plata-vs-sarmiento-junin",
+    "tournament": "Liga Profesional",
+    "flag": "img/flags/ar.svg",
+    "homeTeam": "Gimnasia La Plata",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9.png",
+    "awayTeam": "Sarmiento (Junín)",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10158.png",
+    "utcKickoff": "2026-10-23T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN Premium HD",
+        "channel": "ESPN Premium HD"
+      },
+      {
+        "name": "Fuente 2 TNT Sports HD",
+        "channel": "TNT Sports HD"
+      },
+      {
+        "name": "Fuente 3 TyC Sports",
+        "channel": "TyC Sports"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Juan Carmelo Zerillo (El Bosque)",
+    "category": "argentina",
+    "votes": {
+      "team1": 2960,
+      "draw": 875,
+      "team2": 2775
+    }
+  },
+  {
     "id": "espn-401886161",
     "slug": "atletico-grau-vs-adt",
     "tournament": "Liga 1 MAX",
@@ -1710,43 +1750,83 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
-    "id": "espn-401841638",
-    "slug": "gimnasia-la-plata-vs-sarmiento-junin",
-    "tournament": "Liga Profesional",
-    "flag": "img/flags/ar.svg",
-    "homeTeam": "Gimnasia La Plata",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9.png",
-    "awayTeam": "Sarmiento (Junín)",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10158.png",
-    "utcKickoff": "2026-10-23T22:00Z",
+    "id": "espn-401930319",
+    "slug": "defensor-sporting-vs-racing-montevideo",
+    "tournament": "Primera División Uruguay",
+    "flag": "img/flags/uy.svg",
+    "homeTeam": "Defensor Sporting",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1007.png",
+    "awayTeam": "Racing (Montevideo)",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9903.png",
+    "utcKickoff": "2026-10-23T23:00Z",
     "status": "UPCOMING",
     "minute": "",
     "homeScore": null,
     "awayScore": null,
     "channels": [
       {
-        "name": "Fuente 1 ESPN Premium HD",
-        "channel": "ESPN Premium HD"
+        "name": "Fuente 1 VTV Plus",
+        "channel": "VTV Plus"
       },
       {
-        "name": "Fuente 2 TNT Sports HD",
-        "channel": "TNT Sports HD"
+        "name": "Fuente 2 Star+ HD",
+        "channel": "Star+ HD"
       },
       {
-        "name": "Fuente 3 TyC Sports",
-        "channel": "TyC Sports"
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
       },
       {
         "name": "Fuente 4 Directo HD",
         "channel": "Directo HD"
       }
     ],
-    "venue": "Juan Carmelo Zerillo (El Bosque)",
-    "category": "argentina",
+    "venue": "Estadio Luis Franzini",
+    "category": "uruguay",
     "votes": {
       "team1": 2960,
       "draw": 875,
-      "team2": 2775
+      "team2": 2925
+    }
+  },
+  {
+    "id": "espn-401930317",
+    "slug": "juventud-vs-penarol",
+    "tournament": "Primera División Uruguay",
+    "flag": "img/flags/uy.svg",
+    "homeTeam": "Juventud",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/8416.png",
+    "awayTeam": "Peñarol",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2683.png",
+    "utcKickoff": "2026-10-23T23:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 VTV Plus",
+        "channel": "VTV Plus"
+      },
+      {
+        "name": "Fuente 2 Star+ HD",
+        "channel": "Star+ HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Juventud Parque Artigas",
+    "category": "uruguay",
+    "votes": {
+      "team1": 2240,
+      "draw": 650,
+      "team2": 2025
     }
   },
   {
@@ -1823,46 +1903,6 @@ window.LIBREGOL_MATCHES = [
       "team1": 2720,
       "draw": 800,
       "team2": 2250
-    }
-  },
-  {
-    "id": "espn-401930319",
-    "slug": "defensor-sporting-vs-racing-montevideo",
-    "tournament": "Primera División Uruguay",
-    "flag": "img/flags/uy.svg",
-    "homeTeam": "Defensor Sporting",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1007.png",
-    "awayTeam": "Racing (Montevideo)",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9903.png",
-    "utcKickoff": "2026-10-23T23:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 VTV Plus",
-        "channel": "VTV Plus"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Luis Franzini",
-    "category": "uruguay",
-    "votes": {
-      "team1": 2960,
-      "draw": 875,
-      "team2": 2925
     }
   },
   {
