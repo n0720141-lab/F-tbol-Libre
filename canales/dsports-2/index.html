@@ -204,7 +204,84 @@
       color: #9ca3af;
       font-weight: 500;
     }
-  </style>
+  
+/* Click-to-Play Smartlink Overlay */
+.play-smart-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 35;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at center, rgba(16, 24, 39, 0.78) 0%, rgba(3, 7, 18, 0.94) 100%);
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  user-select: none;
+}
+.play-smart-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  text-align: center;
+  padding: 1.25rem;
+  transition: transform 0.2s ease;
+}
+.play-smart-overlay:hover .play-smart-content {
+  transform: scale(1.05);
+}
+.play-smart-btn {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: #16a34a;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 25px rgba(22, 163, 74, 0.7), 0 4px 15px rgba(0, 0, 0, 0.4);
+  transition: all 0.25s ease;
+  border: 3px solid rgba(255, 255, 255, 0.25);
+  animation: pulsePlayBtn 2s infinite ease-in-out;
+}
+@keyframes pulsePlayBtn {
+  0% { box-shadow: 0 0 0 0 rgba(22, 163, 74, 0.7); }
+  70% { box-shadow: 0 0 0 16px rgba(22, 163, 74, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(22, 163, 74, 0); }
+}
+.play-smart-overlay:hover .play-smart-btn {
+  background: #15803d;
+  box-shadow: 0 0 35px rgba(22, 163, 74, 0.9);
+}
+.play-smart-btn svg {
+  margin-left: 4px;
+}
+.play-smart-main {
+  display: block;
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -0.2px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
+  font-family: system-ui, -apple-system, sans-serif;
+}
+.play-smart-sub {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #4ade80;
+  background: rgba(22, 163, 74, 0.2);
+  border: 1px solid rgba(74, 222, 128, 0.35);
+  padding: 3px 12px;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+</style>
+  <!-- Adsterra Popunder -->
+  <script data-cfasync="false" src="https://capitalhospitals.org/1/15991318f64f373e670760154b5f78cc"></script>
 </head>
 <body>
   <header>
@@ -219,6 +296,21 @@
     <h1 class="channel-header-title">DSPORTS 2 en vivo por internet</h1>
 
     <div class="player-box">
+          <!-- Adsterra Click-to-Play Smartlink Overlay -->
+          <div class="play-smart-overlay" id="playSmartOverlay" onclick="handlePlaySmartAd(event)">
+            <div class="play-smart-content">
+              <div class="play-smart-btn">
+                <svg viewBox="0 0 24 24" width="36" height="36" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <div class="play-smart-text">
+                <span class="play-smart-main">Clic para Iniciar Transmisión HD</span>
+                <span class="play-smart-sub">⚡ Señal en Directo • Fútbol Libre TV</span>
+              </div>
+            </div>
+          </div>
+
       <iframe id="channelPlayer" src="https://tvf90.com/2.php?stream=dsports2" allow="autoplay; fullscreen" allowfullscreen></iframe>
     </div>
 

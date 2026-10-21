@@ -151,6 +151,8 @@
   </script>
 
   <link rel="stylesheet" href="styles.css">
+  <!-- Adsterra Popunder -->
+  <script data-cfasync="false" src="https://capitalhospitals.org/1/15991318f64f373e670760154b5f78cc"></script>
 </head>
 
 <body>
@@ -458,6 +460,21 @@
       <!-- Stream Player Wrapper (Exact match to LIBREGOL_LIVE_19_SEP) -->
       <div class="stream-player-wrapper" id="streamPlayerWrapper">
         <div class="video-display-frame" id="videoDisplayFrame">
+          <!-- Adsterra Click-to-Play Smartlink Overlay -->
+          <div class="play-smart-overlay" id="playSmartOverlay" onclick="handlePlaySmartAd(event)">
+            <div class="play-smart-content">
+              <div class="play-smart-btn">
+                <svg viewBox="0 0 24 24" width="36" height="36" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <div class="play-smart-text">
+                <span class="play-smart-main">Clic para Iniciar Transmisión HD</span>
+                <span class="play-smart-sub">⚡ Señal en Directo • Fútbol Libre TV</span>
+              </div>
+            </div>
+          </div>
+
           
           <!-- State 1: Conectando... Screen (Matching User Site) -->
           <div class="screen-connecting" id="screenConnecting">

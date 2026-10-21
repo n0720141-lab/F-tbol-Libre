@@ -320,6 +320,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 2. Display the dedicated player view
     playerView.style.display = "block";
+    const smartOverlay = document.getElementById("playSmartOverlay");
+    if (smartOverlay) {
+      smartOverlay.style.display = "flex";
+      smartOverlay.style.opacity = "1";
+    }
 
     // 3. Setup Title & Subtitle (Exact format from user screenshot: Title + Región)
     const isMatch = !!matchTitle;
