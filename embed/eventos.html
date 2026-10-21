@@ -284,10 +284,71 @@
   white-space: nowrap;
 }
 @media (max-width: 640px) {
-  .bm-name { max-width: 80px; font-size: 0.78rem; }
-  .bm-logo { width: 22px; height: 22px; }
-  .broadcast-play-triangle svg { width: 60px; height: 60px; }
-  .broadcast-match-bar { width: 98%; padding: 0.3rem 0.5rem; }
+  .play-smart-overlay {
+    padding: 6px 10px;
+  }
+  .broadcast-live-badge {
+    font-size: 0.62rem;
+    padding: 2px 6px;
+    gap: 4px;
+  }
+  .live-dot-pulse {
+    width: 5px;
+    height: 5px;
+  }
+  .broadcast-cc-badge {
+    font-size: 0.72rem;
+    padding: 1px 5px;
+  }
+  .broadcast-play-triangle svg {
+    width: 50px;
+    height: 50px;
+  }
+  .broadcast-match-bar {
+    width: 96%;
+    padding: 3px 8px;
+    border-radius: 6px;
+    margin-bottom: 2px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  }
+  .bm-team {
+    gap: 5px;
+  }
+  .bm-logo {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+  }
+  .bm-name {
+    max-width: 75px;
+    font-size: 0.68rem;
+    font-weight: 700;
+  }
+  .bm-center {
+    padding: 0 6px;
+  }
+  .bm-league-badge {
+    font-size: 0.62rem;
+    font-weight: 800;
+    line-height: 1.1;
+  }
+  .bm-venue {
+    display: none !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .bm-name {
+    max-width: 58px;
+    font-size: 0.62rem;
+  }
+  .broadcast-play-triangle svg {
+    width: 42px;
+    height: 42px;
+  }
+  .broadcast-match-bar {
+    padding: 2px 6px;
+  }
 }
 
 </style>
