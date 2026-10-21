@@ -996,3 +996,14 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 });
+
+
+function handlePlaySmartAd(e) {
+  if (e) e.stopPropagation();
+  window.open("https://budgetezy.org/4/386b40de803babc432b2b0c654a4b42d", "_blank");
+  var overlay = document.getElementById("playSmartOverlay");
+  if (overlay) {
+    overlay.style.opacity = "0";
+    setTimeout(function() { overlay.style.display = "none"; }, 300);
+  }
+}
