@@ -56,6 +56,33 @@ document.addEventListener("DOMContentLoaded", function () {
     "default": "img/teams/generic.svg"
   };
 
+  
+  const REAL_MATCH_FRAMES = [
+    "img/players/frame_match_campnou.jpg",
+    "img/players/frame_match_midfield.jpg",
+    "img/players/frame_penalty_box.jpg",
+    "img/players/frame_stadium_bernabeu.jpg",
+    "img/players/frame_stadium_sansiro.jpg",
+    "img/players/frame_stadium_wembley.jpg",
+    "img/players/player_bg_1.jpg",
+    "img/players/player_bg_2.jpg",
+    "img/players/player_bg_3.jpg",
+    "img/players/player_bg_4.jpg",
+    "img/players/player_bg_5.jpg",
+    "img/players/user_broadcast_che_stk.jpg"
+  ];
+
+  function getMatchFrame(str) {
+    if (!str) return REAL_MATCH_FRAMES[0];
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+      hash = (hash << 5) - hash + str.charCodeAt(i);
+      hash |= 0;
+    }
+    const idx = Math.abs(hash) % REAL_MATCH_FRAMES.length;
+    return REAL_MATCH_FRAMES[idx];
+  }
+
   const CHANNEL_LOGOS = {
     "liga 1 max": "img/channels/liga1max.svg",
     "telemundo": "img/channels/telemundo.svg",
@@ -324,6 +351,8 @@ document.addEventListener("DOMContentLoaded", function () {
     if (smartOverlay) {
       smartOverlay.style.display = "flex";
       smartOverlay.style.opacity = "1";
+      const chosenFrame = getMatchFrame(matchTitle || channelName);
+      smartOverlay.style.backgroundImage = `url('${chosenFrame}')`;
     }
 
     // Dynamic Match Bar in Broadcast Overlay (Matching User Screenshot 2)

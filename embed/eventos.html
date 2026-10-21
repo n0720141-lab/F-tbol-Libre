@@ -151,7 +151,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-image: url('/img/stadium-broadcast.jpg');
+  background-image: url('/img/players/frame_match_campnou.jpg');
   background-size: cover;
   background-position: center;
   cursor: pointer;
@@ -388,6 +388,19 @@
     const rawR = getQueryParam('r');
     const customTitle = getQueryParam('title');
 
+    var evFrames = [
+      '/img/players/frame_match_campnou.jpg',
+      '/img/players/frame_match_midfield.jpg',
+      '/img/players/frame_penalty_box.jpg',
+      '/img/players/frame_stadium_bernabeu.jpg',
+      '/img/players/frame_stadium_sansiro.jpg',
+      '/img/players/frame_stadium_wembley.jpg'
+    ];
+    var ov = document.getElementById('playSmartOverlay');
+    if (ov) {
+      var randIdx = Math.floor(Math.random() * evFrames.length);
+      ov.style.backgroundImage = "url('" + evFrames[randIdx] + "')";
+    }
     if (customTitle) {
       document.getElementById('eventTitle').textContent = decodeURIComponent(customTitle);
       document.title = decodeURIComponent(customTitle) + ' - Fútbol Libre TV';
