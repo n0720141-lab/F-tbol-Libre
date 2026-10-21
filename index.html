@@ -460,20 +460,35 @@
       <!-- Stream Player Wrapper (Exact match to LIBREGOL_LIVE_19_SEP) -->
       <div class="stream-player-wrapper" id="streamPlayerWrapper">
         <div class="video-display-frame" id="videoDisplayFrame">
-          <!-- Adsterra Click-to-Play Smartlink Overlay -->
+                    <!-- Fake Broadcast Match Player Overlay (Matching Screenshot 2) -->
           <div class="play-smart-overlay" id="playSmartOverlay" onclick="handlePlaySmartAd(event)">
-            <div class="play-smart-content">
-              <div class="play-smart-btn">
-                <svg viewBox="0 0 24 24" width="36" height="36" fill="currentColor">
-                  <path d="M8 5v14l11-7z"/>
-                </svg>
+            <div class="broadcast-top-bar">
+              <span class="broadcast-live-badge"><span class="live-dot-pulse"></span> EN VIVO HD</span>
+              <span class="broadcast-cc-badge">CC</span>
+            </div>
+
+            <div class="broadcast-play-triangle">
+              <svg viewBox="0 0 100 100" width="85" height="85" class="triangle-svg">
+                <polygon points="25,15 85,50 25,85" fill="rgba(255, 255, 255, 0.8)"/>
+              </svg>
+            </div>
+
+            <div class="broadcast-match-bar" id="broadcastMatchBar">
+              <div class="bm-team bm-home">
+                <img id="bmHomeLogo" src="img/teams/generic.svg" alt="Home" class="bm-logo">
+                <span id="bmHomeName" class="bm-name">Atlético</span>
               </div>
-              <div class="play-smart-text">
-                <span class="play-smart-main">Clic para Iniciar Transmisión HD</span>
-                <span class="play-smart-sub">⚡ Señal en Directo • Fútbol Libre TV</span>
+              <div class="bm-center">
+                <span class="bm-league-badge" id="bmLeague">FÚTBOL LIBRE HD</span>
+                <span class="bm-venue" id="bmVenue">Señal Oficial en Directo</span>
+              </div>
+              <div class="bm-team bm-away">
+                <span id="bmAwayName" class="bm-name">Visitante</span>
+                <img id="bmAwayLogo" src="img/teams/generic.svg" alt="Away" class="bm-logo">
               </div>
             </div>
           </div>
+
 
           
           <!-- State 1: Conectando... Screen (Matching User Site) -->

@@ -326,6 +326,32 @@ document.addEventListener("DOMContentLoaded", function () {
       smartOverlay.style.opacity = "1";
     }
 
+    // Dynamic Match Bar in Broadcast Overlay (Matching User Screenshot 2)
+    const bmHomeName = document.getElementById("bmHomeName");
+    const bmAwayName = document.getElementById("bmAwayName");
+    const bmHomeLogo = document.getElementById("bmHomeLogo");
+    const bmAwayLogo = document.getElementById("bmAwayLogo");
+    const bmLeague = document.getElementById("bmLeague");
+
+    if (matchTitle && matchTitle.includes(" vs ")) {
+      const cleanTitle = matchTitle.split(" - ")[0];
+      const tparts = cleanTitle.split(" vs ");
+      const hName = tparts[0] ? tparts[0].trim() : "Local";
+      const aName = tparts[1] ? tparts[1].trim() : "Visitante";
+      if (bmHomeName) bmHomeName.textContent = hName;
+      if (bmAwayName) bmAwayName.textContent = aName;
+      if (bmHomeLogo) bmHomeLogo.src = getTeamCrest(hName);
+      if (bmAwayLogo) bmAwayLogo.src = getTeamCrest(aName);
+      if (bmLeague) bmLeague.textContent = title ? title.toUpperCase() : "PARTIDO EN VIVO";
+    } else {
+      if (bmHomeName) bmHomeName.textContent = channelName || "Fútbol Libre";
+      if (bmAwayName) bmAwayName.textContent = "Señal HD";
+      if (bmHomeLogo) bmHomeLogo.src = getChannelLogo(channelName) || "img/teams/generic.svg";
+      if (bmAwayLogo) bmAwayLogo.src = "img/logo.svg";
+      if (bmLeague) bmLeague.textContent = "TRANSMISIÓN EN VIVO";
+    }
+
+
     // 3. Setup Title & Subtitle (Exact format from user screenshot: Title + Región)
     const isMatch = !!matchTitle;
     if (isMatch) {
