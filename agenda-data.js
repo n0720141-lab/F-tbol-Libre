@@ -1,7 +1,7 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-21 09:11:21Z
+ * Last Updated: 2026-10-21 16:47:41Z
  */
 
 window.LIBREGOL_MATCHES = [
@@ -15,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Manchester United",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
     "utcKickoff": "2026-10-21T16:45Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "1'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -55,8 +55,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Galatasaray",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
     "utcKickoff": "2026-10-21T16:45Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "2'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -1791,46 +1791,6 @@ window.LIBREGOL_MATCHES = [
       "team1": 2720,
       "draw": 800,
       "team2": 2250
-    }
-  },
-  {
-    "id": "espn-401930319",
-    "slug": "defensor-sporting-vs-racing-montevideo",
-    "tournament": "Primera División Uruguay",
-    "flag": "img/flags/uy.svg",
-    "homeTeam": "Defensor Sporting",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1007.png",
-    "awayTeam": "Racing (Montevideo)",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9903.png",
-    "utcKickoff": "2026-10-23T23:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 VTV Plus",
-        "channel": "VTV Plus"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Luis Franzini",
-    "category": "uruguay",
-    "votes": {
-      "team1": 2960,
-      "draw": 875,
-      "team2": 2925
     }
   },
   {
