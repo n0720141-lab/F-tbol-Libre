@@ -1,50 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-21 03:43:59Z
+ * Last Updated: 2026-10-21 09:11:21Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401876935",
-    "slug": "tigres-uanl-vs-leon",
-    "tournament": "Liga MX",
-    "flag": "img/flags/mx.svg",
-    "homeTeam": "Tigres UANL",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/232.png",
-    "awayTeam": "León",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/228.png",
-    "utcKickoff": "2026-10-21T03:10Z",
-    "status": "LIVE",
-    "minute": "31'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 TUDN En Vivo",
-        "channel": "TUDN En Vivo"
-      },
-      {
-        "name": "Fuente 2 ViX Premium",
-        "channel": "ViX Premium"
-      },
-      {
-        "name": "Fuente 3 Canal 5 HD",
-        "channel": "Canal 5 HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Universitario",
-    "category": "mexico",
-    "votes": {
-      "team1": 2480,
-      "draw": 725,
-      "team2": 1800
-    }
-  },
   {
     "id": "espn-401915395",
     "slug": "como-vs-manchester-united",
@@ -1951,6 +1911,102 @@ window.LIBREGOL_MATCHES = [
       "team1": 2000,
       "draw": 575,
       "team2": 2700
+    }
+  },
+  {
+    "id": "espn-401930017",
+    "slug": "gv-san-jose-vs-blooming",
+    "tournament": "División Profesional Bolivia",
+    "flag": "img/flags/bo.svg",
+    "homeTeam": "GV San José",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/22174.png",
+    "awayTeam": "Blooming",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6047.png",
+    "utcKickoff": "2026-10-24T19:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Tigo Sports Bolivia",
+        "channel": "Tigo Sports Bolivia"
+      },
+      {
+        "name": "Fuente 2 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Jesús Bermúdez",
+    "category": "bolivia",
+    "votes": {
+      "team1": 2480,
+      "draw": 725,
+      "team2": 2100
+    }
+  },
+  {
+    "id": "espn-401930002",
+    "slug": "san-antonio-bulo-bulo-vs-real-potosi",
+    "tournament": "División Profesional Bolivia",
+    "flag": "img/flags/bo.svg",
+    "homeTeam": "San Antonio Bulo Bulo",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/22137.png",
+    "awayTeam": "Real Potosí",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6051.png",
+    "utcKickoff": "2026-10-24T21:15Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Tigo Sports Bolivia",
+        "channel": "Tigo Sports Bolivia"
+      },
+      {
+        "name": "Fuente 2 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Félix Capriles",
+    "category": "bolivia",
+    "votes": {
+      "team1": 3280,
+      "draw": 975,
+      "team2": 2325
+    }
+  },
+  {
+    "id": "espn-401930001",
+    "slug": "independiente-petrolero-vs-abb",
+    "tournament": "División Profesional Bolivia",
+    "flag": "img/flags/bo.svg",
+    "homeTeam": "Independiente Petrolero",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/20889.png",
+    "awayTeam": "ABB",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/130875.png",
+    "utcKickoff": "2026-10-24T23:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Tigo Sports Bolivia",
+        "channel": "Tigo Sports Bolivia"
+      },
+      {
+        "name": "Fuente 2 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Olímpico Patria",
+    "category": "bolivia",
+    "votes": {
+      "team1": 3440,
+      "draw": 1025,
+      "team2": 1725
     }
   },
   {
