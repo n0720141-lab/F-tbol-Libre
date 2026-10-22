@@ -1,90 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-22 03:43:43Z
+ * Last Updated: 2026-10-22 09:13:37Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401876930",
-    "slug": "pachuca-vs-cruz-azul",
-    "tournament": "Liga MX",
-    "flag": "img/flags/mx.svg",
-    "homeTeam": "Pachuca",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/234.png",
-    "awayTeam": "Cruz Azul",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/218.png",
-    "utcKickoff": "2026-10-22T03:10Z",
-    "status": "LIVE",
-    "minute": "33'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 TUDN En Vivo",
-        "channel": "TUDN En Vivo"
-      },
-      {
-        "name": "Fuente 2 ViX Premium",
-        "channel": "ViX Premium"
-      },
-      {
-        "name": "Fuente 3 Canal 5 HD",
-        "channel": "Canal 5 HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Hidalgo",
-    "category": "mexico",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 2175
-    }
-  },
-  {
-    "id": "espn-401876929",
-    "slug": "santos-vs-pumas-unam",
-    "tournament": "Liga MX",
-    "flag": "img/flags/mx.svg",
-    "homeTeam": "Santos",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/225.png",
-    "awayTeam": "Pumas UNAM",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/233.png",
-    "utcKickoff": "2026-10-22T03:10Z",
-    "status": "LIVE",
-    "minute": "30'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 TUDN En Vivo",
-        "channel": "TUDN En Vivo"
-      },
-      {
-        "name": "Fuente 2 ViX Premium",
-        "channel": "ViX Premium"
-      },
-      {
-        "name": "Fuente 3 Canal 5 HD",
-        "channel": "Canal 5 HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Corona",
-    "category": "mexico",
-    "votes": {
-      "team1": 2080,
-      "draw": 600,
-      "team2": 2250
-    }
-  },
   {
     "id": "espn-401915548",
     "slug": "ararat-armenia-vs-az-alkmaar",
@@ -962,6 +882,46 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
+    "id": "espn-401882836",
+    "slug": "alaves-vs-malaga",
+    "tournament": "LaLiga EA Sports",
+    "flag": "img/flags/es.svg",
+    "homeTeam": "Alavés",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+    "awayTeam": "Málaga",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+    "utcKickoff": "2026-10-23T19:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Movistar Plus+",
+        "channel": "Movistar Plus+"
+      },
+      {
+        "name": "Fuente 2 DAZN LaLiga",
+        "channel": "DAZN LaLiga"
+      },
+      {
+        "name": "Fuente 3 ESPN Deportes",
+        "channel": "ESPN Deportes"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Mendizorrotza",
+    "category": "espana",
+    "votes": {
+      "team1": 2080,
+      "draw": 600,
+      "team2": 1950
+    }
+  },
+  {
     "id": "espn-401879253",
     "slug": "ipswich-town-vs-nottingham-forest",
     "tournament": "Premier League",
@@ -1275,6 +1235,86 @@ window.LIBREGOL_MATCHES = [
       "team1": 2000,
       "draw": 575,
       "team2": 2700
+    }
+  },
+  {
+    "id": "espn-401876928",
+    "slug": "necaxa-vs-fc-juarez",
+    "tournament": "Liga MX",
+    "flag": "img/flags/mx.svg",
+    "homeTeam": "Necaxa",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/229.png",
+    "awayTeam": "FC Juárez",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/17851.png",
+    "utcKickoff": "2026-10-24T01:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 TUDN En Vivo",
+        "channel": "TUDN En Vivo"
+      },
+      {
+        "name": "Fuente 2 ViX Premium",
+        "channel": "ViX Premium"
+      },
+      {
+        "name": "Fuente 3 Canal 5 HD",
+        "channel": "Canal 5 HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Victoria",
+    "category": "mexico",
+    "votes": {
+      "team1": 2080,
+      "draw": 600,
+      "team2": 2175
+    }
+  },
+  {
+    "id": "espn-401876927",
+    "slug": "atlante-vs-atletico-de-san-luis",
+    "tournament": "Liga MX",
+    "flag": "img/flags/mx.svg",
+    "homeTeam": "Atlante",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/226.png",
+    "awayTeam": "Atlético de San Luis",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/15720.png",
+    "utcKickoff": "2026-10-24T03:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 TUDN En Vivo",
+        "channel": "TUDN En Vivo"
+      },
+      {
+        "name": "Fuente 2 ViX Premium",
+        "channel": "ViX Premium"
+      },
+      {
+        "name": "Fuente 3 Canal 5 HD",
+        "channel": "Canal 5 HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Banorte",
+    "category": "mexico",
+    "votes": {
+      "team1": 2160,
+      "draw": 625,
+      "team2": 3000
     }
   },
   {
