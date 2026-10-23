@@ -1,86 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-22 23:01:20Z
+ * Last Updated: 2026-10-23 03:48:12Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401912521",
-    "slug": "flamengo-vs-estudiantes-de-la-plata",
-    "tournament": "Copa Libertadores",
-    "flag": "img/flags/trophy_libertadores.svg",
-    "homeTeam": "Flamengo",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
-    "awayTeam": "Estudiantes de La Plata",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
-    "utcKickoff": "2026-10-23T00:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Fox Sports 1 HD",
-        "channel": "Fox Sports 1 HD"
-      },
-      {
-        "name": "Fuente 2 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 3 Telefe",
-        "channel": "Telefe"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio do Maracana",
-    "category": "conmebol",
-    "votes": {
-      "team1": 2240,
-      "draw": 650,
-      "team2": 3225
-    }
-  },
-  {
-    "id": "espn-401877877",
-    "slug": "atletico-nacional-vs-deportivo-pasto",
-    "tournament": "Liga BetPlay",
-    "flag": "img/flags/co.svg",
-    "homeTeam": "Atlético Nacional",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5264.png",
-    "awayTeam": "Deportivo Pasto",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5485.png",
-    "utcKickoff": "2026-10-23T01:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Win Sports+",
-        "channel": "Win Sports+"
-      },
-      {
-        "name": "Fuente 2 Win Sports Online",
-        "channel": "Win Sports Online"
-      },
-      {
-        "name": "Fuente 3 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Atanasio Girardot",
-    "category": "colombia",
-    "votes": {
-      "team1": 2960,
-      "draw": 875,
-      "team2": 2625
-    }
-  },
   {
     "id": "espn-401886160",
     "slug": "utc-vs-melgar",
@@ -162,46 +86,6 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
-    "id": "espn-401882836",
-    "slug": "alaves-vs-malaga",
-    "tournament": "LaLiga EA Sports",
-    "flag": "img/flags/es.svg",
-    "homeTeam": "Alavés",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
-    "awayTeam": "Málaga",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
-    "utcKickoff": "2026-10-23T19:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Movistar Plus+",
-        "channel": "Movistar Plus+"
-      },
-      {
-        "name": "Fuente 2 DAZN LaLiga",
-        "channel": "DAZN LaLiga"
-      },
-      {
-        "name": "Fuente 3 ESPN Deportes",
-        "channel": "ESPN Deportes"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Mendizorrotza",
-    "category": "espana",
-    "votes": {
-      "team1": 2080,
-      "draw": 600,
-      "team2": 1950
-    }
-  },
-  {
     "id": "espn-401879253",
     "slug": "ipswich-town-vs-nottingham-forest",
     "tournament": "Premier League",
@@ -239,6 +123,46 @@ window.LIBREGOL_MATCHES = [
       "team1": 2560,
       "draw": 750,
       "team2": 2775
+    }
+  },
+  {
+    "id": "espn-401882836",
+    "slug": "alaves-vs-malaga",
+    "tournament": "LaLiga EA Sports",
+    "flag": "img/flags/es.svg",
+    "homeTeam": "Alavés",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+    "awayTeam": "Málaga",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+    "utcKickoff": "2026-10-23T19:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Movistar Plus+",
+        "channel": "Movistar Plus+"
+      },
+      {
+        "name": "Fuente 2 DAZN LaLiga",
+        "channel": "DAZN LaLiga"
+      },
+      {
+        "name": "Fuente 3 ESPN Deportes",
+        "channel": "ESPN Deportes"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Mendizorrotza",
+    "category": "espana",
+    "votes": {
+      "team1": 2080,
+      "draw": 600,
+      "team2": 1950
     }
   },
   {
@@ -402,6 +326,42 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
+    "id": "espn-401877907",
+    "slug": "boyaca-chico-fc-vs-atletico-bucaramanga",
+    "tournament": "Liga BetPlay",
+    "flag": "img/flags/co.svg",
+    "homeTeam": "Boyacá Chicó FC",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5480.png",
+    "awayTeam": "Atlético Bucaramanga",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6137.png",
+    "utcKickoff": "2026-10-23T23:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Win Sports+",
+        "channel": "Win Sports+"
+      },
+      {
+        "name": "Fuente 2 Win Sports Online",
+        "channel": "Win Sports Online"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "La Independencia",
+    "category": "colombia",
+    "votes": {
+      "team1": 2800,
+      "draw": 825,
+      "team2": 3000
+    }
+  },
+  {
     "id": "espn-401850668",
     "slug": "audax-italiano-vs-huachipato",
     "tournament": "Primera División Chile",
@@ -555,6 +515,42 @@ window.LIBREGOL_MATCHES = [
       "team1": 2080,
       "draw": 600,
       "team2": 2175
+    }
+  },
+  {
+    "id": "espn-401877773",
+    "slug": "atletico-junior-vs-aguilas-doradas",
+    "tournament": "Liga BetPlay",
+    "flag": "img/flags/co.svg",
+    "homeTeam": "Atlético Junior",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4815.png",
+    "awayTeam": "Águilas Doradas",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9762.png",
+    "utcKickoff": "2026-10-24T01:10Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Win Sports+",
+        "channel": "Win Sports+"
+      },
+      {
+        "name": "Fuente 2 Win Sports Online",
+        "channel": "Win Sports Online"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Romelio Martínez",
+    "category": "colombia",
+    "votes": {
+      "team1": 2800,
+      "draw": 825,
+      "team2": 2625
     }
   },
   {
