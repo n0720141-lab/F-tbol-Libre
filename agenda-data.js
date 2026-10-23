@@ -1,7 +1,7 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-23 09:10:26Z
+ * Last Updated: 2026-10-23 16:39:08Z
  */
 
 window.LIBREGOL_MATCHES = [
@@ -286,42 +286,6 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
-    "id": "espn-401877907",
-    "slug": "boyaca-chico-fc-vs-atletico-bucaramanga",
-    "tournament": "Liga BetPlay",
-    "flag": "img/flags/co.svg",
-    "homeTeam": "Boyacá Chicó FC",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5480.png",
-    "awayTeam": "Atlético Bucaramanga",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6137.png",
-    "utcKickoff": "2026-10-23T23:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Win Sports+",
-        "channel": "Win Sports+"
-      },
-      {
-        "name": "Fuente 2 Win Sports Online",
-        "channel": "Win Sports Online"
-      },
-      {
-        "name": "Fuente 3 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "La Independencia",
-    "category": "colombia",
-    "votes": {
-      "team1": 2800,
-      "draw": 825,
-      "team2": 3000
-    }
-  },
-  {
     "id": "espn-401841287",
     "slug": "cruzeiro-vs-remo",
     "tournament": "Brasileirão",
@@ -395,6 +359,42 @@ window.LIBREGOL_MATCHES = [
       "team1": 2720,
       "draw": 800,
       "team2": 2250
+    }
+  },
+  {
+    "id": "espn-401877907",
+    "slug": "boyaca-chico-fc-vs-atletico-bucaramanga",
+    "tournament": "Liga BetPlay",
+    "flag": "img/flags/co.svg",
+    "homeTeam": "Boyacá Chicó FC",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5480.png",
+    "awayTeam": "Atlético Bucaramanga",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6137.png",
+    "utcKickoff": "2026-10-23T23:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Win Sports+",
+        "channel": "Win Sports+"
+      },
+      {
+        "name": "Fuente 2 Win Sports Online",
+        "channel": "Win Sports Online"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "La Independencia",
+    "category": "colombia",
+    "votes": {
+      "team1": 2800,
+      "draw": 825,
+      "team2": 3000
     }
   },
   {
