@@ -1,210 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-24 08:43:12Z
+ * Last Updated: 2026-10-24 15:33:08Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401879256",
-    "slug": "aston-villa-vs-manchester-city",
-    "tournament": "Premier League",
-    "flag": "img/flags/england.svg",
-    "homeTeam": "Aston Villa",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-    "awayTeam": "Manchester City",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-    "utcKickoff": "2026-10-24T11:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 DAZN 1",
-        "channel": "DAZN 1"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Villa Park",
-    "category": "europa",
-    "votes": {
-      "team1": 2480,
-      "draw": 725,
-      "team2": 2625
-    }
-  },
-  {
-    "id": "espn-401882830",
-    "slug": "rayo-vallecano-vs-elche",
-    "tournament": "LaLiga EA Sports",
-    "flag": "img/flags/es.svg",
-    "homeTeam": "Rayo Vallecano",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-    "awayTeam": "Elche",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-    "utcKickoff": "2026-10-24T12:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Movistar Plus+",
-        "channel": "Movistar Plus+"
-      },
-      {
-        "name": "Fuente 2 DAZN LaLiga",
-        "channel": "DAZN LaLiga"
-      },
-      {
-        "name": "Fuente 3 ESPN Deportes",
-        "channel": "ESPN Deportes"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio de Vallecas",
-    "category": "espana",
-    "votes": {
-      "team1": 2720,
-      "draw": 800,
-      "team2": 1875
-    }
-  },
-  {
-    "id": "espn-401874958",
-    "slug": "cagliari-vs-bologna",
-    "tournament": "Serie A",
-    "flag": "img/flags/it.svg",
-    "homeTeam": "Cagliari",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
-    "awayTeam": "Bologna",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
-    "utcKickoff": "2026-10-24T13:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ Premium",
-        "channel": "Disney+ Premium"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Unipol Domus",
-    "category": "europa",
-    "votes": {
-      "team1": 2240,
-      "draw": 650,
-      "team2": 2025
-    }
-  },
-  {
-    "id": "espn-401874961",
-    "slug": "como-vs-sassuolo",
-    "tournament": "Serie A",
-    "flag": "img/flags/it.svg",
-    "homeTeam": "Como",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
-    "awayTeam": "Sassuolo",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
-    "utcKickoff": "2026-10-24T13:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ Premium",
-        "channel": "Disney+ Premium"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Giuseppe Sinigaglia",
-    "category": "europa",
-    "votes": {
-      "team1": 1920,
-      "draw": 550,
-      "team2": 2100
-    }
-  },
-  {
-    "id": "espn-401930318",
-    "slug": "central-espanol-futbol-club-vs-albion-fc",
-    "tournament": "Primera División Uruguay",
-    "flag": "img/flags/uy.svg",
-    "homeTeam": "Central Español Fútbol Club",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/131688.png",
-    "awayTeam": "Albion FC",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21403.png",
-    "utcKickoff": "2026-10-24T13:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 VTV Plus",
-        "channel": "VTV Plus"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Parque Palermo",
-    "category": "uruguay",
-    "votes": {
-      "team1": 3760,
-      "draw": 1125,
-      "team2": 2175
-    }
-  },
   {
     "id": "espn-401878768",
     "slug": "arsenal-vs-everton",
@@ -215,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Everton",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
     "utcKickoff": "2026-10-24T14:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "75'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -255,8 +55,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Fulham",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
     "utcKickoff": "2026-10-24T14:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "74'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -295,8 +95,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Espanyol",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
     "utcKickoff": "2026-10-24T14:15Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "59'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -335,8 +135,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Deportes Concepcion",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/8110.png",
     "utcKickoff": "2026-10-24T15:30Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "1'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -402,46 +202,6 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
-    "id": "espn-401882827",
-    "slug": "valencia-vs-villarreal",
-    "tournament": "LaLiga EA Sports",
-    "flag": "img/flags/es.svg",
-    "homeTeam": "Valencia",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-    "awayTeam": "Villarreal",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-    "utcKickoff": "2026-10-24T16:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Movistar Plus+",
-        "channel": "Movistar Plus+"
-      },
-      {
-        "name": "Fuente 2 DAZN LaLiga",
-        "channel": "DAZN LaLiga"
-      },
-      {
-        "name": "Fuente 3 ESPN Deportes",
-        "channel": "ESPN Deportes"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Mestalla Stadium",
-    "category": "espana",
-    "votes": {
-      "team1": 2240,
-      "draw": 650,
-      "team2": 2250
-    }
-  },
-  {
     "id": "espn-401878767",
     "slug": "chelsea-vs-tottenham-hotspur",
     "tournament": "Premier League",
@@ -479,6 +239,46 @@ window.LIBREGOL_MATCHES = [
       "team1": 2160,
       "draw": 625,
       "team2": 2775
+    }
+  },
+  {
+    "id": "espn-401882827",
+    "slug": "valencia-vs-villarreal",
+    "tournament": "LaLiga EA Sports",
+    "flag": "img/flags/es.svg",
+    "homeTeam": "Valencia",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+    "awayTeam": "Villarreal",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+    "utcKickoff": "2026-10-24T16:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Movistar Plus+",
+        "channel": "Movistar Plus+"
+      },
+      {
+        "name": "Fuente 2 DAZN LaLiga",
+        "channel": "DAZN LaLiga"
+      },
+      {
+        "name": "Fuente 3 ESPN Deportes",
+        "channel": "ESPN Deportes"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Mestalla Stadium",
+    "category": "espana",
+    "votes": {
+      "team1": 2240,
+      "draw": 650,
+      "team2": 2250
     }
   },
   {
