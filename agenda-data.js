@@ -1,286 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-24 15:33:08Z
+ * Last Updated: 2026-10-24 18:38:09Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401878768",
-    "slug": "arsenal-vs-everton",
-    "tournament": "Premier League",
-    "flag": "img/flags/england.svg",
-    "homeTeam": "Arsenal",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-    "awayTeam": "Everton",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
-    "utcKickoff": "2026-10-24T14:00Z",
-    "status": "LIVE",
-    "minute": "75'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 DAZN 1",
-        "channel": "DAZN 1"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Emirates Stadium",
-    "category": "europa",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 2025
-    }
-  },
-  {
-    "id": "espn-401879255",
-    "slug": "coventry-city-vs-fulham",
-    "tournament": "Premier League",
-    "flag": "img/flags/england.svg",
-    "homeTeam": "Coventry City",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
-    "awayTeam": "Fulham",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
-    "utcKickoff": "2026-10-24T14:00Z",
-    "status": "LIVE",
-    "minute": "74'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 DAZN 1",
-        "channel": "DAZN 1"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Coventry Building Society Arena",
-    "category": "europa",
-    "votes": {
-      "team1": 2640,
-      "draw": 775,
-      "team2": 1950
-    }
-  },
-  {
-    "id": "espn-401882831",
-    "slug": "racing-santander-vs-espanyol",
-    "tournament": "LaLiga EA Sports",
-    "flag": "img/flags/es.svg",
-    "homeTeam": "Racing Santander",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
-    "awayTeam": "Espanyol",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-    "utcKickoff": "2026-10-24T14:15Z",
-    "status": "LIVE",
-    "minute": "59'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Movistar Plus+",
-        "channel": "Movistar Plus+"
-      },
-      {
-        "name": "Fuente 2 DAZN LaLiga",
-        "channel": "DAZN LaLiga"
-      },
-      {
-        "name": "Fuente 3 ESPN Deportes",
-        "channel": "ESPN Deportes"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "El Sardineros",
-    "category": "espana",
-    "votes": {
-      "team1": 2880,
-      "draw": 850,
-      "team2": 2100
-    }
-  },
-  {
-    "id": "espn-401850674",
-    "slug": "la-serena-vs-deportes-concepcion",
-    "tournament": "Primera División Chile",
-    "flag": "img/flags/cl.svg",
-    "homeTeam": "La Serena",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4137.png",
-    "awayTeam": "Deportes Concepcion",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/8110.png",
-    "utcKickoff": "2026-10-24T15:30Z",
-    "status": "LIVE",
-    "minute": "1'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 TNT Sports Chile",
-        "channel": "TNT Sports Chile"
-      },
-      {
-        "name": "Fuente 2 Estadio TNT",
-        "channel": "Estadio TNT"
-      },
-      {
-        "name": "Fuente 3 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio La Portada",
-    "category": "chile",
-    "votes": {
-      "team1": 2320,
-      "draw": 675,
-      "team2": 2925
-    }
-  },
-  {
-    "id": "espn-401874948",
-    "slug": "napoli-vs-as-roma",
-    "tournament": "Serie A",
-    "flag": "img/flags/it.svg",
-    "homeTeam": "Napoli",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
-    "awayTeam": "AS Roma",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
-    "utcKickoff": "2026-10-24T16:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ Premium",
-        "channel": "Disney+ Premium"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Stadio Diego Armando Maradona",
-    "category": "europa",
-    "votes": {
-      "team1": 2080,
-      "draw": 600,
-      "team2": 2025
-    }
-  },
-  {
-    "id": "espn-401878767",
-    "slug": "chelsea-vs-tottenham-hotspur",
-    "tournament": "Premier League",
-    "flag": "img/flags/england.svg",
-    "homeTeam": "Chelsea",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-    "awayTeam": "Tottenham Hotspur",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-    "utcKickoff": "2026-10-24T16:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 DAZN 1",
-        "channel": "DAZN 1"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Stamford Bridge",
-    "category": "europa",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 2775
-    }
-  },
-  {
-    "id": "espn-401882827",
-    "slug": "valencia-vs-villarreal",
-    "tournament": "LaLiga EA Sports",
-    "flag": "img/flags/es.svg",
-    "homeTeam": "Valencia",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-    "awayTeam": "Villarreal",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-    "utcKickoff": "2026-10-24T16:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Movistar Plus+",
-        "channel": "Movistar Plus+"
-      },
-      {
-        "name": "Fuente 2 DAZN LaLiga",
-        "channel": "DAZN LaLiga"
-      },
-      {
-        "name": "Fuente 3 ESPN Deportes",
-        "channel": "ESPN Deportes"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Mestalla Stadium",
-    "category": "espana",
-    "votes": {
-      "team1": 2240,
-      "draw": 650,
-      "team2": 2250
-    }
-  },
   {
     "id": "espn-401841641",
     "slug": "banfield-vs-lanus",
@@ -291,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Lanús",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
     "utcKickoff": "2026-10-24T17:45Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "45'+1'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -331,8 +55,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Alianza Atlético",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5267.png",
     "utcKickoff": "2026-10-24T17:45Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "45'+1'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -479,38 +203,6 @@ window.LIBREGOL_MATCHES = [
       "team1": 2960,
       "draw": 875,
       "team2": 2925
-    }
-  },
-  {
-    "id": "espn-401930017",
-    "slug": "gv-san-jose-vs-blooming",
-    "tournament": "División Profesional Bolivia",
-    "flag": "img/flags/bo.svg",
-    "homeTeam": "GV San José",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/22174.png",
-    "awayTeam": "Blooming",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6047.png",
-    "utcKickoff": "2026-10-24T19:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Tigo Sports Bolivia",
-        "channel": "Tigo Sports Bolivia"
-      },
-      {
-        "name": "Fuente 2 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Jesús Bermúdez",
-    "category": "bolivia",
-    "votes": {
-      "team1": 2480,
-      "draw": 725,
-      "team2": 2100
     }
   },
   {
@@ -671,6 +363,38 @@ window.LIBREGOL_MATCHES = [
       "team1": 3040,
       "draw": 900,
       "team2": 2850
+    }
+  },
+  {
+    "id": "espn-401930017",
+    "slug": "gv-san-jose-vs-blooming",
+    "tournament": "División Profesional Bolivia",
+    "flag": "img/flags/bo.svg",
+    "homeTeam": "GV San José",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/22174.png",
+    "awayTeam": "Blooming",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6047.png",
+    "utcKickoff": "2026-10-24T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Tigo Sports Bolivia",
+        "channel": "Tigo Sports Bolivia"
+      },
+      {
+        "name": "Fuente 2 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Jesús Bermúdez",
+    "category": "bolivia",
+    "votes": {
+      "team1": 2480,
+      "draw": 725,
+      "team2": 2100
     }
   },
   {
