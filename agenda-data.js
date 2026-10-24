@@ -1,50 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-24 03:42:33Z
+ * Last Updated: 2026-10-24 08:43:12Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401876927",
-    "slug": "atlante-vs-atletico-de-san-luis",
-    "tournament": "Liga MX",
-    "flag": "img/flags/mx.svg",
-    "homeTeam": "Atlante",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/226.png",
-    "awayTeam": "Atlético de San Luis",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/15720.png",
-    "utcKickoff": "2026-10-24T03:00Z",
-    "status": "LIVE",
-    "minute": "42'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 TUDN En Vivo",
-        "channel": "TUDN En Vivo"
-      },
-      {
-        "name": "Fuente 2 ViX Premium",
-        "channel": "ViX Premium"
-      },
-      {
-        "name": "Fuente 3 Canal 5 HD",
-        "channel": "Canal 5 HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Banorte",
-    "category": "mexico",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 3000
-    }
-  },
   {
     "id": "espn-401879256",
     "slug": "aston-villa-vs-manchester-city",
@@ -442,46 +402,6 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
-    "id": "espn-401878767",
-    "slug": "chelsea-vs-tottenham-hotspur",
-    "tournament": "Premier League",
-    "flag": "img/flags/england.svg",
-    "homeTeam": "Chelsea",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-    "awayTeam": "Tottenham Hotspur",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-    "utcKickoff": "2026-10-24T16:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 DAZN 1",
-        "channel": "DAZN 1"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Stamford Bridge",
-    "category": "europa",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 2775
-    }
-  },
-  {
     "id": "espn-401882827",
     "slug": "valencia-vs-villarreal",
     "tournament": "LaLiga EA Sports",
@@ -519,6 +439,46 @@ window.LIBREGOL_MATCHES = [
       "team1": 2240,
       "draw": 650,
       "team2": 2250
+    }
+  },
+  {
+    "id": "espn-401878767",
+    "slug": "chelsea-vs-tottenham-hotspur",
+    "tournament": "Premier League",
+    "flag": "img/flags/england.svg",
+    "homeTeam": "Chelsea",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+    "awayTeam": "Tottenham Hotspur",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+    "utcKickoff": "2026-10-24T16:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 1 HD",
+        "channel": "ESPN 1 HD"
+      },
+      {
+        "name": "Fuente 2 DAZN 1",
+        "channel": "DAZN 1"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Stamford Bridge",
+    "category": "europa",
+    "votes": {
+      "team1": 2160,
+      "draw": 625,
+      "team2": 2775
     }
   },
   {
@@ -1066,6 +1026,46 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
+    "id": "espn-401930316",
+    "slug": "deportivo-maldonado-vs-danubio",
+    "tournament": "Primera División Uruguay",
+    "flag": "img/flags/uy.svg",
+    "homeTeam": "Deportivo Maldonado",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10000.png",
+    "awayTeam": "Danubio",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4817.png",
+    "utcKickoff": "2026-10-24T22:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 VTV Plus",
+        "channel": "VTV Plus"
+      },
+      {
+        "name": "Fuente 2 Star+ HD",
+        "channel": "Star+ HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Domingo Burgueño Miguel",
+    "category": "uruguay",
+    "votes": {
+      "team1": 3120,
+      "draw": 925,
+      "team2": 2025
+    }
+  },
+  {
     "id": "espn-401841632",
     "slug": "san-lorenzo-vs-newell-s-old-boys",
     "tournament": "Liga Profesional",
@@ -1143,46 +1143,6 @@ window.LIBREGOL_MATCHES = [
       "team1": 2480,
       "draw": 725,
       "team2": 2250
-    }
-  },
-  {
-    "id": "espn-401930316",
-    "slug": "deportivo-maldonado-vs-danubio",
-    "tournament": "Primera División Uruguay",
-    "flag": "img/flags/uy.svg",
-    "homeTeam": "Deportivo Maldonado",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10000.png",
-    "awayTeam": "Danubio",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4817.png",
-    "utcKickoff": "2026-10-24T22:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 VTV Plus",
-        "channel": "VTV Plus"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Domingo Burgueño Miguel",
-    "category": "uruguay",
-    "votes": {
-      "team1": 3120,
-      "draw": 925,
-      "team2": 2025
     }
   },
   {
