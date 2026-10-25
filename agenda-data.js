@@ -1,50 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-25 03:40:33Z
+ * Last Updated: 2026-10-25 08:59:37Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401876924",
-    "slug": "pumas-unam-vs-tigres-uanl",
-    "tournament": "Liga MX",
-    "flag": "img/flags/mx.svg",
-    "homeTeam": "Pumas UNAM",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/233.png",
-    "awayTeam": "Tigres UANL",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/232.png",
-    "utcKickoff": "2026-10-25T03:10Z",
-    "status": "LIVE",
-    "minute": "27'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 TUDN En Vivo",
-        "channel": "TUDN En Vivo"
-      },
-      {
-        "name": "Fuente 2 ViX Premium",
-        "channel": "ViX Premium"
-      },
-      {
-        "name": "Fuente 3 Canal 5 HD",
-        "channel": "Canal 5 HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Olímpico Universitario",
-    "category": "mexico",
-    "votes": {
-      "team1": 2400,
-      "draw": 700,
-      "team2": 2325
-    }
-  },
   {
     "id": "espn-401875036",
     "slug": "internazionale-vs-fiorentina",
@@ -406,42 +366,6 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
-    "id": "espn-401850675",
-    "slug": "nublense-vs-coquimbo-unido",
-    "tournament": "Primera División Chile",
-    "flag": "img/flags/cl.svg",
-    "homeTeam": "Ñublense",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7427.png",
-    "awayTeam": "Coquimbo Unido",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/8186.png",
-    "utcKickoff": "2026-10-25T15:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 TNT Sports Chile",
-        "channel": "TNT Sports Chile"
-      },
-      {
-        "name": "Fuente 2 Estadio TNT",
-        "channel": "Estadio TNT"
-      },
-      {
-        "name": "Fuente 3 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Municipal Oyarzún Arenas",
-    "category": "chile",
-    "votes": {
-      "team1": 2240,
-      "draw": 650,
-      "team2": 2550
-    }
-  },
-  {
     "id": "espn-401882833",
     "slug": "celta-vigo-vs-real-betis",
     "tournament": "LaLiga EA Sports",
@@ -482,43 +406,39 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
-    "id": "espn-401930337",
-    "slug": "montevideo-city-torque-vs-cerro",
-    "tournament": "Primera División Uruguay",
-    "flag": "img/flags/uy.svg",
-    "homeTeam": "Montevideo City Torque",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/19002.png",
-    "awayTeam": "Cerro",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5490.png",
-    "utcKickoff": "2026-10-25T16:00Z",
+    "id": "espn-401850675",
+    "slug": "nublense-vs-coquimbo-unido",
+    "tournament": "Primera División Chile",
+    "flag": "img/flags/cl.svg",
+    "homeTeam": "Ñublense",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7427.png",
+    "awayTeam": "Coquimbo Unido",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/8186.png",
+    "utcKickoff": "2026-10-25T15:30Z",
     "status": "UPCOMING",
     "minute": "",
     "homeScore": null,
     "awayScore": null,
     "channels": [
       {
-        "name": "Fuente 1 VTV Plus",
-        "channel": "VTV Plus"
+        "name": "Fuente 1 TNT Sports Chile",
+        "channel": "TNT Sports Chile"
       },
       {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
+        "name": "Fuente 2 Estadio TNT",
+        "channel": "Estadio TNT"
       },
       {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
+        "name": "Fuente 3 Directo HD",
         "channel": "Directo HD"
       }
     ],
-    "venue": "Estadio Luis Franzini",
-    "category": "uruguay",
+    "venue": "Estadio Municipal Oyarzún Arenas",
+    "category": "chile",
     "votes": {
-      "team1": 3360,
-      "draw": 1000,
-      "team2": 1875
+      "team1": 2240,
+      "draw": 650,
+      "team2": 2550
     }
   },
   {
@@ -559,6 +479,46 @@ window.LIBREGOL_MATCHES = [
       "team1": 3120,
       "draw": 925,
       "team2": 2925
+    }
+  },
+  {
+    "id": "espn-401930337",
+    "slug": "montevideo-city-torque-vs-cerro",
+    "tournament": "Primera División Uruguay",
+    "flag": "img/flags/uy.svg",
+    "homeTeam": "Montevideo City Torque",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/19002.png",
+    "awayTeam": "Cerro",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5490.png",
+    "utcKickoff": "2026-10-25T16:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 VTV Plus",
+        "channel": "VTV Plus"
+      },
+      {
+        "name": "Fuente 2 Star+ HD",
+        "channel": "Star+ HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Luis Franzini",
+    "category": "uruguay",
+    "votes": {
+      "team1": 3360,
+      "draw": 1000,
+      "team2": 1875
     }
   },
   {
@@ -1026,6 +986,42 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
+    "id": "espn-401850672",
+    "slug": "palestino-vs-colo-colo",
+    "tournament": "Primera División Chile",
+    "flag": "img/flags/cl.svg",
+    "homeTeam": "Palestino",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4422.png",
+    "awayTeam": "Colo Colo",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2688.png",
+    "utcKickoff": "2026-10-25T20:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 TNT Sports Chile",
+        "channel": "TNT Sports Chile"
+      },
+      {
+        "name": "Fuente 2 Estadio TNT",
+        "channel": "Estadio TNT"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Santa Laura-Universidad SEK",
+    "category": "chile",
+    "votes": {
+      "team1": 2320,
+      "draw": 675,
+      "team2": 2175
+    }
+  },
+  {
     "id": "espn-401886157",
     "slug": "sport-boys-vs-fc-cajamarca",
     "tournament": "Liga 1 MAX",
@@ -1063,42 +1059,6 @@ window.LIBREGOL_MATCHES = [
       "team1": 2400,
       "draw": 700,
       "team2": 2400
-    }
-  },
-  {
-    "id": "espn-401850672",
-    "slug": "palestino-vs-colo-colo",
-    "tournament": "Primera División Chile",
-    "flag": "img/flags/cl.svg",
-    "homeTeam": "Palestino",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4422.png",
-    "awayTeam": "Colo Colo",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2688.png",
-    "utcKickoff": "2026-10-25T20:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 TNT Sports Chile",
-        "channel": "TNT Sports Chile"
-      },
-      {
-        "name": "Fuente 2 Estadio TNT",
-        "channel": "Estadio TNT"
-      },
-      {
-        "name": "Fuente 3 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Santa Laura-Universidad SEK",
-    "category": "chile",
-    "votes": {
-      "team1": 2320,
-      "draw": 675,
-      "team2": 2175
     }
   },
   {
@@ -1290,6 +1250,42 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
+    "id": "espn-401850670",
+    "slug": "universidad-de-concepcion-vs-deportes-limache",
+    "tournament": "Primera División Chile",
+    "flag": "img/flags/cl.svg",
+    "homeTeam": "Universidad de Concepción",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5362.png",
+    "awayTeam": "Deportes Limache",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/19195.png",
+    "utcKickoff": "2026-10-25T23:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 TNT Sports Chile",
+        "channel": "TNT Sports Chile"
+      },
+      {
+        "name": "Fuente 2 Estadio TNT",
+        "channel": "Estadio TNT"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
+    "category": "chile",
+    "votes": {
+      "team1": 3600,
+      "draw": 1075,
+      "team2": 2700
+    }
+  },
+  {
     "id": "espn-401886156",
     "slug": "deportivo-garcilaso-vs-los-chankas",
     "tournament": "Liga 1 MAX",
@@ -1327,42 +1323,6 @@ window.LIBREGOL_MATCHES = [
       "team1": 3120,
       "draw": 925,
       "team2": 2325
-    }
-  },
-  {
-    "id": "espn-401850670",
-    "slug": "universidad-de-concepcion-vs-deportes-limache",
-    "tournament": "Primera División Chile",
-    "flag": "img/flags/cl.svg",
-    "homeTeam": "Universidad de Concepción",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5362.png",
-    "awayTeam": "Deportes Limache",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/19195.png",
-    "utcKickoff": "2026-10-25T23:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 TNT Sports Chile",
-        "channel": "TNT Sports Chile"
-      },
-      {
-        "name": "Fuente 2 Estadio TNT",
-        "channel": "Estadio TNT"
-      },
-      {
-        "name": "Fuente 3 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
-    "category": "chile",
-    "votes": {
-      "team1": 3600,
-      "draw": 1075,
-      "team2": 2700
     }
   },
   {
@@ -1667,6 +1627,86 @@ window.LIBREGOL_MATCHES = [
       "team1": 2160,
       "draw": 625,
       "team2": 1950
+    }
+  },
+  {
+    "id": "espn-401841279",
+    "slug": "coritiba-vs-gremio",
+    "tournament": "Brasileirão",
+    "flag": "img/flags/br.svg",
+    "homeTeam": "Coritiba",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
+    "awayTeam": "Grêmio",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+    "utcKickoff": "2026-10-26T22:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Premiere HD",
+        "channel": "Premiere HD"
+      },
+      {
+        "name": "Fuente 2 Globo",
+        "channel": "Globo"
+      },
+      {
+        "name": "Fuente 3 SporTV",
+        "channel": "SporTV"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Couto Pereira",
+    "category": "brasil",
+    "votes": {
+      "team1": 2240,
+      "draw": 650,
+      "team2": 1950
+    }
+  },
+  {
+    "id": "espn-401841286",
+    "slug": "flamengo-vs-atletico-mg",
+    "tournament": "Brasileirão",
+    "flag": "img/flags/br.svg",
+    "homeTeam": "Flamengo",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+    "awayTeam": "Atlético-MG",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+    "utcKickoff": "2026-10-26T23:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Premiere HD",
+        "channel": "Premiere HD"
+      },
+      {
+        "name": "Fuente 2 Globo",
+        "channel": "Globo"
+      },
+      {
+        "name": "Fuente 3 SporTV",
+        "channel": "SporTV"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio do Maracana",
+    "category": "brasil",
+    "votes": {
+      "team1": 2240,
+      "draw": 650,
+      "team2": 2325
     }
   },
   {
