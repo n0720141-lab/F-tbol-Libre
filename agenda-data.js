@@ -1,130 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-25 08:59:37Z
+ * Last Updated: 2026-10-25 15:43:09Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401875036",
-    "slug": "internazionale-vs-fiorentina",
-    "tournament": "Serie A",
-    "flag": "img/flags/it.svg",
-    "homeTeam": "Internazionale",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
-    "awayTeam": "Fiorentina",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
-    "utcKickoff": "2026-10-25T11:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ Premium",
-        "channel": "Disney+ Premium"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "San Siro",
-    "category": "europa",
-    "votes": {
-      "team1": 2720,
-      "draw": 800,
-      "team2": 2250
-    }
-  },
-  {
-    "id": "espn-401882835",
-    "slug": "athletic-club-vs-getafe",
-    "tournament": "LaLiga EA Sports",
-    "flag": "img/flags/es.svg",
-    "homeTeam": "Athletic Club",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
-    "awayTeam": "Getafe",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
-    "utcKickoff": "2026-10-25T13:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Movistar Plus+",
-        "channel": "Movistar Plus+"
-      },
-      {
-        "name": "Fuente 2 DAZN LaLiga",
-        "channel": "DAZN LaLiga"
-      },
-      {
-        "name": "Fuente 3 ESPN Deportes",
-        "channel": "ESPN Deportes"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "San Mamés",
-    "category": "espana",
-    "votes": {
-      "team1": 2640,
-      "draw": 775,
-      "team2": 1950
-    }
-  },
-  {
-    "id": "espn-401930338",
-    "slug": "montevideo-wanderers-vs-progreso",
-    "tournament": "Primera División Uruguay",
-    "flag": "img/flags/uy.svg",
-    "homeTeam": "Montevideo Wanderers",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5501.png",
-    "awayTeam": "Progreso",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6866.png",
-    "utcKickoff": "2026-10-25T13:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 VTV Plus",
-        "channel": "VTV Plus"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Parque Alfredo Víctor Viera",
-    "category": "uruguay",
-    "votes": {
-      "team1": 3200,
-      "draw": 950,
-      "team2": 2100
-    }
-  },
   {
     "id": "espn-401874972",
     "slug": "atalanta-vs-frosinone",
@@ -135,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Frosinone",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
     "utcKickoff": "2026-10-25T14:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "84'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -175,8 +55,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Venezia",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
     "utcKickoff": "2026-10-25T14:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "84'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -215,8 +95,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Newcastle United",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
     "utcKickoff": "2026-10-25T14:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "87'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -255,8 +135,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Brentford",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
     "utcKickoff": "2026-10-25T14:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "85'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -295,8 +175,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Brighton & Hove Albion",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
     "utcKickoff": "2026-10-25T14:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "84'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -335,8 +215,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "AFC Bournemouth",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
     "utcKickoff": "2026-10-25T14:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "84'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -375,8 +255,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Real Betis",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
     "utcKickoff": "2026-10-25T15:15Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "27'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -415,8 +295,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Coquimbo Unido",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/8186.png",
     "utcKickoff": "2026-10-25T15:30Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "10'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
