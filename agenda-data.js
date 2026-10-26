@@ -1,7 +1,7 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-26 09:51:18Z
+ * Last Updated: 2026-10-26 18:23:49Z
  */
 
 window.LIBREGOL_MATCHES = [
@@ -194,6 +194,42 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
+    "id": "espn-401878065",
+    "slug": "jaguares-de-cordoba-vs-llaneros-fc",
+    "tournament": "Liga BetPlay",
+    "flag": "img/flags/co.svg",
+    "homeTeam": "Jaguares de Córdoba",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10309.png",
+    "awayTeam": "Llaneros FC",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7915.png",
+    "utcKickoff": "2026-10-26T23:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Win Sports+",
+        "channel": "Win Sports+"
+      },
+      {
+        "name": "Fuente 2 Win Sports Online",
+        "channel": "Win Sports Online"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Jaraguay (Municipal de Montería)",
+    "category": "colombia",
+    "votes": {
+      "team1": 3120,
+      "draw": 925,
+      "team2": 2325
+    }
+  },
+  {
     "id": "espn-401841286",
     "slug": "flamengo-vs-atletico-mg",
     "tournament": "Brasileirão",
@@ -230,42 +266,6 @@ window.LIBREGOL_MATCHES = [
     "votes": {
       "team1": 2240,
       "draw": 650,
-      "team2": 2325
-    }
-  },
-  {
-    "id": "espn-401878065",
-    "slug": "jaguares-de-cordoba-vs-llaneros-fc",
-    "tournament": "Liga BetPlay",
-    "flag": "img/flags/co.svg",
-    "homeTeam": "Jaguares de Córdoba",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10309.png",
-    "awayTeam": "Llaneros FC",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7915.png",
-    "utcKickoff": "2026-10-26T23:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Win Sports+",
-        "channel": "Win Sports+"
-      },
-      {
-        "name": "Fuente 2 Win Sports Online",
-        "channel": "Win Sports Online"
-      },
-      {
-        "name": "Fuente 3 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Jaraguay (Municipal de Montería)",
-    "category": "colombia",
-    "votes": {
-      "team1": 3120,
-      "draw": 925,
       "team2": 2325
     }
   },
@@ -418,46 +418,6 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
-    "id": "espn-401921833",
-    "slug": "bradford-city-vs-peterborough-united",
-    "tournament": "EFL Cup",
-    "flag": "img/flags/england.svg",
-    "homeTeam": "Bradford City",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/387.png",
-    "awayTeam": "Peterborough United",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/342.png",
-    "utcKickoff": "2026-10-27T19:45Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 2 HD",
-        "channel": "ESPN 2 HD"
-      },
-      {
-        "name": "Fuente 2 Sky Sports",
-        "channel": "Sky Sports"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Valley Parade",
-    "category": "europa",
-    "votes": {
-      "team1": 2640,
-      "draw": 775,
-      "team2": 2925
-    }
-  },
-  {
     "id": "espn-401874780",
     "slug": "as-roma-vs-cagliari",
     "tournament": "Serie A",
@@ -535,6 +495,46 @@ window.LIBREGOL_MATCHES = [
       "team1": 2080,
       "draw": 600,
       "team2": 1800
+    }
+  },
+  {
+    "id": "espn-401921833",
+    "slug": "bradford-city-vs-peterborough-united",
+    "tournament": "EFL Cup",
+    "flag": "img/flags/england.svg",
+    "homeTeam": "Bradford City",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/387.png",
+    "awayTeam": "Peterborough United",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/342.png",
+    "utcKickoff": "2026-10-27T19:45Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 2 HD",
+        "channel": "ESPN 2 HD"
+      },
+      {
+        "name": "Fuente 2 Sky Sports",
+        "channel": "Sky Sports"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Valley Parade",
+    "category": "europa",
+    "votes": {
+      "team1": 2640,
+      "draw": 775,
+      "team2": 2925
     }
   },
   {
