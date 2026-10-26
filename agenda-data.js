@@ -1,86 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-26 18:23:49Z
+ * Last Updated: 2026-10-26 23:37:25Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401882828",
-    "slug": "sevilla-vs-osasuna",
-    "tournament": "LaLiga EA Sports",
-    "flag": "img/flags/es.svg",
-    "homeTeam": "Sevilla",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-    "awayTeam": "Osasuna",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
-    "utcKickoff": "2026-10-26T20:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Movistar Plus+",
-        "channel": "Movistar Plus+"
-      },
-      {
-        "name": "Fuente 2 DAZN LaLiga",
-        "channel": "DAZN LaLiga"
-      },
-      {
-        "name": "Fuente 3 ESPN Deportes",
-        "channel": "ESPN Deportes"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Ramón Sánchez Pizjuán Stadium",
-    "category": "espana",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 2025
-    }
-  },
-  {
-    "id": "espn-401850671",
-    "slug": "universidad-de-chile-vs-everton-cd",
-    "tournament": "Primera División Chile",
-    "flag": "img/flags/cl.svg",
-    "homeTeam": "Universidad de Chile",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4139.png",
-    "awayTeam": "Everton CD",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4129.png",
-    "utcKickoff": "2026-10-26T21:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 TNT Sports Chile",
-        "channel": "TNT Sports Chile"
-      },
-      {
-        "name": "Fuente 2 Estadio TNT",
-        "channel": "Estadio TNT"
-      },
-      {
-        "name": "Fuente 3 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio El Teniente",
-    "category": "chile",
-    "votes": {
-      "team1": 3200,
-      "draw": 950,
-      "team2": 2250
-    }
-  },
   {
     "id": "espn-401841630",
     "slug": "union-santa-fe-vs-estudiantes-de-la-plata",
@@ -91,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Estudiantes de La Plata",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
     "utcKickoff": "2026-10-26T22:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "78'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -131,8 +55,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Guabirá",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9497.png",
     "utcKickoff": "2026-10-26T22:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "77'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -163,8 +87,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Grêmio",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
     "utcKickoff": "2026-10-26T22:30Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "45'+5'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -203,8 +127,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Llaneros FC",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7915.png",
     "utcKickoff": "2026-10-26T23:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "37'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -239,8 +163,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Atlético-MG",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
     "utcKickoff": "2026-10-26T23:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "37'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
