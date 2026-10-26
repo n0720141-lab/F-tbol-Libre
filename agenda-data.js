@@ -1,50 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-26 03:43:54Z
+ * Last Updated: 2026-10-26 09:51:18Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401876920",
-    "slug": "tijuana-vs-santos",
-    "tournament": "Liga MX",
-    "flag": "img/flags/mx.svg",
-    "homeTeam": "Tijuana",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10125.png",
-    "awayTeam": "Santos",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/225.png",
-    "utcKickoff": "2026-10-26T03:10Z",
-    "status": "LIVE",
-    "minute": "25'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 TUDN En Vivo",
-        "channel": "TUDN En Vivo"
-      },
-      {
-        "name": "Fuente 2 ViX Premium",
-        "channel": "ViX Premium"
-      },
-      {
-        "name": "Fuente 3 Canal 5 HD",
-        "channel": "Canal 5 HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Caliente",
-    "category": "mexico",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 1950
-    }
-  },
   {
     "id": "espn-401882828",
     "slug": "sevilla-vs-osasuna",
@@ -418,6 +378,46 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
+    "id": "espn-401874980",
+    "slug": "sassuolo-vs-lazio",
+    "tournament": "Serie A",
+    "flag": "img/flags/it.svg",
+    "homeTeam": "Sassuolo",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
+    "awayTeam": "Lazio",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
+    "utcKickoff": "2026-10-27T17:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 1 HD",
+        "channel": "ESPN 1 HD"
+      },
+      {
+        "name": "Fuente 2 Star+ HD",
+        "channel": "Star+ HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ Premium",
+        "channel": "Disney+ Premium"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Mapei Stadium",
+    "category": "europa",
+    "votes": {
+      "team1": 2240,
+      "draw": 650,
+      "team2": 1875
+    }
+  },
+  {
     "id": "espn-401921833",
     "slug": "bradford-city-vs-peterborough-united",
     "tournament": "EFL Cup",
@@ -458,6 +458,86 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
+    "id": "espn-401874780",
+    "slug": "as-roma-vs-cagliari",
+    "tournament": "Serie A",
+    "flag": "img/flags/it.svg",
+    "homeTeam": "AS Roma",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+    "awayTeam": "Cagliari",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
+    "utcKickoff": "2026-10-27T19:45Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 1 HD",
+        "channel": "ESPN 1 HD"
+      },
+      {
+        "name": "Fuente 2 Star+ HD",
+        "channel": "Star+ HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ Premium",
+        "channel": "Disney+ Premium"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Olimpico",
+    "category": "europa",
+    "votes": {
+      "team1": 2160,
+      "draw": 625,
+      "team2": 2100
+    }
+  },
+  {
+    "id": "espn-401874786",
+    "slug": "torino-vs-como",
+    "tournament": "Serie A",
+    "flag": "img/flags/it.svg",
+    "homeTeam": "Torino",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
+    "awayTeam": "Como",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+    "utcKickoff": "2026-10-27T19:45Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 1 HD",
+        "channel": "ESPN 1 HD"
+      },
+      {
+        "name": "Fuente 2 Star+ HD",
+        "channel": "Star+ HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ Premium",
+        "channel": "Disney+ Premium"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Stadio Olimpico Grande Torino",
+    "category": "europa",
+    "votes": {
+      "team1": 2080,
+      "draw": 600,
+      "team2": 1800
+    }
+  },
+  {
     "id": "espn-401921835",
     "slug": "fleetwood-town-vs-arsenal",
     "tournament": "EFL Cup",
@@ -494,6 +574,86 @@ window.LIBREGOL_MATCHES = [
     "votes": {
       "team1": 2720,
       "draw": 800,
+      "team2": 2025
+    }
+  },
+  {
+    "id": "espn-401886153",
+    "slug": "juan-pablo-ii-vs-sport-huancayo",
+    "tournament": "Liga 1 MAX",
+    "flag": "img/flags/pe.svg",
+    "homeTeam": "Juan Pablo II",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/22534.png",
+    "awayTeam": "Sport Huancayo",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10318.png",
+    "utcKickoff": "2026-10-27T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Liga 1 MAX HD",
+        "channel": "Liga 1 MAX HD"
+      },
+      {
+        "name": "Fuente 2 Liga 1 Play",
+        "channel": "Liga 1 Play"
+      },
+      {
+        "name": "Fuente 3 Gol Perú HD",
+        "channel": "Gol Perú HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Complejo Deportivo Juan Pablo II",
+    "category": "peru",
+    "votes": {
+      "team1": 2640,
+      "draw": 775,
+      "team2": 2550
+    }
+  },
+  {
+    "id": "espn-401876986",
+    "slug": "america-vs-tijuana",
+    "tournament": "Liga MX",
+    "flag": "img/flags/mx.svg",
+    "homeTeam": "América",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png",
+    "awayTeam": "Tijuana",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10125.png",
+    "utcKickoff": "2026-10-29T03:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 TUDN En Vivo",
+        "channel": "TUDN En Vivo"
+      },
+      {
+        "name": "Fuente 2 ViX Premium",
+        "channel": "ViX Premium"
+      },
+      {
+        "name": "Fuente 3 Canal 5 HD",
+        "channel": "Canal 5 HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Banorte",
+    "category": "mexico",
+    "votes": {
+      "team1": 2160,
+      "draw": 625,
       "team2": 2025
     }
   }
