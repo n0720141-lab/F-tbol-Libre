@@ -1,7 +1,7 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-27 04:07:06Z
+ * Last Updated: 2026-10-27 14:06:13Z
  */
 
 window.LIBREGOL_MATCHES = [
@@ -478,6 +478,42 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
+    "id": "espn-401850663",
+    "slug": "universidad-catolica-vs-audax-italiano",
+    "tournament": "Primera División Chile",
+    "flag": "img/flags/cl.svg",
+    "homeTeam": "Universidad Católica",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/885.png",
+    "awayTeam": "Audax Italiano",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4138.png",
+    "utcKickoff": "2026-10-28T23:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 TNT Sports Chile",
+        "channel": "TNT Sports Chile"
+      },
+      {
+        "name": "Fuente 2 Estadio TNT",
+        "channel": "Estadio TNT"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio San Carlos de Apoquindo",
+    "category": "chile",
+    "votes": {
+      "team1": 3200,
+      "draw": 950,
+      "team2": 2550
+    }
+  },
+  {
     "id": "espn-401841296",
     "slug": "bahia-vs-sao-paulo",
     "tournament": "Brasileirão",
@@ -595,6 +631,110 @@ window.LIBREGOL_MATCHES = [
       "team1": 2160,
       "draw": 625,
       "team2": 2025
+    }
+  },
+  {
+    "id": "espn-401882817",
+    "slug": "villarreal-vs-espanyol",
+    "tournament": "LaLiga EA Sports",
+    "flag": "img/flags/es.svg",
+    "homeTeam": "Villarreal",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+    "awayTeam": "Espanyol",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+    "utcKickoff": "2026-10-30T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Movistar Plus+",
+        "channel": "Movistar Plus+"
+      },
+      {
+        "name": "Fuente 2 DAZN LaLiga",
+        "channel": "DAZN LaLiga"
+      },
+      {
+        "name": "Fuente 3 ESPN Deportes",
+        "channel": "ESPN Deportes"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio de la Cerámica",
+    "category": "espana",
+    "votes": {
+      "team1": 2400,
+      "draw": 700,
+      "team2": 2100
+    }
+  },
+  {
+    "id": "espn-401930003",
+    "slug": "real-potosi-vs-independiente-petrolero",
+    "tournament": "División Profesional Bolivia",
+    "flag": "img/flags/bo.svg",
+    "homeTeam": "Real Potosí",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6051.png",
+    "awayTeam": "Independiente Petrolero",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/20889.png",
+    "utcKickoff": "2026-10-30T22:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Tigo Sports Bolivia",
+        "channel": "Tigo Sports Bolivia"
+      },
+      {
+        "name": "Fuente 2 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Víctor Agustín Ugarte",
+    "category": "bolivia",
+    "votes": {
+      "team1": 2480,
+      "draw": 725,
+      "team2": 3225
+    }
+  },
+  {
+    "id": "espn-401930013",
+    "slug": "oriente-petrolero-vs-aurora",
+    "tournament": "División Profesional Bolivia",
+    "flag": "img/flags/bo.svg",
+    "homeTeam": "Oriente Petrolero",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2682.png",
+    "awayTeam": "Aurora",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6046.png",
+    "utcKickoff": "2026-10-31T00:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Tigo Sports Bolivia",
+        "channel": "Tigo Sports Bolivia"
+      },
+      {
+        "name": "Fuente 2 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Ramón Tahuichi",
+    "category": "bolivia",
+    "votes": {
+      "team1": 2960,
+      "draw": 875,
+      "team2": 1950
     }
   }
 ];
