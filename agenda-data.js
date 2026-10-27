@@ -1,90 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-27 14:06:13Z
+ * Last Updated: 2026-10-27 20:28:47Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401874980",
-    "slug": "sassuolo-vs-lazio",
-    "tournament": "Serie A",
-    "flag": "img/flags/it.svg",
-    "homeTeam": "Sassuolo",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
-    "awayTeam": "Lazio",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
-    "utcKickoff": "2026-10-27T17:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ Premium",
-        "channel": "Disney+ Premium"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Mapei Stadium",
-    "category": "europa",
-    "votes": {
-      "team1": 2240,
-      "draw": 650,
-      "team2": 1875
-    }
-  },
-  {
-    "id": "espn-401921833",
-    "slug": "bradford-city-vs-peterborough-united",
-    "tournament": "EFL Cup",
-    "flag": "img/flags/england.svg",
-    "homeTeam": "Bradford City",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/387.png",
-    "awayTeam": "Peterborough United",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/342.png",
-    "utcKickoff": "2026-10-27T19:45Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 2 HD",
-        "channel": "ESPN 2 HD"
-      },
-      {
-        "name": "Fuente 2 Sky Sports",
-        "channel": "Sky Sports"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Valley Parade",
-    "category": "europa",
-    "votes": {
-      "team1": 2640,
-      "draw": 775,
-      "team2": 2925
-    }
-  },
   {
     "id": "espn-401874780",
     "slug": "as-roma-vs-cagliari",
@@ -95,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Cagliari",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
     "utcKickoff": "2026-10-27T19:45Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "43'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -135,8 +55,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Como",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
     "utcKickoff": "2026-10-27T19:45Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "40'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -166,6 +86,46 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
+    "id": "espn-401921833",
+    "slug": "bradford-city-vs-peterborough-united",
+    "tournament": "EFL Cup",
+    "flag": "img/flags/england.svg",
+    "homeTeam": "Bradford City",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/387.png",
+    "awayTeam": "Peterborough United",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/342.png",
+    "utcKickoff": "2026-10-27T19:45Z",
+    "status": "LIVE",
+    "minute": "44'",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 2 HD",
+        "channel": "ESPN 2 HD"
+      },
+      {
+        "name": "Fuente 2 Sky Sports",
+        "channel": "Sky Sports"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Valley Parade",
+    "category": "europa",
+    "votes": {
+      "team1": 2640,
+      "draw": 775,
+      "team2": 2925
+    }
+  },
+  {
     "id": "espn-401921835",
     "slug": "fleetwood-town-vs-arsenal",
     "tournament": "EFL Cup",
@@ -175,8 +135,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Arsenal",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
     "utcKickoff": "2026-10-27T20:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "29'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -215,8 +175,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Sport Huancayo",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10318.png",
     "utcKickoff": "2026-10-27T20:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "28'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
