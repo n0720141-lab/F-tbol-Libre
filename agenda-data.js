@@ -1,7 +1,7 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-28 04:34:54Z
+ * Last Updated: 2026-10-28 14:55:15Z
  */
 
 window.LIBREGOL_MATCHES = [
@@ -246,86 +246,6 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
-    "id": "espn-401874988",
-    "slug": "genoa-vs-juventus",
-    "tournament": "Serie A",
-    "flag": "img/flags/it.svg",
-    "homeTeam": "Genoa",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
-    "awayTeam": "Juventus",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
-    "utcKickoff": "2026-10-28T19:45Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ Premium",
-        "channel": "Disney+ Premium"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Stadio Luigi Ferraris",
-    "category": "europa",
-    "votes": {
-      "team1": 2000,
-      "draw": 575,
-      "team2": 2100
-    }
-  },
-  {
-    "id": "espn-401874799",
-    "slug": "monza-vs-napoli",
-    "tournament": "Serie A",
-    "flag": "img/flags/it.svg",
-    "homeTeam": "Monza",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
-    "awayTeam": "Napoli",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
-    "utcKickoff": "2026-10-28T19:45Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ Premium",
-        "channel": "Disney+ Premium"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "U-Power Stadium",
-    "category": "europa",
-    "votes": {
-      "team1": 2000,
-      "draw": 575,
-      "team2": 1950
-    }
-  },
-  {
     "id": "espn-401921840",
     "slug": "afc-bournemouth-vs-aston-villa",
     "tournament": "EFL Cup",
@@ -443,6 +363,86 @@ window.LIBREGOL_MATCHES = [
       "team1": 2400,
       "draw": 700,
       "team2": 2175
+    }
+  },
+  {
+    "id": "espn-401874988",
+    "slug": "genoa-vs-juventus",
+    "tournament": "Serie A",
+    "flag": "img/flags/it.svg",
+    "homeTeam": "Genoa",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+    "awayTeam": "Juventus",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+    "utcKickoff": "2026-10-28T19:45Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 1 HD",
+        "channel": "ESPN 1 HD"
+      },
+      {
+        "name": "Fuente 2 Star+ HD",
+        "channel": "Star+ HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ Premium",
+        "channel": "Disney+ Premium"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Stadio Luigi Ferraris",
+    "category": "europa",
+    "votes": {
+      "team1": 2000,
+      "draw": 575,
+      "team2": 2100
+    }
+  },
+  {
+    "id": "espn-401874799",
+    "slug": "monza-vs-napoli",
+    "tournament": "Serie A",
+    "flag": "img/flags/it.svg",
+    "homeTeam": "Monza",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
+    "awayTeam": "Napoli",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+    "utcKickoff": "2026-10-28T19:45Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 1 HD",
+        "channel": "ESPN 1 HD"
+      },
+      {
+        "name": "Fuente 2 Star+ HD",
+        "channel": "Star+ HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ Premium",
+        "channel": "Disney+ Premium"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "U-Power Stadium",
+    "category": "europa",
+    "votes": {
+      "team1": 2000,
+      "draw": 575,
+      "team2": 1950
     }
   },
   {
