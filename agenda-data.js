@@ -1,210 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-28 14:55:15Z
+ * Last Updated: 2026-10-28 20:50:03Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401886129",
-    "slug": "adt-vs-deportivo-moquegua",
-    "tournament": "Liga 1 MAX",
-    "flag": "img/flags/pe.svg",
-    "homeTeam": "ADT",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21314.png",
-    "awayTeam": "Deportivo Moquegua",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/131654.png",
-    "utcKickoff": "2026-10-28T16:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Liga 1 MAX HD",
-        "channel": "Liga 1 MAX HD"
-      },
-      {
-        "name": "Fuente 2 Liga 1 Play",
-        "channel": "Liga 1 Play"
-      },
-      {
-        "name": "Fuente 3 Gol Perú HD",
-        "channel": "Gol Perú HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Unión Tarma",
-    "category": "peru",
-    "votes": {
-      "team1": 1840,
-      "draw": 525,
-      "team2": 2850
-    }
-  },
-  {
-    "id": "espn-401874993",
-    "slug": "ac-milan-vs-bologna",
-    "tournament": "Serie A",
-    "flag": "img/flags/it.svg",
-    "homeTeam": "AC Milan",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
-    "awayTeam": "Bologna",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
-    "utcKickoff": "2026-10-28T17:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ Premium",
-        "channel": "Disney+ Premium"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "San Siro",
-    "category": "europa",
-    "votes": {
-      "team1": 2240,
-      "draw": 650,
-      "team2": 2025
-    }
-  },
-  {
-    "id": "espn-401874965",
-    "slug": "parma-vs-udinese",
-    "tournament": "Serie A",
-    "flag": "img/flags/it.svg",
-    "homeTeam": "Parma",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
-    "awayTeam": "Udinese",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
-    "utcKickoff": "2026-10-28T17:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ Premium",
-        "channel": "Disney+ Premium"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Ennio Tardini",
-    "category": "europa",
-    "votes": {
-      "team1": 2000,
-      "draw": 575,
-      "team2": 2025
-    }
-  },
-  {
-    "id": "espn-401874773",
-    "slug": "venezia-vs-internazionale",
-    "tournament": "Serie A",
-    "flag": "img/flags/it.svg",
-    "homeTeam": "Venezia",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
-    "awayTeam": "Internazionale",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
-    "utcKickoff": "2026-10-28T17:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ Premium",
-        "channel": "Disney+ Premium"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Stadio Pier Luigi Penzo",
-    "category": "europa",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 2550
-    }
-  },
-  {
-    "id": "espn-401886154",
-    "slug": "fc-cajamarca-vs-utc",
-    "tournament": "Liga 1 MAX",
-    "flag": "img/flags/pe.svg",
-    "homeTeam": "FC Cajamarca",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/131655.png",
-    "awayTeam": "UTC",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10122.png",
-    "utcKickoff": "2026-10-28T18:15Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Liga 1 MAX HD",
-        "channel": "Liga 1 MAX HD"
-      },
-      {
-        "name": "Fuente 2 Liga 1 Play",
-        "channel": "Liga 1 Play"
-      },
-      {
-        "name": "Fuente 3 Gol Perú HD",
-        "channel": "Gol Perú HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Héroes de San Ramón",
-    "category": "peru",
-    "votes": {
-      "team1": 2560,
-      "draw": 750,
-      "team2": 1725
-    }
-  },
   {
     "id": "espn-401921834",
     "slug": "manchester-city-vs-brighton-hove-albion",
@@ -215,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Brighton & Hove Albion",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
     "utcKickoff": "2026-10-28T19:30Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "61'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -255,8 +55,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Aston Villa",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
     "utcKickoff": "2026-10-28T19:45Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "48'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -295,8 +95,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Crystal Palace",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
     "utcKickoff": "2026-10-28T19:45Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "46'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -335,8 +135,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Brentford",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
     "utcKickoff": "2026-10-28T19:45Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "46'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -375,8 +175,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Juventus",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
     "utcKickoff": "2026-10-28T19:45Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "45'+2'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -415,8 +215,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Napoli",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
     "utcKickoff": "2026-10-28T19:45Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "45'+3'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -455,8 +255,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Chelsea",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
     "utcKickoff": "2026-10-28T20:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "45'+4'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -495,8 +295,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Deportivo Garcilaso",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21819.png",
     "utcKickoff": "2026-10-28T20:30Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "18'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
