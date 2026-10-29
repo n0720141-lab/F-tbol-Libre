@@ -1,130 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-29 14:59:52Z
+ * Last Updated: 2026-10-29 20:55:06Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401874976",
-    "slug": "frosinone-vs-lecce",
-    "tournament": "Serie A",
-    "flag": "img/flags/it.svg",
-    "homeTeam": "Frosinone",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
-    "awayTeam": "Lecce",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
-    "utcKickoff": "2026-10-29T17:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ Premium",
-        "channel": "Disney+ Premium"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Stadio Benito Stirpe",
-    "category": "europa",
-    "votes": {
-      "team1": 2320,
-      "draw": 675,
-      "team2": 1875
-    }
-  },
-  {
-    "id": "espn-401886155",
-    "slug": "los-chankas-vs-cusco-fc",
-    "tournament": "Liga 1 MAX",
-    "flag": "img/flags/pe.svg",
-    "homeTeam": "Los Chankas",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/22168.png",
-    "awayTeam": "Cusco FC",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11995.png",
-    "utcKickoff": "2026-10-29T18:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Liga 1 MAX HD",
-        "channel": "Liga 1 MAX HD"
-      },
-      {
-        "name": "Fuente 2 Liga 1 Play",
-        "channel": "Liga 1 Play"
-      },
-      {
-        "name": "Fuente 3 Gol Perú HD",
-        "channel": "Gol Perú HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Los Chankas",
-    "category": "peru",
-    "votes": {
-      "team1": 2480,
-      "draw": 725,
-      "team2": 2100
-    }
-  },
-  {
-    "id": "espn-401874969",
-    "slug": "fiorentina-vs-atalanta",
-    "tournament": "Serie A",
-    "flag": "img/flags/it.svg",
-    "homeTeam": "Fiorentina",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
-    "awayTeam": "Atalanta",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
-    "utcKickoff": "2026-10-29T19:45Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ Premium",
-        "channel": "Disney+ Premium"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Stadio Artemio Franchi",
-    "category": "europa",
-    "votes": {
-      "team1": 2400,
-      "draw": 700,
-      "team2": 2100
-    }
-  },
   {
     "id": "espn-401921844",
     "slug": "everton-vs-newcastle-united",
@@ -135,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Newcastle United",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
     "utcKickoff": "2026-10-29T19:45Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "52'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -166,6 +46,46 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
+    "id": "espn-401874969",
+    "slug": "fiorentina-vs-atalanta",
+    "tournament": "Serie A",
+    "flag": "img/flags/it.svg",
+    "homeTeam": "Fiorentina",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
+    "awayTeam": "Atalanta",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+    "utcKickoff": "2026-10-29T19:45Z",
+    "status": "LIVE",
+    "minute": "45'+3'",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 1 HD",
+        "channel": "ESPN 1 HD"
+      },
+      {
+        "name": "Fuente 2 Star+ HD",
+        "channel": "Star+ HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ Premium",
+        "channel": "Disney+ Premium"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Stadio Artemio Franchi",
+    "category": "europa",
+    "votes": {
+      "team1": 2400,
+      "draw": 700,
+      "team2": 2100
+    }
+  },
+  {
     "id": "espn-401886131",
     "slug": "sporting-cristal-vs-alianza-lima",
     "tournament": "Liga 1 MAX",
@@ -175,8 +95,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Alianza Lima",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2680.png",
     "utcKickoff": "2026-10-29T20:30Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "24'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -558,38 +478,6 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
-    "id": "espn-401930003",
-    "slug": "real-potosi-vs-independiente-petrolero",
-    "tournament": "División Profesional Bolivia",
-    "flag": "img/flags/bo.svg",
-    "homeTeam": "Real Potosí",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6051.png",
-    "awayTeam": "Independiente Petrolero",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/20889.png",
-    "utcKickoff": "2026-10-30T22:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Tigo Sports Bolivia",
-        "channel": "Tigo Sports Bolivia"
-      },
-      {
-        "name": "Fuente 2 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Víctor Agustín Ugarte",
-    "category": "bolivia",
-    "votes": {
-      "team1": 2480,
-      "draw": 725,
-      "team2": 3225
-    }
-  },
-  {
     "id": "espn-401850681",
     "slug": "colo-colo-vs-universidad-de-concepcion",
     "tournament": "Primera División Chile",
@@ -659,6 +547,38 @@ window.LIBREGOL_MATCHES = [
       "team1": 2720,
       "draw": 800,
       "team2": 2625
+    }
+  },
+  {
+    "id": "espn-401930003",
+    "slug": "real-potosi-vs-independiente-petrolero",
+    "tournament": "División Profesional Bolivia",
+    "flag": "img/flags/bo.svg",
+    "homeTeam": "Real Potosí",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6051.png",
+    "awayTeam": "Independiente Petrolero",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/20889.png",
+    "utcKickoff": "2026-10-30T22:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Tigo Sports Bolivia",
+        "channel": "Tigo Sports Bolivia"
+      },
+      {
+        "name": "Fuente 2 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Víctor Agustín Ugarte",
+    "category": "bolivia",
+    "votes": {
+      "team1": 2480,
+      "draw": 725,
+      "team2": 3225
     }
   },
   {
