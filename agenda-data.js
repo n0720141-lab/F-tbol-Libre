@@ -1,7 +1,7 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-29 04:49:33Z
+ * Last Updated: 2026-10-29 14:59:52Z
  */
 
 window.LIBREGOL_MATCHES = [
@@ -294,7 +294,7 @@ window.LIBREGOL_MATCHES = [
     "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/8109.png",
     "awayTeam": "Fortaleza CEIF",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4928.png",
-    "utcKickoff": "2026-10-29T23:15Z",
+    "utcKickoff": "2026-10-29T23:30Z",
     "status": "UPCOMING",
     "minute": "",
     "homeScore": null,
@@ -478,78 +478,6 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
-    "id": "espn-401850681",
-    "slug": "colo-colo-vs-universidad-de-concepcion",
-    "tournament": "Primera División Chile",
-    "flag": "img/flags/cl.svg",
-    "homeTeam": "Colo Colo",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2688.png",
-    "awayTeam": "Universidad de Concepción",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5362.png",
-    "utcKickoff": "2026-10-30T22:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 TNT Sports Chile",
-        "channel": "TNT Sports Chile"
-      },
-      {
-        "name": "Fuente 2 Estadio TNT",
-        "channel": "Estadio TNT"
-      },
-      {
-        "name": "Fuente 3 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Monumental David Arellano",
-    "category": "chile",
-    "votes": {
-      "team1": 2320,
-      "draw": 675,
-      "team2": 3375
-    }
-  },
-  {
-    "id": "espn-401850680",
-    "slug": "coquimbo-unido-vs-union-la-calera",
-    "tournament": "Primera División Chile",
-    "flag": "img/flags/cl.svg",
-    "homeTeam": "Coquimbo Unido",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/8186.png",
-    "awayTeam": "Unión La Calera",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10144.png",
-    "utcKickoff": "2026-10-30T22:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 TNT Sports Chile",
-        "channel": "TNT Sports Chile"
-      },
-      {
-        "name": "Fuente 2 Estadio TNT",
-        "channel": "Estadio TNT"
-      },
-      {
-        "name": "Fuente 3 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Francisco Sánchez Rumoroso",
-    "category": "chile",
-    "votes": {
-      "team1": 2720,
-      "draw": 800,
-      "team2": 2625
-    }
-  },
-  {
     "id": "espn-401841655",
     "slug": "estudiantes-de-rio-cuarto-vs-gimnasia-la-plata",
     "tournament": "Liga Profesional",
@@ -659,6 +587,78 @@ window.LIBREGOL_MATCHES = [
       "team1": 2480,
       "draw": 725,
       "team2": 3225
+    }
+  },
+  {
+    "id": "espn-401850681",
+    "slug": "colo-colo-vs-universidad-de-concepcion",
+    "tournament": "Primera División Chile",
+    "flag": "img/flags/cl.svg",
+    "homeTeam": "Colo Colo",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2688.png",
+    "awayTeam": "Universidad de Concepción",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5362.png",
+    "utcKickoff": "2026-10-30T22:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 TNT Sports Chile",
+        "channel": "TNT Sports Chile"
+      },
+      {
+        "name": "Fuente 2 Estadio TNT",
+        "channel": "Estadio TNT"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Monumental David Arellano",
+    "category": "chile",
+    "votes": {
+      "team1": 2320,
+      "draw": 675,
+      "team2": 3375
+    }
+  },
+  {
+    "id": "espn-401850680",
+    "slug": "coquimbo-unido-vs-union-la-calera",
+    "tournament": "Primera División Chile",
+    "flag": "img/flags/cl.svg",
+    "homeTeam": "Coquimbo Unido",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/8186.png",
+    "awayTeam": "Unión La Calera",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10144.png",
+    "utcKickoff": "2026-10-30T22:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 TNT Sports Chile",
+        "channel": "TNT Sports Chile"
+      },
+      {
+        "name": "Fuente 2 Estadio TNT",
+        "channel": "Estadio TNT"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Francisco Sánchez Rumoroso",
+    "category": "chile",
+    "votes": {
+      "team1": 2720,
+      "draw": 800,
+      "team2": 2625
     }
   },
   {
