@@ -1,7 +1,7 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-30 14:53:31Z
+ * Last Updated: 2026-10-30 20:29:25Z
  */
 
 window.LIBREGOL_MATCHES = [
@@ -15,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Espanyol",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
     "utcKickoff": "2026-10-30T20:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "29'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
