@@ -1,50 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-10-31 04:34:17Z
+ * Last Updated: 2026-10-31 14:22:38Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401876917",
-    "slug": "puebla-vs-pumas-unam",
-    "tournament": "Liga MX",
-    "flag": "img/flags/mx.svg",
-    "homeTeam": "Puebla",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/231.png",
-    "awayTeam": "Pumas UNAM",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/233.png",
-    "utcKickoff": "2026-10-31T03:00Z",
-    "status": "LIVE",
-    "minute": "59'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 TUDN En Vivo",
-        "channel": "TUDN En Vivo"
-      },
-      {
-        "name": "Fuente 2 ViX Premium",
-        "channel": "ViX Premium"
-      },
-      {
-        "name": "Fuente 3 Canal 5 HD",
-        "channel": "Canal 5 HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Cuauhtémoc",
-    "category": "mexico",
-    "votes": {
-      "team1": 2080,
-      "draw": 600,
-      "team2": 2250
-    }
-  },
   {
     "id": "espn-401879248",
     "slug": "chelsea-vs-manchester-united",
@@ -55,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Manchester United",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
     "utcKickoff": "2026-10-31T12:30Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "90'+3'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -95,8 +55,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Atlético Madrid",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
     "utcKickoff": "2026-10-31T13:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "64'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -135,8 +95,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Cerro Largo",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9902.png",
     "utcKickoff": "2026-10-31T13:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "67'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -175,8 +135,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Monza",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
     "utcKickoff": "2026-10-31T14:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "22'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -526,46 +486,6 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
-    "id": "espn-401882825",
-    "slug": "real-betis-vs-malaga",
-    "tournament": "LaLiga EA Sports",
-    "flag": "img/flags/es.svg",
-    "homeTeam": "Real Betis",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-    "awayTeam": "Málaga",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
-    "utcKickoff": "2026-10-31T17:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Movistar Plus+",
-        "channel": "Movistar Plus+"
-      },
-      {
-        "name": "Fuente 2 DAZN LaLiga",
-        "channel": "DAZN LaLiga"
-      },
-      {
-        "name": "Fuente 3 ESPN Deportes",
-        "channel": "ESPN Deportes"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio La Cartuja",
-    "category": "espana",
-    "votes": {
-      "team1": 2400,
-      "draw": 700,
-      "team2": 1950
-    }
-  },
-  {
     "id": "espn-401878761",
     "slug": "tottenham-hotspur-vs-crystal-palace",
     "tournament": "Premier League",
@@ -603,6 +523,46 @@ window.LIBREGOL_MATCHES = [
       "team1": 2960,
       "draw": 875,
       "team2": 2550
+    }
+  },
+  {
+    "id": "espn-401882825",
+    "slug": "real-betis-vs-malaga",
+    "tournament": "LaLiga EA Sports",
+    "flag": "img/flags/es.svg",
+    "homeTeam": "Real Betis",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+    "awayTeam": "Málaga",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+    "utcKickoff": "2026-10-31T17:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Movistar Plus+",
+        "channel": "Movistar Plus+"
+      },
+      {
+        "name": "Fuente 2 DAZN LaLiga",
+        "channel": "DAZN LaLiga"
+      },
+      {
+        "name": "Fuente 3 ESPN Deportes",
+        "channel": "ESPN Deportes"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio La Cartuja",
+    "category": "espana",
+    "votes": {
+      "team1": 2400,
+      "draw": 700,
+      "team2": 1950
     }
   },
   {
@@ -758,46 +718,6 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
-    "id": "espn-401882822",
-    "slug": "barcelona-vs-alaves",
-    "tournament": "LaLiga EA Sports",
-    "flag": "img/flags/es.svg",
-    "homeTeam": "Barcelona",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-    "awayTeam": "Alavés",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
-    "utcKickoff": "2026-10-31T20:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Movistar Plus+",
-        "channel": "Movistar Plus+"
-      },
-      {
-        "name": "Fuente 2 DAZN LaLiga",
-        "channel": "DAZN LaLiga"
-      },
-      {
-        "name": "Fuente 3 ESPN Deportes",
-        "channel": "ESPN Deportes"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Spotify Camp Nou",
-    "category": "espana",
-    "votes": {
-      "team1": 2320,
-      "draw": 675,
-      "team2": 1950
-    }
-  },
-  {
     "id": "espn-401879250",
     "slug": "aston-villa-vs-fulham",
     "tournament": "Premier League",
@@ -834,6 +754,46 @@ window.LIBREGOL_MATCHES = [
     "votes": {
       "team1": 2480,
       "draw": 725,
+      "team2": 1950
+    }
+  },
+  {
+    "id": "espn-401882822",
+    "slug": "barcelona-vs-alaves",
+    "tournament": "LaLiga EA Sports",
+    "flag": "img/flags/es.svg",
+    "homeTeam": "Barcelona",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "awayTeam": "Alavés",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+    "utcKickoff": "2026-10-31T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Movistar Plus+",
+        "channel": "Movistar Plus+"
+      },
+      {
+        "name": "Fuente 2 DAZN LaLiga",
+        "channel": "DAZN LaLiga"
+      },
+      {
+        "name": "Fuente 3 ESPN Deportes",
+        "channel": "ESPN Deportes"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Spotify Camp Nou",
+    "category": "espana",
+    "votes": {
+      "team1": 2320,
+      "draw": 675,
       "team2": 1950
     }
   },
