@@ -1,90 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-01 04:54:06Z
+ * Last Updated: 2026-11-01 14:48:55Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401876913",
-    "slug": "america-vs-toluca",
-    "tournament": "Liga MX",
-    "flag": "img/flags/mx.svg",
-    "homeTeam": "América",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png",
-    "awayTeam": "Toluca",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/223.png",
-    "utcKickoff": "2026-11-01T03:10Z",
-    "status": "LIVE",
-    "minute": "76'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 TUDN En Vivo",
-        "channel": "TUDN En Vivo"
-      },
-      {
-        "name": "Fuente 2 ViX Premium",
-        "channel": "ViX Premium"
-      },
-      {
-        "name": "Fuente 3 Canal 5 HD",
-        "channel": "Canal 5 HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Banorte",
-    "category": "mexico",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 1950
-    }
-  },
-  {
-    "id": "espn-401875002",
-    "slug": "como-vs-venezia",
-    "tournament": "Serie A",
-    "flag": "img/flags/it.svg",
-    "homeTeam": "Como",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
-    "awayTeam": "Venezia",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
-    "utcKickoff": "2026-11-01T11:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ Premium",
-        "channel": "Disney+ Premium"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Giuseppe Sinigaglia",
-    "category": "europa",
-    "votes": {
-      "team1": 1920,
-      "draw": 550,
-      "team2": 2025
-    }
-  },
   {
     "id": "espn-401882821",
     "slug": "getafe-vs-sevilla",
@@ -95,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Sevilla",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
     "utcKickoff": "2026-11-01T13:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "85'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -135,8 +55,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Defensor Sporting",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1007.png",
     "utcKickoff": "2026-11-01T13:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "90'+1'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -175,8 +95,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Torino",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
     "utcKickoff": "2026-11-01T14:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "45'+2'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -215,8 +135,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Cagliari",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
     "utcKickoff": "2026-11-01T14:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "45'+2'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -358,46 +278,6 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
-    "id": "espn-401886124",
-    "slug": "deportivo-moquegua-vs-los-chankas",
-    "tournament": "Liga 1 MAX",
-    "flag": "img/flags/pe.svg",
-    "homeTeam": "Deportivo Moquegua",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/131654.png",
-    "awayTeam": "Los Chankas",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/22168.png",
-    "utcKickoff": "2026-11-01T16:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Liga 1 MAX HD",
-        "channel": "Liga 1 MAX HD"
-      },
-      {
-        "name": "Fuente 2 Liga 1 Play",
-        "channel": "Liga 1 Play"
-      },
-      {
-        "name": "Fuente 3 Gol Perú HD",
-        "channel": "Gol Perú HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio 25 de Noviembre",
-    "category": "peru",
-    "votes": {
-      "team1": 3040,
-      "draw": 900,
-      "team2": 2325
-    }
-  },
-  {
     "id": "espn-401931237",
     "slug": "boston-river-vs-montevideo-city-torque",
     "tournament": "Primera División Uruguay",
@@ -435,6 +315,46 @@ window.LIBREGOL_MATCHES = [
       "team1": 2560,
       "draw": 750,
       "team2": 3150
+    }
+  },
+  {
+    "id": "espn-401886124",
+    "slug": "deportivo-moquegua-vs-los-chankas",
+    "tournament": "Liga 1 MAX",
+    "flag": "img/flags/pe.svg",
+    "homeTeam": "Deportivo Moquegua",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/131654.png",
+    "awayTeam": "Los Chankas",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/22168.png",
+    "utcKickoff": "2026-11-01T16:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Liga 1 MAX HD",
+        "channel": "Liga 1 MAX HD"
+      },
+      {
+        "name": "Fuente 2 Liga 1 Play",
+        "channel": "Liga 1 Play"
+      },
+      {
+        "name": "Fuente 3 Gol Perú HD",
+        "channel": "Gol Perú HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio 25 de Noviembre",
+    "category": "peru",
+    "votes": {
+      "team1": 3040,
+      "draw": 900,
+      "team2": 2325
     }
   },
   {
