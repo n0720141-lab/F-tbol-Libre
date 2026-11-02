@@ -1,172 +1,20 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-01 20:18:45Z
+ * Last Updated: 2026-11-02 04:55:28Z
  */
 
 window.LIBREGOL_MATCHES = [
   {
-    "id": "espn-401930021",
-    "slug": "the-strongest-vs-gv-san-jose",
-    "tournament": "División Profesional Bolivia",
-    "flag": "img/flags/bo.svg",
-    "homeTeam": "The Strongest",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2687.png",
-    "awayTeam": "GV San José",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/22174.png",
-    "utcKickoff": "2026-11-01T19:00Z",
-    "status": "LIVE",
-    "minute": "53'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Tigo Sports Bolivia",
-        "channel": "Tigo Sports Bolivia"
-      },
-      {
-        "name": "Fuente 2 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Hernando Siles",
-    "category": "bolivia",
-    "votes": {
-      "team1": 2640,
-      "draw": 775,
-      "team2": 2325
-    }
-  },
-  {
-    "id": "espn-401931256",
-    "slug": "danubio-vs-nacional",
-    "tournament": "Primera División Uruguay",
-    "flag": "img/flags/uy.svg",
-    "homeTeam": "Danubio",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4817.png",
-    "awayTeam": "Nacional",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2684.png",
-    "utcKickoff": "2026-11-01T19:30Z",
-    "status": "LIVE",
-    "minute": "45'+2'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 VTV Plus",
-        "channel": "VTV Plus"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Jardines del Hipódromo",
-    "category": "uruguay",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 2100
-    }
-  },
-  {
-    "id": "espn-401874949",
-    "slug": "juventus-vs-napoli",
-    "tournament": "Serie A",
-    "flag": "img/flags/it.svg",
-    "homeTeam": "Juventus",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
-    "awayTeam": "Napoli",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
-    "utcKickoff": "2026-11-01T19:45Z",
-    "status": "LIVE",
-    "minute": "33'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ Premium",
-        "channel": "Disney+ Premium"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Allianz Stadium",
-    "category": "europa",
-    "votes": {
-      "team1": 2240,
-      "draw": 650,
-      "team2": 1950
-    }
-  },
-  {
-    "id": "espn-401882826",
-    "slug": "athletic-club-vs-real-sociedad",
-    "tournament": "LaLiga EA Sports",
-    "flag": "img/flags/es.svg",
-    "homeTeam": "Athletic Club",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
-    "awayTeam": "Real Sociedad",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-    "utcKickoff": "2026-11-01T20:00Z",
-    "status": "LIVE",
-    "minute": "13'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Movistar Plus+",
-        "channel": "Movistar Plus+"
-      },
-      {
-        "name": "Fuente 2 DAZN LaLiga",
-        "channel": "DAZN LaLiga"
-      },
-      {
-        "name": "Fuente 3 ESPN Deportes",
-        "channel": "ESPN Deportes"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "San Mamés",
-    "category": "espana",
-    "votes": {
-      "team1": 2640,
-      "draw": 775,
-      "team2": 2475
-    }
-  },
-  {
-    "id": "espn-401886126",
-    "slug": "atletico-grau-vs-universitario",
+    "id": "espn-401886127",
+    "slug": "sport-huancayo-vs-melgar",
     "tournament": "Liga 1 MAX",
     "flag": "img/flags/pe.svg",
-    "homeTeam": "Atlético Grau",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/20293.png",
-    "awayTeam": "Universitario",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2685.png",
-    "utcKickoff": "2026-11-01T20:30Z",
+    "homeTeam": "Sport Huancayo",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10318.png",
+    "awayTeam": "Melgar",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7312.png",
+    "utcKickoff": "2026-11-02T16:00Z",
     "status": "UPCOMING",
     "minute": "",
     "homeScore": null,
@@ -189,224 +37,196 @@ window.LIBREGOL_MATCHES = [
         "channel": "Directo HD"
       }
     ],
-    "venue": "Estadio Manische",
+    "venue": "Estadio Huancayo",
     "category": "peru",
-    "votes": {
-      "team1": 2640,
-      "draw": 775,
-      "team2": 2475
-    }
-  },
-  {
-    "id": "espn-401877913",
-    "slug": "deportivo-cali-vs-boyaca-chico-fc",
-    "tournament": "Liga BetPlay",
-    "flag": "img/flags/co.svg",
-    "homeTeam": "Deportivo Cali",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2672.png",
-    "awayTeam": "Boyacá Chicó FC",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5480.png",
-    "utcKickoff": "2026-11-01T21:05Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Win Sports+",
-        "channel": "Win Sports+"
-      },
-      {
-        "name": "Fuente 2 Win Sports Online",
-        "channel": "Win Sports Online"
-      },
-      {
-        "name": "Fuente 3 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Deportivo Cali",
-    "category": "colombia",
     "votes": {
       "team1": 2720,
       "draw": 800,
-      "team2": 2625
-    }
-  },
-  {
-    "id": "espn-401930020",
-    "slug": "guabira-vs-bolivar",
-    "tournament": "División Profesional Bolivia",
-    "flag": "img/flags/bo.svg",
-    "homeTeam": "Guabirá",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9497.png",
-    "awayTeam": "Bolívar",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2681.png",
-    "utcKickoff": "2026-11-01T21:15Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Tigo Sports Bolivia",
-        "channel": "Tigo Sports Bolivia"
-      },
-      {
-        "name": "Fuente 2 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Gilberto Parada",
-    "category": "bolivia",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 2025
-    }
-  },
-  {
-    "id": "espn-401841645",
-    "slug": "belgrano-cordoba-vs-barracas-central",
-    "tournament": "Liga Profesional",
-    "flag": "img/flags/ar.svg",
-    "homeTeam": "Belgrano (Córdoba)",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4.png",
-    "awayTeam": "Barracas Central",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10060.png",
-    "utcKickoff": "2026-11-01T21:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN Premium HD",
-        "channel": "ESPN Premium HD"
-      },
-      {
-        "name": "Fuente 2 TNT Sports HD",
-        "channel": "TNT Sports HD"
-      },
-      {
-        "name": "Fuente 3 TyC Sports",
-        "channel": "TyC Sports"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "El Gigante de Alberdi",
-    "category": "argentina",
-    "votes": {
-      "team1": 3040,
-      "draw": 900,
-      "team2": 2700
-    }
-  },
-  {
-    "id": "espn-401841650",
-    "slug": "newell-s-old-boys-vs-union-santa-fe",
-    "tournament": "Liga Profesional",
-    "flag": "img/flags/ar.svg",
-    "homeTeam": "Newell's Old Boys",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
-    "awayTeam": "Unión (Santa Fe)",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
-    "utcKickoff": "2026-11-01T21:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN Premium HD",
-        "channel": "ESPN Premium HD"
-      },
-      {
-        "name": "Fuente 2 TNT Sports HD",
-        "channel": "TNT Sports HD"
-      },
-      {
-        "name": "Fuente 3 TyC Sports",
-        "channel": "TyC Sports"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Marcelo Bielsa",
-    "category": "argentina",
-    "votes": {
-      "team1": 2960,
-      "draw": 875,
-      "team2": 2700
-    }
-  },
-  {
-    "id": "espn-401876912",
-    "slug": "santos-vs-necaxa",
-    "tournament": "Liga MX",
-    "flag": "img/flags/mx.svg",
-    "homeTeam": "Santos",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/225.png",
-    "awayTeam": "Necaxa",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/229.png",
-    "utcKickoff": "2026-11-01T23:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 TUDN En Vivo",
-        "channel": "TUDN En Vivo"
-      },
-      {
-        "name": "Fuente 2 ViX Premium",
-        "channel": "ViX Premium"
-      },
-      {
-        "name": "Fuente 3 Canal 5 HD",
-        "channel": "Canal 5 HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Corona",
-    "category": "mexico",
-    "votes": {
-      "team1": 2080,
-      "draw": 600,
       "team2": 1950
     }
   },
   {
-    "id": "espn-401931255",
-    "slug": "liverpool-vs-juventud",
-    "tournament": "Primera División Uruguay",
-    "flag": "img/flags/uy.svg",
-    "homeTeam": "Liverpool",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5492.png",
-    "awayTeam": "Juventud",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/8416.png",
-    "utcKickoff": "2026-11-01T23:00Z",
+    "id": "espn-401874963",
+    "slug": "sassuolo-vs-fiorentina",
+    "tournament": "Serie A",
+    "flag": "img/flags/it.svg",
+    "homeTeam": "Sassuolo",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
+    "awayTeam": "Fiorentina",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
+    "utcKickoff": "2026-11-02T17:30Z",
     "status": "UPCOMING",
     "minute": "",
     "homeScore": null,
     "awayScore": null,
     "channels": [
       {
-        "name": "Fuente 1 VTV Plus",
-        "channel": "VTV Plus"
+        "name": "Fuente 1 ESPN 1 HD",
+        "channel": "ESPN 1 HD"
       },
       {
         "name": "Fuente 2 Star+ HD",
         "channel": "Star+ HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ Premium",
+        "channel": "Disney+ Premium"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Mapei Stadium",
+    "category": "europa",
+    "votes": {
+      "team1": 2240,
+      "draw": 650,
+      "team2": 2250
+    }
+  },
+  {
+    "id": "espn-401886147",
+    "slug": "utc-vs-deportivo-garcilaso",
+    "tournament": "Liga 1 MAX",
+    "flag": "img/flags/pe.svg",
+    "homeTeam": "UTC",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10122.png",
+    "awayTeam": "Deportivo Garcilaso",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21819.png",
+    "utcKickoff": "2026-11-02T18:15Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Liga 1 MAX HD",
+        "channel": "Liga 1 MAX HD"
+      },
+      {
+        "name": "Fuente 2 Liga 1 Play",
+        "channel": "Liga 1 Play"
+      },
+      {
+        "name": "Fuente 3 Gol Perú HD",
+        "channel": "Gol Perú HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Héroes de San Ramón",
+    "category": "peru",
+    "votes": {
+      "team1": 1840,
+      "draw": 525,
+      "team2": 2925
+    }
+  },
+  {
+    "id": "espn-401874971",
+    "slug": "atalanta-vs-parma",
+    "tournament": "Serie A",
+    "flag": "img/flags/it.svg",
+    "homeTeam": "Atalanta",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+    "awayTeam": "Parma",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
+    "utcKickoff": "2026-11-02T19:45Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 1 HD",
+        "channel": "ESPN 1 HD"
+      },
+      {
+        "name": "Fuente 2 Star+ HD",
+        "channel": "Star+ HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ Premium",
+        "channel": "Disney+ Premium"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "New Balance Arena",
+    "category": "europa",
+    "votes": {
+      "team1": 2240,
+      "draw": 650,
+      "team2": 1875
+    }
+  },
+  {
+    "id": "espn-401882824",
+    "slug": "deportivo-vs-osasuna",
+    "tournament": "LaLiga EA Sports",
+    "flag": "img/flags/es.svg",
+    "homeTeam": "Deportivo",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+    "awayTeam": "Osasuna",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+    "utcKickoff": "2026-11-02T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Movistar Plus+",
+        "channel": "Movistar Plus+"
+      },
+      {
+        "name": "Fuente 2 DAZN LaLiga",
+        "channel": "DAZN LaLiga"
+      },
+      {
+        "name": "Fuente 3 ESPN Deportes",
+        "channel": "ESPN Deportes"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Riazor",
+    "category": "espana",
+    "votes": {
+      "team1": 2320,
+      "draw": 675,
+      "team2": 2025
+    }
+  },
+  {
+    "id": "espn-401878762",
+    "slug": "newcastle-united-vs-everton",
+    "tournament": "Premier League",
+    "flag": "img/flags/england.svg",
+    "homeTeam": "Newcastle United",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+    "awayTeam": "Everton",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+    "utcKickoff": "2026-11-02T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 1 HD",
+        "channel": "ESPN 1 HD"
+      },
+      {
+        "name": "Fuente 2 DAZN 1",
+        "channel": "DAZN 1"
       },
       {
         "name": "Fuente 3 Disney+ HD",
@@ -417,24 +237,100 @@ window.LIBREGOL_MATCHES = [
         "channel": "Directo HD"
       }
     ],
-    "venue": "Parque Alfredo Víctor Viera",
-    "category": "uruguay",
+    "venue": "St. James' Park",
+    "category": "europa",
     "votes": {
-      "team1": 2320,
-      "draw": 675,
-      "team2": 2100
+      "team1": 2880,
+      "draw": 850,
+      "team2": 2025
     }
   },
   {
-    "id": "espn-401878061",
-    "slug": "independiente-medellin-vs-alianza-fc",
+    "id": "espn-401886125",
+    "slug": "sporting-cristal-vs-fc-cajamarca",
+    "tournament": "Liga 1 MAX",
+    "flag": "img/flags/pe.svg",
+    "homeTeam": "Sporting Cristal",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2673.png",
+    "awayTeam": "FC Cajamarca",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/131655.png",
+    "utcKickoff": "2026-11-02T20:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Liga 1 MAX HD",
+        "channel": "Liga 1 MAX HD"
+      },
+      {
+        "name": "Fuente 2 Liga 1 Play",
+        "channel": "Liga 1 Play"
+      },
+      {
+        "name": "Fuente 3 Gol Perú HD",
+        "channel": "Gol Perú HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Alberto Gallardo",
+    "category": "peru",
+    "votes": {
+      "team1": 2880,
+      "draw": 850,
+      "team2": 2400
+    }
+  },
+  {
+    "id": "espn-401850678",
+    "slug": "deportes-limache-vs-audax-italiano",
+    "tournament": "Primera División Chile",
+    "flag": "img/flags/cl.svg",
+    "homeTeam": "Deportes Limache",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/19195.png",
+    "awayTeam": "Audax Italiano",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4138.png",
+    "utcKickoff": "2026-11-02T21:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 TNT Sports Chile",
+        "channel": "TNT Sports Chile"
+      },
+      {
+        "name": "Fuente 2 Estadio TNT",
+        "channel": "Estadio TNT"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Municipal Nicolás Chahuán",
+    "category": "chile",
+    "votes": {
+      "team1": 2880,
+      "draw": 850,
+      "team2": 2550
+    }
+  },
+  {
+    "id": "espn-401877772",
+    "slug": "aguilas-doradas-vs-fortaleza-ceif",
     "tournament": "Liga BetPlay",
     "flag": "img/flags/co.svg",
-    "homeTeam": "Independiente Medellín",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
-    "awayTeam": "Alianza FC",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9761.png",
-    "utcKickoff": "2026-11-01T23:10Z",
+    "homeTeam": "Águilas Doradas",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9762.png",
+    "awayTeam": "Fortaleza CEIF",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4928.png",
+    "utcKickoff": "2026-11-02T21:05Z",
     "status": "UPCOMING",
     "minute": "",
     "homeScore": null,
@@ -456,21 +352,21 @@ window.LIBREGOL_MATCHES = [
     "venue": "Atanasio Girardot",
     "category": "colombia",
     "votes": {
-      "team1": 3360,
-      "draw": 1000,
-      "team2": 2250
+      "team1": 2800,
+      "draw": 825,
+      "team2": 2550
     }
   },
   {
-    "id": "espn-401930011",
-    "slug": "universitario-de-vinto-vs-always-ready",
+    "id": "espn-401930019",
+    "slug": "real-tomayapo-vs-blooming",
     "tournament": "División Profesional Bolivia",
     "flag": "img/flags/bo.svg",
-    "homeTeam": "Universitario de Vinto",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21379.png",
-    "awayTeam": "Always Ready",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/19425.png",
-    "utcKickoff": "2026-11-01T23:30Z",
+    "homeTeam": "Real Tomayapo",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/20890.png",
+    "awayTeam": "Blooming",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6047.png",
+    "utcKickoff": "2026-11-02T21:15Z",
     "status": "UPCOMING",
     "minute": "",
     "homeScore": null,
@@ -485,24 +381,24 @@ window.LIBREGOL_MATCHES = [
         "channel": "Directo HD"
       }
     ],
-    "venue": "Estadio Félix Capriles",
+    "venue": "Estadio IV Centenário",
     "category": "bolivia",
     "votes": {
-      "team1": 3360,
-      "draw": 1000,
-      "team2": 2400
+      "team1": 2640,
+      "draw": 775,
+      "team2": 2100
     }
   },
   {
-    "id": "espn-401841651",
-    "slug": "lanus-vs-gimnasia-mendoza",
+    "id": "espn-401841657",
+    "slug": "defensa-y-justicia-vs-independiente",
     "tournament": "Liga Profesional",
     "flag": "img/flags/ar.svg",
-    "homeTeam": "Lanús",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
-    "awayTeam": "Gimnasia (Mendoza)",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
-    "utcKickoff": "2026-11-01T23:45Z",
+    "homeTeam": "Defensa y Justicia",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png",
+    "awayTeam": "Independiente",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
+    "utcKickoff": "2026-11-02T22:00Z",
     "status": "UPCOMING",
     "minute": "",
     "homeScore": null,
@@ -525,52 +421,52 @@ window.LIBREGOL_MATCHES = [
         "channel": "Directo HD"
       }
     ],
-    "venue": "Ciudad de Lanús",
+    "venue": "Norberto Tomaghello",
     "category": "argentina",
     "votes": {
-      "team1": 2000,
-      "draw": 575,
-      "team2": 2850
+      "team1": 3040,
+      "draw": 900,
+      "team2": 2475
     }
   },
   {
-    "id": "espn-401876911",
-    "slug": "cruz-azul-vs-leon",
-    "tournament": "Liga MX",
-    "flag": "img/flags/mx.svg",
-    "homeTeam": "Cruz Azul",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/218.png",
-    "awayTeam": "León",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/228.png",
-    "utcKickoff": "2026-11-02T01:10Z",
+    "id": "espn-401841649",
+    "slug": "platense-vs-central-cordoba-santiago-del-estero",
+    "tournament": "Liga Profesional",
+    "flag": "img/flags/ar.svg",
+    "homeTeam": "Platense",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
+    "awayTeam": "Central Córdoba (Santiago del Estero)",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11989.png",
+    "utcKickoff": "2026-11-02T22:00Z",
     "status": "UPCOMING",
     "minute": "",
     "homeScore": null,
     "awayScore": null,
     "channels": [
       {
-        "name": "Fuente 1 TUDN En Vivo",
-        "channel": "TUDN En Vivo"
+        "name": "Fuente 1 ESPN Premium HD",
+        "channel": "ESPN Premium HD"
       },
       {
-        "name": "Fuente 2 ViX Premium",
-        "channel": "ViX Premium"
+        "name": "Fuente 2 TNT Sports HD",
+        "channel": "TNT Sports HD"
       },
       {
-        "name": "Fuente 3 Canal 5 HD",
-        "channel": "Canal 5 HD"
+        "name": "Fuente 3 TyC Sports",
+        "channel": "TyC Sports"
       },
       {
         "name": "Fuente 4 Directo HD",
         "channel": "Directo HD"
       }
     ],
-    "venue": "Estadio Banorte",
-    "category": "mexico",
+    "venue": "Ciudad de Vicente López",
+    "category": "argentina",
     "votes": {
-      "team1": 2320,
-      "draw": 675,
-      "team2": 1800
+      "team1": 2240,
+      "draw": 650,
+      "team2": 4275
     }
   },
   {
@@ -611,6 +507,198 @@ window.LIBREGOL_MATCHES = [
       "team1": 3120,
       "draw": 925,
       "team2": 1950
+    }
+  },
+  {
+    "id": "espn-401931236",
+    "slug": "albion-fc-vs-deportivo-maldonado",
+    "tournament": "Primera División Uruguay",
+    "flag": "img/flags/uy.svg",
+    "homeTeam": "Albion FC",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21403.png",
+    "awayTeam": "Deportivo Maldonado",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10000.png",
+    "utcKickoff": "2026-11-02T23:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 VTV Plus",
+        "channel": "VTV Plus"
+      },
+      {
+        "name": "Fuente 2 Star+ HD",
+        "channel": "Star+ HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Luis Franzini",
+    "category": "uruguay",
+    "votes": {
+      "team1": 2320,
+      "draw": 675,
+      "team2": 2925
+    }
+  },
+  {
+    "id": "espn-401850679",
+    "slug": "deportes-concepcion-vs-palestino",
+    "tournament": "Primera División Chile",
+    "flag": "img/flags/cl.svg",
+    "homeTeam": "Deportes Concepcion",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/8110.png",
+    "awayTeam": "Palestino",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4422.png",
+    "utcKickoff": "2026-11-02T23:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 TNT Sports Chile",
+        "channel": "TNT Sports Chile"
+      },
+      {
+        "name": "Fuente 2 Estadio TNT",
+        "channel": "Estadio TNT"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
+    "category": "chile",
+    "votes": {
+      "team1": 3120,
+      "draw": 925,
+      "team2": 2175
+    }
+  },
+  {
+    "id": "espn-401841644",
+    "slug": "atletico-tucuman-vs-argentinos-juniors",
+    "tournament": "Liga Profesional",
+    "flag": "img/flags/ar.svg",
+    "homeTeam": "Atlético Tucumán",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9785.png",
+    "awayTeam": "Argentinos Juniors",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3.png",
+    "utcKickoff": "2026-11-03T00:15Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN Premium HD",
+        "channel": "ESPN Premium HD"
+      },
+      {
+        "name": "Fuente 2 TNT Sports HD",
+        "channel": "TNT Sports HD"
+      },
+      {
+        "name": "Fuente 3 TyC Sports",
+        "channel": "TyC Sports"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Monumental Presidente José Fierro",
+    "category": "argentina",
+    "votes": {
+      "team1": 2880,
+      "draw": 850,
+      "team2": 2850
+    }
+  },
+  {
+    "id": "espn-401841652",
+    "slug": "independiente-rivadavia-vs-banfield",
+    "tournament": "Liga Profesional",
+    "flag": "img/flags/ar.svg",
+    "homeTeam": "Independiente Rivadavia",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
+    "awayTeam": "Banfield",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/235.png",
+    "utcKickoff": "2026-11-03T00:15Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN Premium HD",
+        "channel": "ESPN Premium HD"
+      },
+      {
+        "name": "Fuente 2 TNT Sports HD",
+        "channel": "TNT Sports HD"
+      },
+      {
+        "name": "Fuente 3 TyC Sports",
+        "channel": "TyC Sports"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Bautista Gargantini",
+    "category": "argentina",
+    "votes": {
+      "team1": 3440,
+      "draw": 1025,
+      "team2": 2100
+    }
+  },
+  {
+    "id": "espn-401877914",
+    "slug": "atletico-bucaramanga-vs-atletico-nacional",
+    "tournament": "Liga BetPlay",
+    "flag": "img/flags/co.svg",
+    "homeTeam": "Atlético Bucaramanga",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6137.png",
+    "awayTeam": "Atlético Nacional",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5264.png",
+    "utcKickoff": "2026-11-03T01:15Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Win Sports+",
+        "channel": "Win Sports+"
+      },
+      {
+        "name": "Fuente 2 Win Sports Online",
+        "channel": "Win Sports Online"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Alfonso López",
+    "category": "colombia",
+    "votes": {
+      "team1": 3200,
+      "draw": 950,
+      "team2": 2775
     }
   },
   {
