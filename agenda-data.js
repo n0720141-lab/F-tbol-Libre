@@ -1,7 +1,7 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-02 04:55:28Z
+ * Last Updated: 2026-11-02 17:56:50Z
  */
 
 window.LIBREGOL_MATCHES = [
@@ -15,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Melgar",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7312.png",
     "utcKickoff": "2026-11-02T16:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "90'+10'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -55,8 +55,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Fiorentina",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
     "utcKickoff": "2026-11-02T17:30Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "26'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
