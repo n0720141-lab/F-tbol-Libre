@@ -1,7 +1,7 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-03 11:42:20Z
+ * Last Updated: 2026-11-03 19:13:16Z
  */
 
 window.LIBREGOL_MATCHES = [
@@ -15,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "VfB Stuttgart",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
     "utcKickoff": "2026-11-03T17:45Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "67'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -55,8 +55,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Sporting CP",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
     "utcKickoff": "2026-11-03T17:45Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "70'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -794,46 +794,6 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
-    "id": "espn-401882809",
-    "slug": "sevilla-vs-alaves",
-    "tournament": "LaLiga EA Sports",
-    "flag": "img/flags/es.svg",
-    "homeTeam": "Sevilla",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-    "awayTeam": "Alavés",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
-    "utcKickoff": "2026-11-06T20:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Movistar Plus+",
-        "channel": "Movistar Plus+"
-      },
-      {
-        "name": "Fuente 2 DAZN LaLiga",
-        "channel": "DAZN LaLiga"
-      },
-      {
-        "name": "Fuente 3 ESPN Deportes",
-        "channel": "ESPN Deportes"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Ramón Sánchez Pizjuán Stadium",
-    "category": "espana",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 1950
-    }
-  },
-  {
     "id": "espn-401879242",
     "slug": "everton-vs-coventry-city",
     "tournament": "Premier League",
@@ -871,6 +831,46 @@ window.LIBREGOL_MATCHES = [
       "team1": 2160,
       "draw": 625,
       "team2": 2475
+    }
+  },
+  {
+    "id": "espn-401882809",
+    "slug": "sevilla-vs-alaves",
+    "tournament": "LaLiga EA Sports",
+    "flag": "img/flags/es.svg",
+    "homeTeam": "Sevilla",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+    "awayTeam": "Alavés",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+    "utcKickoff": "2026-11-06T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Movistar Plus+",
+        "channel": "Movistar Plus+"
+      },
+      {
+        "name": "Fuente 2 DAZN LaLiga",
+        "channel": "DAZN LaLiga"
+      },
+      {
+        "name": "Fuente 3 ESPN Deportes",
+        "channel": "ESPN Deportes"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Ramón Sánchez Pizjuán Stadium",
+    "category": "espana",
+    "votes": {
+      "team1": 2160,
+      "draw": 625,
+      "team2": 1950
     }
   },
   {
