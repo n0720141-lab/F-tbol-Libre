@@ -1,50 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-04 11:55:12Z
+ * Last Updated: 2026-11-04 19:29:02Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401915551",
-    "slug": "stade-rennais-vs-olympiacos",
-    "tournament": "UEFA Europa League",
-    "flag": "img/flags/europa.svg",
-    "homeTeam": "Stade Rennais",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
-    "awayTeam": "Olympiacos",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
-    "utcKickoff": "2026-11-04T15:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 2 HD",
-        "channel": "ESPN 2 HD"
-      },
-      {
-        "name": "Fuente 2 Fox Sports 2 HD",
-        "channel": "Fox Sports 2 HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Roazhon Park",
-    "category": "europa",
-    "votes": {
-      "team1": 2640,
-      "draw": 775,
-      "team2": 2250
-    }
-  },
   {
     "id": "espn-401915383",
     "slug": "aek-athens-vs-real-madrid",
@@ -55,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Real Madrid",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
     "utcKickoff": "2026-11-04T17:45Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "84'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -95,8 +55,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Liverpool",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
     "utcKickoff": "2026-11-04T17:45Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "83'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -798,46 +758,6 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
-    "id": "espn-401879242",
-    "slug": "everton-vs-coventry-city",
-    "tournament": "Premier League",
-    "flag": "img/flags/england.svg",
-    "homeTeam": "Everton",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
-    "awayTeam": "Coventry City",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
-    "utcKickoff": "2026-11-06T20:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 DAZN 1",
-        "channel": "DAZN 1"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Hill Dickinson Stadium",
-    "category": "europa",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 2475
-    }
-  },
-  {
     "id": "espn-401882809",
     "slug": "sevilla-vs-alaves",
     "tournament": "LaLiga EA Sports",
@@ -875,6 +795,46 @@ window.LIBREGOL_MATCHES = [
       "team1": 2160,
       "draw": 625,
       "team2": 1950
+    }
+  },
+  {
+    "id": "espn-401879242",
+    "slug": "everton-vs-coventry-city",
+    "tournament": "Premier League",
+    "flag": "img/flags/england.svg",
+    "homeTeam": "Everton",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+    "awayTeam": "Coventry City",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+    "utcKickoff": "2026-11-06T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 1 HD",
+        "channel": "ESPN 1 HD"
+      },
+      {
+        "name": "Fuente 2 DAZN 1",
+        "channel": "DAZN 1"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Hill Dickinson Stadium",
+    "category": "europa",
+    "votes": {
+      "team1": 2160,
+      "draw": 625,
+      "team2": 2475
     }
   },
   {
