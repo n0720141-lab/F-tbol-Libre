@@ -1,166 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-05 00:45:54Z
+ * Last Updated: 2026-11-05 11:57:26Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401841305",
-    "slug": "botafogo-vs-atletico-mg",
-    "tournament": "Brasileirão",
-    "flag": "img/flags/br.svg",
-    "homeTeam": "Botafogo",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
-    "awayTeam": "Atlético-MG",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
-    "utcKickoff": "2026-11-05T00:30Z",
-    "status": "LIVE",
-    "minute": "16'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Premiere HD",
-        "channel": "Premiere HD"
-      },
-      {
-        "name": "Fuente 2 Globo",
-        "channel": "Globo"
-      },
-      {
-        "name": "Fuente 3 SporTV",
-        "channel": "SporTV"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Joao Havelange Stadium",
-    "category": "brasil",
-    "votes": {
-      "team1": 2240,
-      "draw": 650,
-      "team2": 2325
-    }
-  },
-  {
-    "id": "espn-401841298",
-    "slug": "sao-paulo-vs-corinthians",
-    "tournament": "Brasileirão",
-    "flag": "img/flags/br.svg",
-    "homeTeam": "São Paulo",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
-    "awayTeam": "Corinthians",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
-    "utcKickoff": "2026-11-05T00:30Z",
-    "status": "LIVE",
-    "minute": "14'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Premiere HD",
-        "channel": "Premiere HD"
-      },
-      {
-        "name": "Fuente 2 Globo",
-        "channel": "Globo"
-      },
-      {
-        "name": "Fuente 3 SporTV",
-        "channel": "SporTV"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
-    "category": "brasil",
-    "votes": {
-      "team1": 2320,
-      "draw": 675,
-      "team2": 2325
-    }
-  },
-  {
-    "id": "espn-401877910",
-    "slug": "millonarios-vs-america-de-cali",
-    "tournament": "Liga BetPlay",
-    "flag": "img/flags/co.svg",
-    "homeTeam": "Millonarios",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5484.png",
-    "awayTeam": "América de Cali",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/8109.png",
-    "utcKickoff": "2026-11-05T01:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Win Sports+",
-        "channel": "Win Sports+"
-      },
-      {
-        "name": "Fuente 2 Win Sports Online",
-        "channel": "Win Sports Online"
-      },
-      {
-        "name": "Fuente 3 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Nemesio Camacho El Campín",
-    "category": "colombia",
-    "votes": {
-      "team1": 2480,
-      "draw": 725,
-      "team2": 2625
-    }
-  },
-  {
-    "id": "espn-401886151",
-    "slug": "universitario-vs-sport-boys",
-    "tournament": "Liga 1 MAX",
-    "flag": "img/flags/pe.svg",
-    "homeTeam": "Universitario",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2685.png",
-    "awayTeam": "Sport Boys",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5570.png",
-    "utcKickoff": "2026-11-05T01:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Liga 1 MAX HD",
-        "channel": "Liga 1 MAX HD"
-      },
-      {
-        "name": "Fuente 2 Liga 1 Play",
-        "channel": "Liga 1 Play"
-      },
-      {
-        "name": "Fuente 3 Gol Perú HD",
-        "channel": "Gol Perú HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Monumental de Lima",
-    "category": "peru",
-    "votes": {
-      "team1": 2640,
-      "draw": 775,
-      "team2": 2250
-    }
-  },
   {
     "id": "espn-401915534",
     "slug": "ac-milan-vs-ferencvaros",
@@ -1122,6 +966,82 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
+    "id": "espn-401886145",
+    "slug": "atletico-grau-vs-cusco-fc",
+    "tournament": "Liga 1 MAX",
+    "flag": "img/flags/pe.svg",
+    "homeTeam": "Atlético Grau",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/20293.png",
+    "awayTeam": "Cusco FC",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11995.png",
+    "utcKickoff": "2026-11-06T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Liga 1 MAX HD",
+        "channel": "Liga 1 MAX HD"
+      },
+      {
+        "name": "Fuente 2 Liga 1 Play",
+        "channel": "Liga 1 Play"
+      },
+      {
+        "name": "Fuente 3 Gol Perú HD",
+        "channel": "Gol Perú HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Municipal Ambrosio Maco Arroyo",
+    "category": "peru",
+    "votes": {
+      "team1": 2640,
+      "draw": 775,
+      "team2": 2100
+    }
+  },
+  {
+    "id": "espn-401878064",
+    "slug": "boyaca-chico-fc-vs-internacional-de-bogota",
+    "tournament": "Liga BetPlay",
+    "flag": "img/flags/co.svg",
+    "homeTeam": "Boyacá Chicó FC",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5480.png",
+    "awayTeam": "Internacional de Bogotá",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7445.png",
+    "utcKickoff": "2026-11-06T23:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Win Sports+",
+        "channel": "Win Sports+"
+      },
+      {
+        "name": "Fuente 2 Win Sports Online",
+        "channel": "Win Sports Online"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "La Independencia",
+    "category": "colombia",
+    "votes": {
+      "team1": 2800,
+      "draw": 825,
+      "team2": 3225
+    }
+  },
+  {
     "id": "espn-401930010",
     "slug": "independiente-petrolero-vs-real-tomayapo",
     "tournament": "División Profesional Bolivia",
@@ -1151,6 +1071,42 @@ window.LIBREGOL_MATCHES = [
       "team1": 3440,
       "draw": 1025,
       "team2": 2475
+    }
+  },
+  {
+    "id": "espn-401877916",
+    "slug": "fortaleza-ceif-vs-independiente-medellin",
+    "tournament": "Liga BetPlay",
+    "flag": "img/flags/co.svg",
+    "homeTeam": "Fortaleza CEIF",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4928.png",
+    "awayTeam": "Independiente Medellín",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
+    "utcKickoff": "2026-11-07T01:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Win Sports+",
+        "channel": "Win Sports+"
+      },
+      {
+        "name": "Fuente 2 Win Sports Online",
+        "channel": "Win Sports Online"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Metropolitano de Techo",
+    "category": "colombia",
+    "votes": {
+      "team1": 2720,
+      "draw": 800,
+      "team2": 3150
     }
   },
   {
@@ -1343,42 +1299,6 @@ window.LIBREGOL_MATCHES = [
       "team1": 2400,
       "draw": 700,
       "team2": 2925
-    }
-  },
-  {
-    "id": "espn-401877959",
-    "slug": "cucuta-deportivo-vs-independiente-santa-fe",
-    "tournament": "Liga BetPlay",
-    "flag": "img/flags/co.svg",
-    "homeTeam": "Cúcuta Deportivo",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6101.png",
-    "awayTeam": "Independiente Santa Fe",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5488.png",
-    "utcKickoff": "2026-11-04T23:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Win Sports+",
-        "channel": "Win Sports+"
-      },
-      {
-        "name": "Fuente 2 Win Sports Online",
-        "channel": "Win Sports Online"
-      },
-      {
-        "name": "Fuente 3 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "General Santander",
-    "category": "colombia",
-    "votes": {
-      "team1": 2880,
-      "draw": 850,
-      "team2": 3150
     }
   }
 ];
