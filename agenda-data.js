@@ -1,7 +1,7 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-06 11:53:29Z
+ * Last Updated: 2026-11-06 19:00:13Z
  */
 
 window.LIBREGOL_MATCHES = [
@@ -15,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Racing Club",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/15.png",
     "utcKickoff": "2026-11-06T18:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "45'+5'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -86,46 +86,6 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
-    "id": "espn-401879242",
-    "slug": "everton-vs-coventry-city",
-    "tournament": "Premier League",
-    "flag": "img/flags/england.svg",
-    "homeTeam": "Everton",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
-    "awayTeam": "Coventry City",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
-    "utcKickoff": "2026-11-06T20:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 DAZN 1",
-        "channel": "DAZN 1"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Hill Dickinson Stadium",
-    "category": "europa",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 2475
-    }
-  },
-  {
     "id": "espn-401882809",
     "slug": "sevilla-vs-alaves",
     "tournament": "LaLiga EA Sports",
@@ -163,6 +123,46 @@ window.LIBREGOL_MATCHES = [
       "team1": 2160,
       "draw": 625,
       "team2": 1950
+    }
+  },
+  {
+    "id": "espn-401879242",
+    "slug": "everton-vs-coventry-city",
+    "tournament": "Premier League",
+    "flag": "img/flags/england.svg",
+    "homeTeam": "Everton",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+    "awayTeam": "Coventry City",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+    "utcKickoff": "2026-11-06T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 1 HD",
+        "channel": "ESPN 1 HD"
+      },
+      {
+        "name": "Fuente 2 DAZN 1",
+        "channel": "DAZN 1"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Hill Dickinson Stadium",
+    "category": "europa",
+    "votes": {
+      "team1": 2160,
+      "draw": 625,
+      "team2": 2475
     }
   },
   {
@@ -326,6 +326,42 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
+    "id": "espn-401878064",
+    "slug": "boyaca-chico-fc-vs-internacional-de-bogota",
+    "tournament": "Liga BetPlay",
+    "flag": "img/flags/co.svg",
+    "homeTeam": "Boyacá Chicó FC",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5480.png",
+    "awayTeam": "Internacional de Bogotá",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7445.png",
+    "utcKickoff": "2026-11-06T23:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Win Sports+",
+        "channel": "Win Sports+"
+      },
+      {
+        "name": "Fuente 2 Win Sports Online",
+        "channel": "Win Sports Online"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "La Independencia",
+    "category": "colombia",
+    "votes": {
+      "team1": 2800,
+      "draw": 825,
+      "team2": 3225
+    }
+  },
+  {
     "id": "espn-401841302",
     "slug": "vitoria-vs-fluminense",
     "tournament": "Brasileirão",
@@ -363,42 +399,6 @@ window.LIBREGOL_MATCHES = [
       "team1": 2160,
       "draw": 625,
       "team2": 2250
-    }
-  },
-  {
-    "id": "espn-401878064",
-    "slug": "boyaca-chico-fc-vs-internacional-de-bogota",
-    "tournament": "Liga BetPlay",
-    "flag": "img/flags/co.svg",
-    "homeTeam": "Boyacá Chicó FC",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5480.png",
-    "awayTeam": "Internacional de Bogotá",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7445.png",
-    "utcKickoff": "2026-11-06T23:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Win Sports+",
-        "channel": "Win Sports+"
-      },
-      {
-        "name": "Fuente 2 Win Sports Online",
-        "channel": "Win Sports Online"
-      },
-      {
-        "name": "Fuente 3 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "La Independencia",
-    "category": "colombia",
-    "votes": {
-      "team1": 2800,
-      "draw": 825,
-      "team2": 3225
     }
   },
   {
@@ -514,6 +514,42 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
+    "id": "espn-401877916",
+    "slug": "fortaleza-ceif-vs-independiente-medellin",
+    "tournament": "Liga BetPlay",
+    "flag": "img/flags/co.svg",
+    "homeTeam": "Fortaleza CEIF",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4928.png",
+    "awayTeam": "Independiente Medellín",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
+    "utcKickoff": "2026-11-07T01:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Win Sports+",
+        "channel": "Win Sports+"
+      },
+      {
+        "name": "Fuente 2 Win Sports Online",
+        "channel": "Win Sports Online"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Metropolitano de Techo",
+    "category": "colombia",
+    "votes": {
+      "team1": 2720,
+      "draw": 800,
+      "team2": 3150
+    }
+  },
+  {
     "id": "espn-401876910",
     "slug": "atletico-de-san-luis-vs-fc-juarez",
     "tournament": "Liga MX",
@@ -591,42 +627,6 @@ window.LIBREGOL_MATCHES = [
       "team1": 2080,
       "draw": 600,
       "team2": 2025
-    }
-  },
-  {
-    "id": "espn-401877916",
-    "slug": "fortaleza-ceif-vs-independiente-medellin",
-    "tournament": "Liga BetPlay",
-    "flag": "img/flags/co.svg",
-    "homeTeam": "Fortaleza CEIF",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4928.png",
-    "awayTeam": "Independiente Medellín",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
-    "utcKickoff": "2026-11-07T01:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Win Sports+",
-        "channel": "Win Sports+"
-      },
-      {
-        "name": "Fuente 2 Win Sports Online",
-        "channel": "Win Sports Online"
-      },
-      {
-        "name": "Fuente 3 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Metropolitano de Techo",
-    "category": "colombia",
-    "votes": {
-      "team1": 2720,
-      "draw": 800,
-      "team2": 3150
     }
   },
   {
