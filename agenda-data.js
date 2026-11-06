@@ -1,210 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-06 19:00:13Z
+ * Last Updated: 2026-11-06 23:58:49Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401841670",
-    "slug": "barracas-central-vs-racing-club",
-    "tournament": "Liga Profesional",
-    "flag": "img/flags/ar.svg",
-    "homeTeam": "Barracas Central",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10060.png",
-    "awayTeam": "Racing Club",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/15.png",
-    "utcKickoff": "2026-11-06T18:00Z",
-    "status": "LIVE",
-    "minute": "45'+5'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN Premium HD",
-        "channel": "ESPN Premium HD"
-      },
-      {
-        "name": "Fuente 2 TNT Sports HD",
-        "channel": "TNT Sports HD"
-      },
-      {
-        "name": "Fuente 3 TyC Sports",
-        "channel": "TyC Sports"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Claudio Chiqui Tapia",
-    "category": "argentina",
-    "votes": {
-      "team1": 2880,
-      "draw": 850,
-      "team2": 2325
-    }
-  },
-  {
-    "id": "espn-401874815",
-    "slug": "venezia-vs-udinese",
-    "tournament": "Serie A",
-    "flag": "img/flags/it.svg",
-    "homeTeam": "Venezia",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
-    "awayTeam": "Udinese",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
-    "utcKickoff": "2026-11-06T19:45Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ Premium",
-        "channel": "Disney+ Premium"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Stadio Pier Luigi Penzo",
-    "category": "europa",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 2025
-    }
-  },
-  {
-    "id": "espn-401882809",
-    "slug": "sevilla-vs-alaves",
-    "tournament": "LaLiga EA Sports",
-    "flag": "img/flags/es.svg",
-    "homeTeam": "Sevilla",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-    "awayTeam": "Alavés",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
-    "utcKickoff": "2026-11-06T20:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Movistar Plus+",
-        "channel": "Movistar Plus+"
-      },
-      {
-        "name": "Fuente 2 DAZN LaLiga",
-        "channel": "DAZN LaLiga"
-      },
-      {
-        "name": "Fuente 3 ESPN Deportes",
-        "channel": "ESPN Deportes"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Ramón Sánchez Pizjuán Stadium",
-    "category": "espana",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 1950
-    }
-  },
-  {
-    "id": "espn-401879242",
-    "slug": "everton-vs-coventry-city",
-    "tournament": "Premier League",
-    "flag": "img/flags/england.svg",
-    "homeTeam": "Everton",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
-    "awayTeam": "Coventry City",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
-    "utcKickoff": "2026-11-06T20:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 DAZN 1",
-        "channel": "DAZN 1"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Hill Dickinson Stadium",
-    "category": "europa",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 2475
-    }
-  },
-  {
-    "id": "espn-401886145",
-    "slug": "atletico-grau-vs-cusco-fc",
-    "tournament": "Liga 1 MAX",
-    "flag": "img/flags/pe.svg",
-    "homeTeam": "Atlético Grau",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/20293.png",
-    "awayTeam": "Cusco FC",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11995.png",
-    "utcKickoff": "2026-11-06T20:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Liga 1 MAX HD",
-        "channel": "Liga 1 MAX HD"
-      },
-      {
-        "name": "Fuente 2 Liga 1 Play",
-        "channel": "Liga 1 Play"
-      },
-      {
-        "name": "Fuente 3 Gol Perú HD",
-        "channel": "Gol Perú HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Municipal Ambrosio Maco Arroyo",
-    "category": "peru",
-    "votes": {
-      "team1": 2640,
-      "draw": 775,
-      "team2": 2100
-    }
-  },
   {
     "id": "espn-401841665",
     "slug": "independiente-vs-deportivo-riestra",
@@ -215,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Deportivo Riestra",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/17702.png",
     "utcKickoff": "2026-11-06T22:15Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "80'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -255,8 +55,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Platense",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
     "utcKickoff": "2026-11-06T22:15Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "80'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -295,8 +95,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Vélez Sarsfield",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
     "utcKickoff": "2026-11-06T22:15Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "80'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -335,8 +135,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Internacional de Bogotá",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7445.png",
     "utcKickoff": "2026-11-06T23:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "45'+3'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -371,8 +171,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Fluminense",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
     "utcKickoff": "2026-11-06T23:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "45'+4'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -411,8 +211,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Real Tomayapo",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/20890.png",
     "utcKickoff": "2026-11-06T23:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "45'+3'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
