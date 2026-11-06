@@ -1,50 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-06 00:52:46Z
+ * Last Updated: 2026-11-06 11:53:29Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401841303",
-    "slug": "cruzeiro-vs-bahia",
-    "tournament": "Brasileirão",
-    "flag": "img/flags/br.svg",
-    "homeTeam": "Cruzeiro",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
-    "awayTeam": "Bahia",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
-    "utcKickoff": "2026-11-06T00:30Z",
-    "status": "LIVE",
-    "minute": "22'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Premiere HD",
-        "channel": "Premiere HD"
-      },
-      {
-        "name": "Fuente 2 Globo",
-        "channel": "Globo"
-      },
-      {
-        "name": "Fuente 3 SporTV",
-        "channel": "SporTV"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Mineirão",
-    "category": "brasil",
-    "votes": {
-      "team1": 2240,
-      "draw": 650,
-      "team2": 1875
-    }
-  },
   {
     "id": "espn-401841670",
     "slug": "barracas-central-vs-racing-club",
@@ -126,46 +86,6 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
-    "id": "espn-401882809",
-    "slug": "sevilla-vs-alaves",
-    "tournament": "LaLiga EA Sports",
-    "flag": "img/flags/es.svg",
-    "homeTeam": "Sevilla",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-    "awayTeam": "Alavés",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
-    "utcKickoff": "2026-11-06T20:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Movistar Plus+",
-        "channel": "Movistar Plus+"
-      },
-      {
-        "name": "Fuente 2 DAZN LaLiga",
-        "channel": "DAZN LaLiga"
-      },
-      {
-        "name": "Fuente 3 ESPN Deportes",
-        "channel": "ESPN Deportes"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Ramón Sánchez Pizjuán Stadium",
-    "category": "espana",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 1950
-    }
-  },
-  {
     "id": "espn-401879242",
     "slug": "everton-vs-coventry-city",
     "tournament": "Premier League",
@@ -203,6 +123,46 @@ window.LIBREGOL_MATCHES = [
       "team1": 2160,
       "draw": 625,
       "team2": 2475
+    }
+  },
+  {
+    "id": "espn-401882809",
+    "slug": "sevilla-vs-alaves",
+    "tournament": "LaLiga EA Sports",
+    "flag": "img/flags/es.svg",
+    "homeTeam": "Sevilla",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+    "awayTeam": "Alavés",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+    "utcKickoff": "2026-11-06T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Movistar Plus+",
+        "channel": "Movistar Plus+"
+      },
+      {
+        "name": "Fuente 2 DAZN LaLiga",
+        "channel": "DAZN LaLiga"
+      },
+      {
+        "name": "Fuente 3 ESPN Deportes",
+        "channel": "ESPN Deportes"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Ramón Sánchez Pizjuán Stadium",
+    "category": "espana",
+    "votes": {
+      "team1": 2160,
+      "draw": 625,
+      "team2": 1950
     }
   },
   {
@@ -474,14 +434,14 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
-    "id": "espn-401877916",
-    "slug": "fortaleza-ceif-vs-independiente-medellin",
-    "tournament": "Liga BetPlay",
-    "flag": "img/flags/co.svg",
-    "homeTeam": "Fortaleza CEIF",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4928.png",
-    "awayTeam": "Independiente Medellín",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
+    "id": "espn-401841671",
+    "slug": "banfield-vs-atletico-tucuman",
+    "tournament": "Liga Profesional",
+    "flag": "img/flags/ar.svg",
+    "homeTeam": "Banfield",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/235.png",
+    "awayTeam": "Atlético Tucumán",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9785.png",
     "utcKickoff": "2026-11-07T01:00Z",
     "status": "UPCOMING",
     "minute": "",
@@ -489,24 +449,68 @@ window.LIBREGOL_MATCHES = [
     "awayScore": null,
     "channels": [
       {
-        "name": "Fuente 1 Win Sports+",
-        "channel": "Win Sports+"
+        "name": "Fuente 1 ESPN Premium HD",
+        "channel": "ESPN Premium HD"
       },
       {
-        "name": "Fuente 2 Win Sports Online",
-        "channel": "Win Sports Online"
+        "name": "Fuente 2 TNT Sports HD",
+        "channel": "TNT Sports HD"
       },
       {
-        "name": "Fuente 3 Directo HD",
+        "name": "Fuente 3 TyC Sports",
+        "channel": "TyC Sports"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
         "channel": "Directo HD"
       }
     ],
-    "venue": "Metropolitano de Techo",
-    "category": "colombia",
+    "venue": "Florencio Solá",
+    "category": "argentina",
     "votes": {
-      "team1": 2720,
-      "draw": 800,
-      "team2": 3150
+      "team1": 2240,
+      "draw": 650,
+      "team2": 2700
+    }
+  },
+  {
+    "id": "espn-401841673",
+    "slug": "tigre-vs-sarmiento-junin",
+    "tournament": "Liga Profesional",
+    "flag": "img/flags/ar.svg",
+    "homeTeam": "Tigre",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7767.png",
+    "awayTeam": "Sarmiento (Junín)",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10158.png",
+    "utcKickoff": "2026-11-07T01:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN Premium HD",
+        "channel": "ESPN Premium HD"
+      },
+      {
+        "name": "Fuente 2 TNT Sports HD",
+        "channel": "TNT Sports HD"
+      },
+      {
+        "name": "Fuente 3 TyC Sports",
+        "channel": "TyC Sports"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Monumental de Victoria (José Dellagiovanna)",
+    "category": "argentina",
+    "votes": {
+      "team1": 2000,
+      "draw": 575,
+      "team2": 2775
     }
   },
   {
@@ -590,14 +594,14 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
-    "id": "espn-401841671",
-    "slug": "banfield-vs-atletico-tucuman",
-    "tournament": "Liga Profesional",
-    "flag": "img/flags/ar.svg",
-    "homeTeam": "Banfield",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/235.png",
-    "awayTeam": "Atlético Tucumán",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9785.png",
+    "id": "espn-401877916",
+    "slug": "fortaleza-ceif-vs-independiente-medellin",
+    "tournament": "Liga BetPlay",
+    "flag": "img/flags/co.svg",
+    "homeTeam": "Fortaleza CEIF",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4928.png",
+    "awayTeam": "Independiente Medellín",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
     "utcKickoff": "2026-11-07T01:00Z",
     "status": "UPCOMING",
     "minute": "",
@@ -605,68 +609,24 @@ window.LIBREGOL_MATCHES = [
     "awayScore": null,
     "channels": [
       {
-        "name": "Fuente 1 ESPN Premium HD",
-        "channel": "ESPN Premium HD"
+        "name": "Fuente 1 Win Sports+",
+        "channel": "Win Sports+"
       },
       {
-        "name": "Fuente 2 TNT Sports HD",
-        "channel": "TNT Sports HD"
+        "name": "Fuente 2 Win Sports Online",
+        "channel": "Win Sports Online"
       },
       {
-        "name": "Fuente 3 TyC Sports",
-        "channel": "TyC Sports"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
+        "name": "Fuente 3 Directo HD",
         "channel": "Directo HD"
       }
     ],
-    "venue": "Florencio Solá",
-    "category": "argentina",
+    "venue": "Metropolitano de Techo",
+    "category": "colombia",
     "votes": {
-      "team1": 2240,
-      "draw": 650,
-      "team2": 2700
-    }
-  },
-  {
-    "id": "espn-401841673",
-    "slug": "tigre-vs-sarmiento-junin",
-    "tournament": "Liga Profesional",
-    "flag": "img/flags/ar.svg",
-    "homeTeam": "Tigre",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7767.png",
-    "awayTeam": "Sarmiento (Junín)",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10158.png",
-    "utcKickoff": "2026-11-07T01:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN Premium HD",
-        "channel": "ESPN Premium HD"
-      },
-      {
-        "name": "Fuente 2 TNT Sports HD",
-        "channel": "TNT Sports HD"
-      },
-      {
-        "name": "Fuente 3 TyC Sports",
-        "channel": "TyC Sports"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Monumental de Victoria (José Dellagiovanna)",
-    "category": "argentina",
-    "votes": {
-      "team1": 2000,
-      "draw": 575,
-      "team2": 2775
+      "team1": 2720,
+      "draw": 800,
+      "team2": 3150
     }
   },
   {
@@ -779,6 +739,46 @@ window.LIBREGOL_MATCHES = [
       "team1": 2400,
       "draw": 700,
       "team2": 2925
+    }
+  },
+  {
+    "id": "espn-401913961",
+    "slug": "atletico-mg-vs-boca-juniors",
+    "tournament": "Copa Sudamericana",
+    "flag": "img/flags/trophy_sudamericana.svg",
+    "homeTeam": "Atlético-MG",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+    "awayTeam": "Boca Juniors",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+    "utcKickoff": "2026-11-21T22:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 DSports HD",
+        "channel": "DSports HD"
+      },
+      {
+        "name": "Fuente 2 DGO Streaming",
+        "channel": "DGO Streaming"
+      },
+      {
+        "name": "Fuente 3 ESPN 3 HD",
+        "channel": "ESPN 3 HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Metropolitano Roberto Meléndez",
+    "category": "conmebol",
+    "votes": {
+      "team1": 2480,
+      "draw": 725,
+      "team2": 2400
     }
   }
 ];
