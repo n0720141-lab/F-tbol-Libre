@@ -1,50 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-07 05:46:21Z
+ * Last Updated: 2026-11-07 14:44:10Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401878758",
-    "slug": "leeds-united-vs-tottenham-hotspur",
-    "tournament": "Premier League",
-    "flag": "img/flags/england.svg",
-    "homeTeam": "Leeds United",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
-    "awayTeam": "Tottenham Hotspur",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-    "utcKickoff": "2026-11-07T12:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 DAZN 1",
-        "channel": "DAZN 1"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Elland Road",
-    "category": "europa",
-    "votes": {
-      "team1": 2560,
-      "draw": 750,
-      "team2": 2775
-    }
-  },
   {
     "id": "espn-401882812",
     "slug": "malaga-vs-racing-santander",
@@ -55,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Racing Santander",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
     "utcKickoff": "2026-11-07T13:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "83'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -95,8 +55,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Frosinone",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
     "utcKickoff": "2026-11-07T14:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "42'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -135,8 +95,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Lecce",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
     "utcKickoff": "2026-11-07T14:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "28'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
