@@ -1,10 +1,46 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-10 12:16:33Z
+ * Last Updated: 2026-11-10 21:40:57Z
  */
 
 window.LIBREGOL_MATCHES = [
+  {
+    "id": "espn-401878034",
+    "slug": "deportivo-pasto-vs-atletico-junior",
+    "tournament": "Liga BetPlay",
+    "flag": "img/flags/co.svg",
+    "homeTeam": "Deportivo Pasto",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5485.png",
+    "awayTeam": "Atlético Junior",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4815.png",
+    "utcKickoff": "2026-11-12T22:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Win Sports+",
+        "channel": "Win Sports+"
+      },
+      {
+        "name": "Fuente 2 Win Sports Online",
+        "channel": "Win Sports Online"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Departamental Libertad",
+    "category": "colombia",
+    "votes": {
+      "team1": 2800,
+      "draw": 825,
+      "team2": 2625
+    }
+  },
   {
     "id": "espn-401933238",
     "slug": "cerro-largo-vs-progreso",
@@ -43,6 +79,42 @@ window.LIBREGOL_MATCHES = [
       "team1": 2480,
       "draw": 725,
       "team2": 2100
+    }
+  },
+  {
+    "id": "espn-401877890",
+    "slug": "llaneros-fc-vs-boyaca-chico-fc",
+    "tournament": "Liga BetPlay",
+    "flag": "img/flags/co.svg",
+    "homeTeam": "Llaneros FC",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7915.png",
+    "awayTeam": "Boyacá Chicó FC",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5480.png",
+    "utcKickoff": "2026-11-13T00:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Win Sports+",
+        "channel": "Win Sports+"
+      },
+      {
+        "name": "Fuente 2 Win Sports Online",
+        "channel": "Win Sports Online"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Bello Horizonte - Rey Pele",
+    "category": "colombia",
+    "votes": {
+      "team1": 2480,
+      "draw": 725,
+      "team2": 2625
     }
   },
   {
