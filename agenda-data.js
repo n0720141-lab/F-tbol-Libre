@@ -1,7 +1,7 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-10 21:40:57Z
+ * Last Updated: 2026-11-11 05:08:30Z
  */
 
 window.LIBREGOL_MATCHES = [
@@ -155,6 +155,46 @@ window.LIBREGOL_MATCHES = [
       "team1": 2240,
       "draw": 650,
       "team2": 2325
+    }
+  },
+  {
+    "id": "espn-401876988",
+    "slug": "queretaro-vs-monterrey",
+    "tournament": "Liga MX",
+    "flag": "img/flags/mx.svg",
+    "homeTeam": "Querétaro",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/222.png",
+    "awayTeam": "Monterrey",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/220.png",
+    "utcKickoff": "2026-11-14T23:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 TUDN En Vivo",
+        "channel": "TUDN En Vivo"
+      },
+      {
+        "name": "Fuente 2 ViX Premium",
+        "channel": "ViX Premium"
+      },
+      {
+        "name": "Fuente 3 Canal 5 HD",
+        "channel": "Canal 5 HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Corregidora",
+    "category": "mexico",
+    "votes": {
+      "team1": 2320,
+      "draw": 675,
+      "team2": 2175
     }
   },
   {
