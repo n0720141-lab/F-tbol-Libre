@@ -1,7 +1,7 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-11 15:55:37Z
+ * Last Updated: 2026-11-11 22:31:47Z
  */
 
 window.LIBREGOL_MATCHES = [
