@@ -1,7 +1,7 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-11 22:31:47Z
+ * Last Updated: 2026-11-12 06:13:14Z
  */
 
 window.LIBREGOL_MATCHES = [
@@ -235,6 +235,86 @@ window.LIBREGOL_MATCHES = [
       "team1": 2480,
       "draw": 725,
       "team2": 2475
+    }
+  },
+  {
+    "id": "espn-401886113",
+    "slug": "comerciantes-unidos-vs-sport-boys",
+    "tournament": "Liga 1 MAX",
+    "flag": "img/flags/pe.svg",
+    "homeTeam": "Comerciantes Unidos",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/18153.png",
+    "awayTeam": "Sport Boys",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5570.png",
+    "utcKickoff": "2026-11-15T18:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Liga 1 MAX HD",
+        "channel": "Liga 1 MAX HD"
+      },
+      {
+        "name": "Fuente 2 Liga 1 Play",
+        "channel": "Liga 1 Play"
+      },
+      {
+        "name": "Fuente 3 Gol Perú HD",
+        "channel": "Gol Perú HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Juan Maldonado Gamarra",
+    "category": "peru",
+    "votes": {
+      "team1": 3120,
+      "draw": 925,
+      "team2": 2250
+    }
+  },
+  {
+    "id": "espn-401886137",
+    "slug": "juan-pablo-ii-vs-deportivo-garcilaso",
+    "tournament": "Liga 1 MAX",
+    "flag": "img/flags/pe.svg",
+    "homeTeam": "Juan Pablo II",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/22534.png",
+    "awayTeam": "Deportivo Garcilaso",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21819.png",
+    "utcKickoff": "2026-11-15T20:15Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Liga 1 MAX HD",
+        "channel": "Liga 1 MAX HD"
+      },
+      {
+        "name": "Fuente 2 Liga 1 Play",
+        "channel": "Liga 1 Play"
+      },
+      {
+        "name": "Fuente 3 Gol Perú HD",
+        "channel": "Gol Perú HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Complejo Deportivo Juan Pablo II",
+    "category": "peru",
+    "votes": {
+      "team1": 2640,
+      "draw": 775,
+      "team2": 2925
     }
   },
   {
