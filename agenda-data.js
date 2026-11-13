@@ -1,86 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-13 00:55:58Z
+ * Last Updated: 2026-11-13 11:56:47Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401933238",
-    "slug": "cerro-largo-vs-progreso",
-    "tournament": "Primera División Uruguay",
-    "flag": "img/flags/uy.svg",
-    "homeTeam": "Cerro Largo",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9902.png",
-    "awayTeam": "Progreso",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6866.png",
-    "utcKickoff": "2026-11-12T23:00Z",
-    "status": "LIVE",
-    "minute": "90'+5'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 VTV Plus",
-        "channel": "VTV Plus"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Arquitecto Antonio Eleuterio Ubilla",
-    "category": "uruguay",
-    "votes": {
-      "team1": 2480,
-      "draw": 725,
-      "team2": 2100
-    }
-  },
-  {
-    "id": "espn-401877890",
-    "slug": "llaneros-fc-vs-boyaca-chico-fc",
-    "tournament": "Liga BetPlay",
-    "flag": "img/flags/co.svg",
-    "homeTeam": "Llaneros FC",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7915.png",
-    "awayTeam": "Boyacá Chicó FC",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5480.png",
-    "utcKickoff": "2026-11-13T00:00Z",
-    "status": "LIVE",
-    "minute": "45'+2'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Win Sports+",
-        "channel": "Win Sports+"
-      },
-      {
-        "name": "Fuente 2 Win Sports Online",
-        "channel": "Win Sports Online"
-      },
-      {
-        "name": "Fuente 3 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Bello Horizonte - Rey Pele",
-    "category": "colombia",
-    "votes": {
-      "team1": 2480,
-      "draw": 725,
-      "team2": 2625
-    }
-  },
   {
     "id": "espn-401933237",
     "slug": "montevideo-city-torque-vs-racing-montevideo",
