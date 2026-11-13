@@ -1,46 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-12 16:38:19Z
+ * Last Updated: 2026-11-13 00:55:58Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401878034",
-    "slug": "deportivo-pasto-vs-atletico-junior",
-    "tournament": "Liga BetPlay",
-    "flag": "img/flags/co.svg",
-    "homeTeam": "Deportivo Pasto",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5485.png",
-    "awayTeam": "Atlético Junior",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4815.png",
-    "utcKickoff": "2026-11-12T22:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Win Sports+",
-        "channel": "Win Sports+"
-      },
-      {
-        "name": "Fuente 2 Win Sports Online",
-        "channel": "Win Sports Online"
-      },
-      {
-        "name": "Fuente 3 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Departamental Libertad",
-    "category": "colombia",
-    "votes": {
-      "team1": 2800,
-      "draw": 825,
-      "team2": 2625
-    }
-  },
   {
     "id": "espn-401933238",
     "slug": "cerro-largo-vs-progreso",
@@ -51,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Progreso",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6866.png",
     "utcKickoff": "2026-11-12T23:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "90'+5'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -91,8 +55,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Boyacá Chicó FC",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5480.png",
     "utcKickoff": "2026-11-13T00:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "45'+2'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -115,6 +79,82 @@ window.LIBREGOL_MATCHES = [
       "team1": 2480,
       "draw": 725,
       "team2": 2625
+    }
+  },
+  {
+    "id": "espn-401933237",
+    "slug": "montevideo-city-torque-vs-racing-montevideo",
+    "tournament": "Primera División Uruguay",
+    "flag": "img/flags/uy.svg",
+    "homeTeam": "Montevideo City Torque",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/19002.png",
+    "awayTeam": "Racing (Montevideo)",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9903.png",
+    "utcKickoff": "2026-11-13T19:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 VTV Plus",
+        "channel": "VTV Plus"
+      },
+      {
+        "name": "Fuente 2 Star+ HD",
+        "channel": "Star+ HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Luis Franzini",
+    "category": "uruguay",
+    "votes": {
+      "team1": 3360,
+      "draw": 1000,
+      "team2": 2925
+    }
+  },
+  {
+    "id": "espn-401877838",
+    "slug": "internacional-de-bogota-vs-independiente-santa-fe",
+    "tournament": "Liga BetPlay",
+    "flag": "img/flags/co.svg",
+    "homeTeam": "Internacional de Bogotá",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7445.png",
+    "awayTeam": "Independiente Santa Fe",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5488.png",
+    "utcKickoff": "2026-11-14T01:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Win Sports+",
+        "channel": "Win Sports+"
+      },
+      {
+        "name": "Fuente 2 Win Sports Online",
+        "channel": "Win Sports Online"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Metropolitano de Techo",
+    "category": "colombia",
+    "votes": {
+      "team1": 3440,
+      "draw": 1025,
+      "team2": 3150
     }
   },
   {
