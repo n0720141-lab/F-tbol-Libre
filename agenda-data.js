@@ -1,50 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-14 11:15:07Z
+ * Last Updated: 2026-11-14 17:44:43Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401933236",
-    "slug": "central-espanol-futbol-club-vs-boston-river",
-    "tournament": "Primera División Uruguay",
-    "flag": "img/flags/uy.svg",
-    "homeTeam": "Central Español Fútbol Club",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/131688.png",
-    "awayTeam": "Boston River",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9999.png",
-    "utcKickoff": "2026-11-14T13:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 VTV Plus",
-        "channel": "VTV Plus"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Parque Palermo",
-    "category": "uruguay",
-    "votes": {
-      "team1": 3760,
-      "draw": 1125,
-      "team2": 2400
-    }
-  },
   {
     "id": "espn-401933257",
     "slug": "deportivo-maldonado-vs-cerro",
