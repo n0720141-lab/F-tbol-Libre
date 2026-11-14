@@ -1,50 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-13 19:28:00Z
+ * Last Updated: 2026-11-14 00:45:17Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401933237",
-    "slug": "montevideo-city-torque-vs-racing-montevideo",
-    "tournament": "Primera División Uruguay",
-    "flag": "img/flags/uy.svg",
-    "homeTeam": "Montevideo City Torque",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/19002.png",
-    "awayTeam": "Racing (Montevideo)",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9903.png",
-    "utcKickoff": "2026-11-13T19:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 VTV Plus",
-        "channel": "VTV Plus"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Luis Franzini",
-    "category": "uruguay",
-    "votes": {
-      "team1": 3360,
-      "draw": 1000,
-      "team2": 2925
-    }
-  },
   {
     "id": "espn-401877838",
     "slug": "internacional-de-bogota-vs-independiente-santa-fe",
@@ -79,6 +39,338 @@ window.LIBREGOL_MATCHES = [
       "team1": 3440,
       "draw": 1025,
       "team2": 3150
+    }
+  },
+  {
+    "id": "espn-401933236",
+    "slug": "central-espanol-futbol-club-vs-boston-river",
+    "tournament": "Primera División Uruguay",
+    "flag": "img/flags/uy.svg",
+    "homeTeam": "Central Español Fútbol Club",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/131688.png",
+    "awayTeam": "Boston River",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9999.png",
+    "utcKickoff": "2026-11-14T13:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 VTV Plus",
+        "channel": "VTV Plus"
+      },
+      {
+        "name": "Fuente 2 Star+ HD",
+        "channel": "Star+ HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Parque Palermo",
+    "category": "uruguay",
+    "votes": {
+      "team1": 3760,
+      "draw": 1125,
+      "team2": 2400
+    }
+  },
+  {
+    "id": "espn-401933257",
+    "slug": "deportivo-maldonado-vs-cerro",
+    "tournament": "Primera División Uruguay",
+    "flag": "img/flags/uy.svg",
+    "homeTeam": "Deportivo Maldonado",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10000.png",
+    "awayTeam": "Cerro",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5490.png",
+    "utcKickoff": "2026-11-14T19:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 VTV Plus",
+        "channel": "VTV Plus"
+      },
+      {
+        "name": "Fuente 2 Star+ HD",
+        "channel": "Star+ HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Domingo Burgueño Miguel",
+    "category": "uruguay",
+    "votes": {
+      "team1": 3120,
+      "draw": 925,
+      "team2": 1875
+    }
+  },
+  {
+    "id": "espn-401877770",
+    "slug": "aguilas-doradas-vs-independiente-medellin",
+    "tournament": "Liga BetPlay",
+    "flag": "img/flags/co.svg",
+    "homeTeam": "Águilas Doradas",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9762.png",
+    "awayTeam": "Independiente Medellín",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
+    "utcKickoff": "2026-11-14T20:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Win Sports+",
+        "channel": "Win Sports+"
+      },
+      {
+        "name": "Fuente 2 Win Sports Online",
+        "channel": "Win Sports Online"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Cincuentenario",
+    "category": "colombia",
+    "votes": {
+      "team1": 2800,
+      "draw": 825,
+      "team2": 3150
+    }
+  },
+  {
+    "id": "espn-401877917",
+    "slug": "atletico-bucaramanga-vs-fortaleza-ceif",
+    "tournament": "Liga BetPlay",
+    "flag": "img/flags/co.svg",
+    "homeTeam": "Atlético Bucaramanga",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6137.png",
+    "awayTeam": "Fortaleza CEIF",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4928.png",
+    "utcKickoff": "2026-11-14T20:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Win Sports+",
+        "channel": "Win Sports+"
+      },
+      {
+        "name": "Fuente 2 Win Sports Online",
+        "channel": "Win Sports Online"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Alfonso López",
+    "category": "colombia",
+    "votes": {
+      "team1": 3200,
+      "draw": 950,
+      "team2": 2550
+    }
+  },
+  {
+    "id": "espn-401878029",
+    "slug": "atletico-nacional-vs-once-caldas",
+    "tournament": "Liga BetPlay",
+    "flag": "img/flags/co.svg",
+    "homeTeam": "Atlético Nacional",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5264.png",
+    "awayTeam": "Once Caldas",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2919.png",
+    "utcKickoff": "2026-11-14T20:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Win Sports+",
+        "channel": "Win Sports+"
+      },
+      {
+        "name": "Fuente 2 Win Sports Online",
+        "channel": "Win Sports Online"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Atanasio Girardot",
+    "category": "colombia",
+    "votes": {
+      "team1": 2960,
+      "draw": 875,
+      "team2": 2325
+    }
+  },
+  {
+    "id": "espn-401878043",
+    "slug": "cucuta-deportivo-vs-jaguares-de-cordoba",
+    "tournament": "Liga BetPlay",
+    "flag": "img/flags/co.svg",
+    "homeTeam": "Cúcuta Deportivo",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6101.png",
+    "awayTeam": "Jaguares de Córdoba",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10309.png",
+    "utcKickoff": "2026-11-14T20:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Win Sports+",
+        "channel": "Win Sports+"
+      },
+      {
+        "name": "Fuente 2 Win Sports Online",
+        "channel": "Win Sports Online"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "General Santander",
+    "category": "colombia",
+    "votes": {
+      "team1": 2880,
+      "draw": 850,
+      "team2": 2925
+    }
+  },
+  {
+    "id": "espn-401877893",
+    "slug": "deportivo-cali-vs-deportes-tolima",
+    "tournament": "Liga BetPlay",
+    "flag": "img/flags/co.svg",
+    "homeTeam": "Deportivo Cali",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2672.png",
+    "awayTeam": "Deportes Tolima",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5489.png",
+    "utcKickoff": "2026-11-14T20:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Win Sports+",
+        "channel": "Win Sports+"
+      },
+      {
+        "name": "Fuente 2 Win Sports Online",
+        "channel": "Win Sports Online"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Deportivo Cali",
+    "category": "colombia",
+    "votes": {
+      "team1": 2720,
+      "draw": 800,
+      "team2": 2625
+    }
+  },
+  {
+    "id": "espn-401877919",
+    "slug": "deportivo-pereira-vs-america-de-cali",
+    "tournament": "Liga BetPlay",
+    "flag": "img/flags/co.svg",
+    "homeTeam": "Deportivo Pereira",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5486.png",
+    "awayTeam": "América de Cali",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/8109.png",
+    "utcKickoff": "2026-11-14T20:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Win Sports+",
+        "channel": "Win Sports+"
+      },
+      {
+        "name": "Fuente 2 Win Sports Online",
+        "channel": "Win Sports Online"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Santiago de Las Atalayas",
+    "category": "colombia",
+    "votes": {
+      "team1": 2960,
+      "draw": 875,
+      "team2": 2625
+    }
+  },
+  {
+    "id": "espn-401878024",
+    "slug": "millonarios-vs-alianza-fc",
+    "tournament": "Liga BetPlay",
+    "flag": "img/flags/co.svg",
+    "homeTeam": "Millonarios",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5484.png",
+    "awayTeam": "Alianza FC",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9761.png",
+    "utcKickoff": "2026-11-14T20:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Win Sports+",
+        "channel": "Win Sports+"
+      },
+      {
+        "name": "Fuente 2 Win Sports Online",
+        "channel": "Win Sports Online"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Nemesio Camacho El Campín",
+    "category": "colombia",
+    "votes": {
+      "team1": 2480,
+      "draw": 725,
+      "team2": 2250
     }
   },
   {
@@ -158,6 +450,46 @@ window.LIBREGOL_MATCHES = [
     "votes": {
       "team1": 2320,
       "draw": 675,
+      "team2": 2175
+    }
+  },
+  {
+    "id": "espn-401933256",
+    "slug": "nacional-vs-albion-fc",
+    "tournament": "Primera División Uruguay",
+    "flag": "img/flags/uy.svg",
+    "homeTeam": "Nacional",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2684.png",
+    "awayTeam": "Albion FC",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21403.png",
+    "utcKickoff": "2026-11-14T23:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 VTV Plus",
+        "channel": "VTV Plus"
+      },
+      {
+        "name": "Fuente 2 Star+ HD",
+        "channel": "Star+ HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Gran Parque Central",
+    "category": "uruguay",
+    "votes": {
+      "team1": 2240,
+      "draw": 650,
       "team2": 2175
     }
   },
