@@ -1,50 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-15 15:26:40Z
+ * Last Updated: 2026-11-15 20:52:10Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401886113",
-    "slug": "comerciantes-unidos-vs-sport-boys",
-    "tournament": "Liga 1 MAX",
-    "flag": "img/flags/pe.svg",
-    "homeTeam": "Comerciantes Unidos",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/18153.png",
-    "awayTeam": "Sport Boys",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5570.png",
-    "utcKickoff": "2026-11-15T18:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Liga 1 MAX HD",
-        "channel": "Liga 1 MAX HD"
-      },
-      {
-        "name": "Fuente 2 Liga 1 Play",
-        "channel": "Liga 1 Play"
-      },
-      {
-        "name": "Fuente 3 Gol Perú HD",
-        "channel": "Gol Perú HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Juan Maldonado Gamarra",
-    "category": "peru",
-    "votes": {
-      "team1": 3120,
-      "draw": 925,
-      "team2": 2250
-    }
-  },
   {
     "id": "espn-401933255",
     "slug": "danubio-vs-liverpool",
@@ -55,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Liverpool",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5492.png",
     "utcKickoff": "2026-11-15T19:30Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "65'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -95,8 +55,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Deportivo Garcilaso",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21819.png",
     "utcKickoff": "2026-11-15T20:15Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "35'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
