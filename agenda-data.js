@@ -1,62 +1,22 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-15 20:52:10Z
+ * Last Updated: 2026-11-16 05:20:12Z
  */
 
 window.LIBREGOL_MATCHES = [
   {
-    "id": "espn-401933255",
-    "slug": "danubio-vs-liverpool",
-    "tournament": "Primera División Uruguay",
-    "flag": "img/flags/uy.svg",
-    "homeTeam": "Danubio",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4817.png",
-    "awayTeam": "Liverpool",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5492.png",
-    "utcKickoff": "2026-11-15T19:30Z",
-    "status": "LIVE",
-    "minute": "65'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 VTV Plus",
-        "channel": "VTV Plus"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Jardines del Hipódromo",
-    "category": "uruguay",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 2175
-    }
-  },
-  {
-    "id": "espn-401886137",
-    "slug": "juan-pablo-ii-vs-deportivo-garcilaso",
+    "id": "espn-401886134",
+    "slug": "utc-vs-los-chankas",
     "tournament": "Liga 1 MAX",
     "flag": "img/flags/pe.svg",
-    "homeTeam": "Juan Pablo II",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/22534.png",
-    "awayTeam": "Deportivo Garcilaso",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21819.png",
-    "utcKickoff": "2026-11-15T20:15Z",
-    "status": "LIVE",
-    "minute": "35'",
+    "homeTeam": "UTC",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10122.png",
+    "awayTeam": "Los Chankas",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/22168.png",
+    "utcKickoff": "2026-11-16T18:00Z",
+    "status": "UPCOMING",
+    "minute": "",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -77,24 +37,104 @@ window.LIBREGOL_MATCHES = [
         "channel": "Directo HD"
       }
     ],
-    "venue": "Complejo Deportivo Juan Pablo II",
+    "venue": "Estadio Héroes de San Ramón",
     "category": "peru",
     "votes": {
-      "team1": 2640,
-      "draw": 775,
-      "team2": 2925
+      "team1": 1840,
+      "draw": 525,
+      "team2": 2325
     }
   },
   {
-    "id": "espn-401933376",
-    "slug": "defensor-sporting-vs-penarol",
+    "id": "espn-401886121",
+    "slug": "cusco-fc-vs-adt",
+    "tournament": "Liga 1 MAX",
+    "flag": "img/flags/pe.svg",
+    "homeTeam": "Cusco FC",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11995.png",
+    "awayTeam": "ADT",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21314.png",
+    "utcKickoff": "2026-11-16T20:15Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Liga 1 MAX HD",
+        "channel": "Liga 1 MAX HD"
+      },
+      {
+        "name": "Fuente 2 Liga 1 Play",
+        "channel": "Liga 1 Play"
+      },
+      {
+        "name": "Fuente 3 Gol Perú HD",
+        "channel": "Gol Perú HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Inca Garcilaso de la Vega",
+    "category": "peru",
+    "votes": {
+      "team1": 2240,
+      "draw": 650,
+      "team2": 1725
+    }
+  },
+  {
+    "id": "espn-401886119",
+    "slug": "deportivo-moquegua-vs-atletico-grau",
+    "tournament": "Liga 1 MAX",
+    "flag": "img/flags/pe.svg",
+    "homeTeam": "Deportivo Moquegua",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/131654.png",
+    "awayTeam": "Atlético Grau",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/20293.png",
+    "utcKickoff": "2026-11-16T20:15Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Liga 1 MAX HD",
+        "channel": "Liga 1 MAX HD"
+      },
+      {
+        "name": "Fuente 2 Liga 1 Play",
+        "channel": "Liga 1 Play"
+      },
+      {
+        "name": "Fuente 3 Gol Perú HD",
+        "channel": "Gol Perú HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio 25 de Noviembre",
+    "category": "peru",
+    "votes": {
+      "team1": 3040,
+      "draw": 900,
+      "team2": 2475
+    }
+  },
+  {
+    "id": "espn-401933375",
+    "slug": "montevideo-wanderers-vs-juventud",
     "tournament": "Primera División Uruguay",
     "flag": "img/flags/uy.svg",
-    "homeTeam": "Defensor Sporting",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1007.png",
-    "awayTeam": "Peñarol",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2683.png",
-    "utcKickoff": "2026-11-15T23:00Z",
+    "homeTeam": "Montevideo Wanderers",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5501.png",
+    "awayTeam": "Juventud",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/8416.png",
+    "utcKickoff": "2026-11-16T23:00Z",
     "status": "UPCOMING",
     "minute": "",
     "homeScore": null,
@@ -117,12 +157,12 @@ window.LIBREGOL_MATCHES = [
         "channel": "Directo HD"
       }
     ],
-    "venue": "Estadio Luis Franzini",
+    "venue": "Parque Alfredo Víctor Viera",
     "category": "uruguay",
     "votes": {
-      "team1": 2960,
-      "draw": 875,
-      "team2": 2025
+      "team1": 3200,
+      "draw": 950,
+      "team2": 2100
     }
   },
   {
@@ -1451,6 +1491,726 @@ window.LIBREGOL_MATCHES = [
       "team1": 2960,
       "draw": 875,
       "team2": 2250
+    }
+  },
+  {
+    "id": "espn-401915506",
+    "slug": "besiktas-vs-hapoel-be-er",
+    "tournament": "UEFA Europa League",
+    "flag": "img/flags/europa.svg",
+    "homeTeam": "Besiktas",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+    "awayTeam": "Hapoel Be'er",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/13083.png",
+    "utcKickoff": "2026-11-26T17:45Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 2 HD",
+        "channel": "ESPN 2 HD"
+      },
+      {
+        "name": "Fuente 2 Fox Sports 2 HD",
+        "channel": "Fox Sports 2 HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Batumi Stadium (Adjarabet Arena)",
+    "category": "europa",
+    "votes": {
+      "team1": 2240,
+      "draw": 650,
+      "team2": 2400
+    }
+  },
+  {
+    "id": "espn-401915519",
+    "slug": "celta-vigo-vs-afc-bournemouth",
+    "tournament": "UEFA Europa League",
+    "flag": "img/flags/europa.svg",
+    "homeTeam": "Celta Vigo",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+    "awayTeam": "AFC Bournemouth",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+    "utcKickoff": "2026-11-26T17:45Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 2 HD",
+        "channel": "ESPN 2 HD"
+      },
+      {
+        "name": "Fuente 2 Fox Sports 2 HD",
+        "channel": "Fox Sports 2 HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Balaidos",
+    "category": "europa",
+    "votes": {
+      "team1": 2400,
+      "draw": 700,
+      "team2": 2625
+    }
+  },
+  {
+    "id": "espn-401915517",
+    "slug": "dinamo-zagreb-vs-bayer-leverkusen",
+    "tournament": "UEFA Europa League",
+    "flag": "img/flags/europa.svg",
+    "homeTeam": "Dinamo Zagreb",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/597.png",
+    "awayTeam": "Bayer Leverkusen",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+    "utcKickoff": "2026-11-26T17:45Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 2 HD",
+        "channel": "ESPN 2 HD"
+      },
+      {
+        "name": "Fuente 2 Fox Sports 2 HD",
+        "channel": "Fox Sports 2 HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Maksimir Stadium",
+    "category": "europa",
+    "votes": {
+      "team1": 2640,
+      "draw": 775,
+      "team2": 2700
+    }
+  },
+  {
+    "id": "espn-401915507",
+    "slug": "marseille-vs-levski-sofia",
+    "tournament": "UEFA Europa League",
+    "flag": "img/flags/europa.svg",
+    "homeTeam": "Marseille",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+    "awayTeam": "Levski Sofia",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/490.png",
+    "utcKickoff": "2026-11-26T17:45Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 2 HD",
+        "channel": "ESPN 2 HD"
+      },
+      {
+        "name": "Fuente 2 Fox Sports 2 HD",
+        "channel": "Fox Sports 2 HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Stade Vélodrome",
+    "category": "europa",
+    "votes": {
+      "team1": 2320,
+      "draw": 675,
+      "team2": 2400
+    }
+  },
+  {
+    "id": "espn-401915521",
+    "slug": "olympiacos-vs-ac-milan",
+    "tournament": "UEFA Europa League",
+    "flag": "img/flags/europa.svg",
+    "homeTeam": "Olympiacos",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+    "awayTeam": "AC Milan",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+    "utcKickoff": "2026-11-26T17:45Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 2 HD",
+        "channel": "ESPN 2 HD"
+      },
+      {
+        "name": "Fuente 2 Fox Sports 2 HD",
+        "channel": "Fox Sports 2 HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Georgios Karaiskakis Stadium",
+    "category": "europa",
+    "votes": {
+      "team1": 2400,
+      "draw": 700,
+      "team2": 2100
+    }
+  },
+  {
+    "id": "espn-401915520",
+    "slug": "rb-salzburg-vs-ararat-armenia",
+    "tournament": "UEFA Europa League",
+    "flag": "img/flags/europa.svg",
+    "homeTeam": "RB Salzburg",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2790.png",
+    "awayTeam": "Ararat-Armenia",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/20024.png",
+    "utcKickoff": "2026-11-26T17:45Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 2 HD",
+        "channel": "ESPN 2 HD"
+      },
+      {
+        "name": "Fuente 2 Fox Sports 2 HD",
+        "channel": "Fox Sports 2 HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Red Bull Arena Salzburg",
+    "category": "europa",
+    "votes": {
+      "team1": 2480,
+      "draw": 725,
+      "team2": 2550
+    }
+  },
+  {
+    "id": "espn-401915508",
+    "slug": "union-st-gilloise-vs-lech-poznan",
+    "tournament": "UEFA Europa League",
+    "flag": "img/flags/europa.svg",
+    "homeTeam": "Union St.-Gilloise",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png",
+    "awayTeam": "Lech Poznan",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2990.png",
+    "utcKickoff": "2026-11-26T17:45Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 2 HD",
+        "channel": "ESPN 2 HD"
+      },
+      {
+        "name": "Fuente 2 Fox Sports 2 HD",
+        "channel": "Fox Sports 2 HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "King Power at Den Dreef Stadion",
+    "category": "europa",
+    "votes": {
+      "team1": 3040,
+      "draw": 900,
+      "team2": 2325
+    }
+  },
+  {
+    "id": "espn-401915518",
+    "slug": "viktoria-plzen-vs-benfica",
+    "tournament": "UEFA Europa League",
+    "flag": "img/flags/europa.svg",
+    "homeTeam": "Viktoria Plzen",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11706.png",
+    "awayTeam": "Benfica",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
+    "utcKickoff": "2026-11-26T17:45Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 2 HD",
+        "channel": "ESPN 2 HD"
+      },
+      {
+        "name": "Fuente 2 Fox Sports 2 HD",
+        "channel": "Fox Sports 2 HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Doosan Arena",
+    "category": "europa",
+    "votes": {
+      "team1": 2720,
+      "draw": 800,
+      "team2": 2025
+    }
+  },
+  {
+    "id": "espn-401915504",
+    "slug": "crystal-palace-vs-real-sociedad",
+    "tournament": "UEFA Europa League",
+    "flag": "img/flags/europa.svg",
+    "homeTeam": "Crystal Palace",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+    "awayTeam": "Real Sociedad",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "utcKickoff": "2026-11-26T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 2 HD",
+        "channel": "ESPN 2 HD"
+      },
+      {
+        "name": "Fuente 2 Fox Sports 2 HD",
+        "channel": "Fox Sports 2 HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Selhurst Park",
+    "category": "europa",
+    "votes": {
+      "team1": 2720,
+      "draw": 800,
+      "team2": 2475
+    }
+  },
+  {
+    "id": "espn-401915516",
+    "slug": "ferencvaros-vs-nk-celje",
+    "tournament": "UEFA Europa League",
+    "flag": "img/flags/europa.svg",
+    "homeTeam": "Ferencvaros",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/622.png",
+    "awayTeam": "NK Celje",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3362.png",
+    "utcKickoff": "2026-11-26T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 2 HD",
+        "channel": "ESPN 2 HD"
+      },
+      {
+        "name": "Fuente 2 Fox Sports 2 HD",
+        "channel": "Fox Sports 2 HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Groupama Arena",
+    "category": "europa",
+    "votes": {
+      "team1": 2480,
+      "draw": 725,
+      "team2": 2100
+    }
+  },
+  {
+    "id": "espn-401915502",
+    "slug": "juventus-vs-omonia-nicosia",
+    "tournament": "UEFA Europa League",
+    "flag": "img/flags/europa.svg",
+    "homeTeam": "Juventus",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+    "awayTeam": "Omonia Nicosia",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/617.png",
+    "utcKickoff": "2026-11-26T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 2 HD",
+        "channel": "ESPN 2 HD"
+      },
+      {
+        "name": "Fuente 2 Fox Sports 2 HD",
+        "channel": "Fox Sports 2 HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Allianz Stadium",
+    "category": "europa",
+    "votes": {
+      "team1": 2240,
+      "draw": 650,
+      "team2": 2550
+    }
+  },
+  {
+    "id": "espn-401915501",
+    "slug": "lyon-vs-lillestrom",
+    "tournament": "UEFA Europa League",
+    "flag": "img/flags/europa.svg",
+    "homeTeam": "Lyon",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+    "awayTeam": "Lillestrom",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/987.png",
+    "utcKickoff": "2026-11-26T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 2 HD",
+        "channel": "ESPN 2 HD"
+      },
+      {
+        "name": "Fuente 2 Fox Sports 2 HD",
+        "channel": "Fox Sports 2 HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Groupama Stadium",
+    "category": "europa",
+    "votes": {
+      "team1": 1920,
+      "draw": 550,
+      "team2": 2250
+    }
+  },
+  {
+    "id": "espn-401915505",
+    "slug": "nec-nijmegen-vs-stade-rennais",
+    "tournament": "UEFA Europa League",
+    "flag": "img/flags/europa.svg",
+    "homeTeam": "NEC Nijmegen",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/147.png",
+    "awayTeam": "Stade Rennais",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
+    "utcKickoff": "2026-11-26T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 2 HD",
+        "channel": "ESPN 2 HD"
+      },
+      {
+        "name": "Fuente 2 Fox Sports 2 HD",
+        "channel": "Fox Sports 2 HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Goffertstadion",
+    "category": "europa",
+    "votes": {
+      "team1": 2560,
+      "draw": 750,
+      "team2": 2475
+    }
+  },
+  {
+    "id": "espn-401915503",
+    "slug": "ofi-crete-vs-anderlecht",
+    "tournament": "UEFA Europa League",
+    "flag": "img/flags/europa.svg",
+    "homeTeam": "OFI Crete",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1010.png",
+    "awayTeam": "Anderlecht",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/441.png",
+    "utcKickoff": "2026-11-26T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 2 HD",
+        "channel": "ESPN 2 HD"
+      },
+      {
+        "name": "Fuente 2 Fox Sports 2 HD",
+        "channel": "Fox Sports 2 HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Pankritio Stadium",
+    "category": "europa",
+    "votes": {
+      "team1": 2320,
+      "draw": 675,
+      "team2": 2250
+    }
+  },
+  {
+    "id": "espn-401915514",
+    "slug": "sparta-prague-vs-az-alkmaar",
+    "tournament": "UEFA Europa League",
+    "flag": "img/flags/europa.svg",
+    "homeTeam": "Sparta Prague",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/433.png",
+    "awayTeam": "AZ Alkmaar",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
+    "utcKickoff": "2026-11-26T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 2 HD",
+        "channel": "ESPN 2 HD"
+      },
+      {
+        "name": "Fuente 2 Fox Sports 2 HD",
+        "channel": "Fox Sports 2 HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Generali Arena",
+    "category": "europa",
+    "votes": {
+      "team1": 2640,
+      "draw": 775,
+      "team2": 2250
+    }
+  },
+  {
+    "id": "espn-401915513",
+    "slug": "sunderland-vs-jagiellonia-bialystok",
+    "tournament": "UEFA Europa League",
+    "flag": "img/flags/europa.svg",
+    "homeTeam": "Sunderland",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+    "awayTeam": "Jagiellonia Bialystok",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/11505.png",
+    "utcKickoff": "2026-11-26T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 2 HD",
+        "channel": "ESPN 2 HD"
+      },
+      {
+        "name": "Fuente 2 Fox Sports 2 HD",
+        "channel": "Fox Sports 2 HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Stadium of Light",
+    "category": "europa",
+    "votes": {
+      "team1": 2400,
+      "draw": 700,
+      "team2": 3075
+    }
+  },
+  {
+    "id": "espn-401915512",
+    "slug": "torreense-vs-celtic",
+    "tournament": "UEFA Europa League",
+    "flag": "img/flags/europa.svg",
+    "homeTeam": "Torreense",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/21615.png",
+    "awayTeam": "Celtic",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/256.png",
+    "utcKickoff": "2026-11-26T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 2 HD",
+        "channel": "ESPN 2 HD"
+      },
+      {
+        "name": "Fuente 2 Fox Sports 2 HD",
+        "channel": "Fox Sports 2 HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estádio Dr. Magalhaes Pessoa",
+    "category": "europa",
+    "votes": {
+      "team1": 2320,
+      "draw": 675,
+      "team2": 1950
+    }
+  },
+  {
+    "id": "espn-401915515",
+    "slug": "tsg-hoffenheim-vs-sk-sturm-graz",
+    "tournament": "UEFA Europa League",
+    "flag": "img/flags/europa.svg",
+    "homeTeam": "TSG Hoffenheim",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
+    "awayTeam": "SK Sturm Graz",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3746.png",
+    "utcKickoff": "2026-11-26T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 2 HD",
+        "channel": "ESPN 2 HD"
+      },
+      {
+        "name": "Fuente 2 Fox Sports 2 HD",
+        "channel": "Fox Sports 2 HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "PreZero Arena",
+    "category": "europa",
+    "votes": {
+      "team1": 2720,
+      "draw": 800,
+      "team2": 2475
     }
   },
   {
