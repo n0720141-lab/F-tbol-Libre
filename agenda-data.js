@@ -1,7 +1,7 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-16 05:20:12Z
+ * Last Updated: 2026-11-16 18:02:03Z
  */
 
 window.LIBREGOL_MATCHES = [
@@ -15,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Los Chankas",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/22168.png",
     "utcKickoff": "2026-11-16T18:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "2'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
