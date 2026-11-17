@@ -1,10 +1,50 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-17 02:48:43Z
+ * Last Updated: 2026-11-17 12:51:13Z
  */
 
 window.LIBREGOL_MATCHES = [
+  {
+    "id": "espn-401886138",
+    "slug": "alianza-atletico-vs-melgar",
+    "tournament": "Liga 1 MAX",
+    "flag": "img/flags/pe.svg",
+    "homeTeam": "Alianza Atlético",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5267.png",
+    "awayTeam": "Melgar",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7312.png",
+    "utcKickoff": "2026-11-18T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Liga 1 MAX HD",
+        "channel": "Liga 1 MAX HD"
+      },
+      {
+        "name": "Fuente 2 Liga 1 Play",
+        "channel": "Liga 1 Play"
+      },
+      {
+        "name": "Fuente 3 Gol Perú HD",
+        "channel": "Gol Perú HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Campeones del '36",
+    "category": "peru",
+    "votes": {
+      "team1": 2880,
+      "draw": 850,
+      "team2": 1950
+    }
+  },
   {
     "id": "espn-401841315",
     "slug": "coritiba-vs-santos",
@@ -395,6 +435,126 @@ window.LIBREGOL_MATCHES = [
       "team1": 2320,
       "draw": 675,
       "team2": 2625
+    }
+  },
+  {
+    "id": "espn-401877054",
+    "slug": "puebla-vs-atletico-de-san-luis",
+    "tournament": "Liga MX",
+    "flag": "img/flags/mx.svg",
+    "homeTeam": "Puebla",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/231.png",
+    "awayTeam": "Atlético de San Luis",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/15720.png",
+    "utcKickoff": "2026-11-21T01:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 TUDN En Vivo",
+        "channel": "TUDN En Vivo"
+      },
+      {
+        "name": "Fuente 2 ViX Premium",
+        "channel": "ViX Premium"
+      },
+      {
+        "name": "Fuente 3 Canal 5 HD",
+        "channel": "Canal 5 HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Cuauhtémoc",
+    "category": "mexico",
+    "votes": {
+      "team1": 2080,
+      "draw": 600,
+      "team2": 3000
+    }
+  },
+  {
+    "id": "espn-401877053",
+    "slug": "fc-juarez-vs-atlas",
+    "tournament": "Liga MX",
+    "flag": "img/flags/mx.svg",
+    "homeTeam": "FC Juárez",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/17851.png",
+    "awayTeam": "Atlas",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/216.png",
+    "utcKickoff": "2026-11-21T03:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 TUDN En Vivo",
+        "channel": "TUDN En Vivo"
+      },
+      {
+        "name": "Fuente 2 ViX Premium",
+        "channel": "ViX Premium"
+      },
+      {
+        "name": "Fuente 3 Canal 5 HD",
+        "channel": "Canal 5 HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Olímpico Benito Juárez",
+    "category": "mexico",
+    "votes": {
+      "team1": 2320,
+      "draw": 675,
+      "team2": 1875
+    }
+  },
+  {
+    "id": "espn-401877052",
+    "slug": "tijuana-vs-atlante",
+    "tournament": "Liga MX",
+    "flag": "img/flags/mx.svg",
+    "homeTeam": "Tijuana",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10125.png",
+    "awayTeam": "Atlante",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/226.png",
+    "utcKickoff": "2026-11-21T03:10Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 TUDN En Vivo",
+        "channel": "TUDN En Vivo"
+      },
+      {
+        "name": "Fuente 2 ViX Premium",
+        "channel": "ViX Premium"
+      },
+      {
+        "name": "Fuente 3 Canal 5 HD",
+        "channel": "Canal 5 HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Caliente",
+    "category": "mexico",
+    "votes": {
+      "team1": 2160,
+      "draw": 625,
+      "team2": 2025
     }
   },
   {
