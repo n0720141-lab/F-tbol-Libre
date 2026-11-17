@@ -1,7 +1,7 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-17 12:51:13Z
+ * Last Updated: 2026-11-17 23:22:31Z
  */
 
 window.LIBREGOL_MATCHES = [
@@ -362,6 +362,42 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
+    "id": "espn-401934708",
+    "slug": "independiente-medellin-vs-independiente-santa-fe",
+    "tournament": "Liga BetPlay",
+    "flag": "img/flags/co.svg",
+    "homeTeam": "Independiente Medellín",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
+    "awayTeam": "Independiente Santa Fe",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5488.png",
+    "utcKickoff": "2026-11-20T21:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Win Sports+",
+        "channel": "Win Sports+"
+      },
+      {
+        "name": "Fuente 2 Win Sports Online",
+        "channel": "Win Sports Online"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Atanasio Girardot",
+    "category": "colombia",
+    "votes": {
+      "team1": 3360,
+      "draw": 1000,
+      "team2": 3150
+    }
+  },
+  {
     "id": "espn-401933760",
     "slug": "velez-sarsfield-vs-belgrano-cordoba",
     "tournament": "Liga Profesional",
@@ -438,6 +474,42 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
+    "id": "espn-401934690",
+    "slug": "atletico-bucaramanga-vs-america-de-cali",
+    "tournament": "Liga BetPlay",
+    "flag": "img/flags/co.svg",
+    "homeTeam": "Atlético Bucaramanga",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6137.png",
+    "awayTeam": "América de Cali",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/8109.png",
+    "utcKickoff": "2026-11-20T23:35Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Win Sports+",
+        "channel": "Win Sports+"
+      },
+      {
+        "name": "Fuente 2 Win Sports Online",
+        "channel": "Win Sports Online"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Alfonso López",
+    "category": "colombia",
+    "votes": {
+      "team1": 3200,
+      "draw": 950,
+      "team2": 2625
+    }
+  },
+  {
     "id": "espn-401877054",
     "slug": "puebla-vs-atletico-de-san-luis",
     "tournament": "Liga MX",
@@ -475,6 +547,42 @@ window.LIBREGOL_MATCHES = [
       "team1": 2080,
       "draw": 600,
       "team2": 3000
+    }
+  },
+  {
+    "id": "espn-401934707",
+    "slug": "deportivo-cali-vs-millonarios",
+    "tournament": "Liga BetPlay",
+    "flag": "img/flags/co.svg",
+    "homeTeam": "Deportivo Cali",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2672.png",
+    "awayTeam": "Millonarios",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5484.png",
+    "utcKickoff": "2026-11-21T01:40Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Win Sports+",
+        "channel": "Win Sports+"
+      },
+      {
+        "name": "Fuente 2 Win Sports Online",
+        "channel": "Win Sports Online"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Deportivo Cali",
+    "category": "colombia",
+    "votes": {
+      "team1": 2720,
+      "draw": 800,
+      "team2": 2325
     }
   },
   {
