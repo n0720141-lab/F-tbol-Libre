@@ -1,130 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-19 12:35:19Z
+ * Last Updated: 2026-11-19 22:55:59Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401934704",
-    "slug": "boston-river-vs-deportivo-maldonado",
-    "tournament": "Primera División Uruguay",
-    "flag": "img/flags/uy.svg",
-    "homeTeam": "Boston River",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9999.png",
-    "awayTeam": "Deportivo Maldonado",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10000.png",
-    "utcKickoff": "2026-11-19T19:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 VTV Plus",
-        "channel": "VTV Plus"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Campeones Olímpicos",
-    "category": "uruguay",
-    "votes": {
-      "team1": 2560,
-      "draw": 750,
-      "team2": 2925
-    }
-  },
-  {
-    "id": "espn-401934686",
-    "slug": "penarol-vs-cerro-largo",
-    "tournament": "Primera División Uruguay",
-    "flag": "img/flags/uy.svg",
-    "homeTeam": "Peñarol",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2683.png",
-    "awayTeam": "Cerro Largo",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9902.png",
-    "utcKickoff": "2026-11-19T19:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 VTV Plus",
-        "channel": "VTV Plus"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Campeón del Siglo",
-    "category": "uruguay",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 2325
-    }
-  },
-  {
-    "id": "espn-401934703",
-    "slug": "progreso-vs-montevideo-city-torque",
-    "tournament": "Primera División Uruguay",
-    "flag": "img/flags/uy.svg",
-    "homeTeam": "Progreso",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6866.png",
-    "awayTeam": "Montevideo City Torque",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/19002.png",
-    "utcKickoff": "2026-11-19T19:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 VTV Plus",
-        "channel": "VTV Plus"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Parque Abraham Paladino",
-    "category": "uruguay",
-    "votes": {
-      "team1": 2240,
-      "draw": 650,
-      "team2": 3150
-    }
-  },
   {
     "id": "espn-401841308",
     "slug": "vasco-da-gama-vs-internacional",
@@ -135,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Internacional",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
     "utcKickoff": "2026-11-19T22:30Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "24'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -175,8 +55,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Red Bull Bragantino",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
     "utcKickoff": "2026-11-19T22:30Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "24'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
