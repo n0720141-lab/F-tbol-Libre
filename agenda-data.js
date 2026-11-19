@@ -1,88 +1,128 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-19 01:45:25Z
+ * Last Updated: 2026-11-19 12:35:19Z
  */
 
 window.LIBREGOL_MATCHES = [
   {
-    "id": "espn-401841316",
-    "slug": "corinthians-vs-botafogo",
-    "tournament": "Brasileirão",
-    "flag": "img/flags/br.svg",
-    "homeTeam": "Corinthians",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
-    "awayTeam": "Botafogo",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
-    "utcKickoff": "2026-11-19T00:30Z",
-    "status": "LIVE",
-    "minute": "55'",
+    "id": "espn-401934704",
+    "slug": "boston-river-vs-deportivo-maldonado",
+    "tournament": "Primera División Uruguay",
+    "flag": "img/flags/uy.svg",
+    "homeTeam": "Boston River",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9999.png",
+    "awayTeam": "Deportivo Maldonado",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10000.png",
+    "utcKickoff": "2026-11-19T19:30Z",
+    "status": "UPCOMING",
+    "minute": "",
     "homeScore": null,
     "awayScore": null,
     "channels": [
       {
-        "name": "Fuente 1 Premiere HD",
-        "channel": "Premiere HD"
+        "name": "Fuente 1 VTV Plus",
+        "channel": "VTV Plus"
       },
       {
-        "name": "Fuente 2 Globo",
-        "channel": "Globo"
+        "name": "Fuente 2 Star+ HD",
+        "channel": "Star+ HD"
       },
       {
-        "name": "Fuente 3 SporTV",
-        "channel": "SporTV"
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
       },
       {
         "name": "Fuente 4 Directo HD",
         "channel": "Directo HD"
       }
     ],
-    "venue": "Neo Química Arena",
-    "category": "brasil",
+    "venue": "Campeones Olímpicos",
+    "category": "uruguay",
     "votes": {
-      "team1": 2480,
-      "draw": 725,
-      "team2": 2100
+      "team1": 2560,
+      "draw": 750,
+      "team2": 2925
     }
   },
   {
-    "id": "espn-401841312",
-    "slug": "gremio-vs-bahia",
-    "tournament": "Brasileirão",
-    "flag": "img/flags/br.svg",
-    "homeTeam": "Grêmio",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
-    "awayTeam": "Bahia",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
-    "utcKickoff": "2026-11-19T00:30Z",
-    "status": "LIVE",
-    "minute": "54'",
+    "id": "espn-401934686",
+    "slug": "penarol-vs-cerro-largo",
+    "tournament": "Primera División Uruguay",
+    "flag": "img/flags/uy.svg",
+    "homeTeam": "Peñarol",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2683.png",
+    "awayTeam": "Cerro Largo",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9902.png",
+    "utcKickoff": "2026-11-19T19:30Z",
+    "status": "UPCOMING",
+    "minute": "",
     "homeScore": null,
     "awayScore": null,
     "channels": [
       {
-        "name": "Fuente 1 Premiere HD",
-        "channel": "Premiere HD"
+        "name": "Fuente 1 VTV Plus",
+        "channel": "VTV Plus"
       },
       {
-        "name": "Fuente 2 Globo",
-        "channel": "Globo"
+        "name": "Fuente 2 Star+ HD",
+        "channel": "Star+ HD"
       },
       {
-        "name": "Fuente 3 SporTV",
-        "channel": "SporTV"
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
       },
       {
         "name": "Fuente 4 Directo HD",
         "channel": "Directo HD"
       }
     ],
-    "venue": "Arena do Grêmio",
-    "category": "brasil",
+    "venue": "Estadio Campeón del Siglo",
+    "category": "uruguay",
     "votes": {
-      "team1": 2080,
-      "draw": 600,
-      "team2": 1875
+      "team1": 2160,
+      "draw": 625,
+      "team2": 2325
+    }
+  },
+  {
+    "id": "espn-401934703",
+    "slug": "progreso-vs-montevideo-city-torque",
+    "tournament": "Primera División Uruguay",
+    "flag": "img/flags/uy.svg",
+    "homeTeam": "Progreso",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6866.png",
+    "awayTeam": "Montevideo City Torque",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/19002.png",
+    "utcKickoff": "2026-11-19T19:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 VTV Plus",
+        "channel": "VTV Plus"
+      },
+      {
+        "name": "Fuente 2 Star+ HD",
+        "channel": "Star+ HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Parque Abraham Paladino",
+    "category": "uruguay",
+    "votes": {
+      "team1": 2240,
+      "draw": 650,
+      "team2": 3150
     }
   },
   {
@@ -1055,6 +1095,46 @@ window.LIBREGOL_MATCHES = [
       "team1": 2080,
       "draw": 600,
       "team2": 1950
+    }
+  },
+  {
+    "id": "espn-401886135",
+    "slug": "alianza-lima-vs-fc-cajamarca",
+    "tournament": "Liga 1 MAX",
+    "flag": "img/flags/pe.svg",
+    "homeTeam": "Alianza Lima",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2680.png",
+    "awayTeam": "FC Cajamarca",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/131655.png",
+    "utcKickoff": "2026-11-21T20:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Liga 1 MAX HD",
+        "channel": "Liga 1 MAX HD"
+      },
+      {
+        "name": "Fuente 2 Liga 1 Play",
+        "channel": "Liga 1 Play"
+      },
+      {
+        "name": "Fuente 3 Gol Perú HD",
+        "channel": "Gol Perú HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Alejandro Villanueva",
+    "category": "peru",
+    "votes": {
+      "team1": 2560,
+      "draw": 750,
+      "team2": 2400
     }
   },
   {
