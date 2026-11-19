@@ -1,210 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-18 16:59:29Z
+ * Last Updated: 2026-11-19 01:45:25Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401886138",
-    "slug": "alianza-atletico-vs-melgar",
-    "tournament": "Liga 1 MAX",
-    "flag": "img/flags/pe.svg",
-    "homeTeam": "Alianza Atlético",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5267.png",
-    "awayTeam": "Melgar",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7312.png",
-    "utcKickoff": "2026-11-18T20:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Liga 1 MAX HD",
-        "channel": "Liga 1 MAX HD"
-      },
-      {
-        "name": "Fuente 2 Liga 1 Play",
-        "channel": "Liga 1 Play"
-      },
-      {
-        "name": "Fuente 3 Gol Perú HD",
-        "channel": "Gol Perú HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Campeones del '36",
-    "category": "peru",
-    "votes": {
-      "team1": 2880,
-      "draw": 850,
-      "team2": 1950
-    }
-  },
-  {
-    "id": "espn-401841315",
-    "slug": "coritiba-vs-santos",
-    "tournament": "Brasileirão",
-    "flag": "img/flags/br.svg",
-    "homeTeam": "Coritiba",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
-    "awayTeam": "Santos",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
-    "utcKickoff": "2026-11-18T22:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Premiere HD",
-        "channel": "Premiere HD"
-      },
-      {
-        "name": "Fuente 2 Globo",
-        "channel": "Globo"
-      },
-      {
-        "name": "Fuente 3 SporTV",
-        "channel": "SporTV"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Couto Pereira",
-    "category": "brasil",
-    "votes": {
-      "team1": 2240,
-      "draw": 650,
-      "team2": 1950
-    }
-  },
-  {
-    "id": "espn-401841310",
-    "slug": "remo-vs-chapecoense",
-    "tournament": "Brasileirão",
-    "flag": "img/flags/br.svg",
-    "homeTeam": "Remo",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
-    "awayTeam": "Chapecoense",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
-    "utcKickoff": "2026-11-18T23:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Premiere HD",
-        "channel": "Premiere HD"
-      },
-      {
-        "name": "Fuente 2 Globo",
-        "channel": "Globo"
-      },
-      {
-        "name": "Fuente 3 SporTV",
-        "channel": "SporTV"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Mangueirão",
-    "category": "brasil",
-    "votes": {
-      "team1": 1920,
-      "draw": 550,
-      "team2": 2325
-    }
-  },
-  {
-    "id": "espn-401841314",
-    "slug": "cruzeiro-vs-palmeiras",
-    "tournament": "Brasileirão",
-    "flag": "img/flags/br.svg",
-    "homeTeam": "Cruzeiro",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
-    "awayTeam": "Palmeiras",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
-    "utcKickoff": "2026-11-18T23:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Premiere HD",
-        "channel": "Premiere HD"
-      },
-      {
-        "name": "Fuente 2 Globo",
-        "channel": "Globo"
-      },
-      {
-        "name": "Fuente 3 SporTV",
-        "channel": "SporTV"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Mineirão",
-    "category": "brasil",
-    "votes": {
-      "team1": 2240,
-      "draw": 650,
-      "team2": 2175
-    }
-  },
-  {
-    "id": "espn-401841313",
-    "slug": "flamengo-vs-athletico-pr",
-    "tournament": "Brasileirão",
-    "flag": "img/flags/br.svg",
-    "homeTeam": "Flamengo",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
-    "awayTeam": "Athletico-PR",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
-    "utcKickoff": "2026-11-18T23:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Premiere HD",
-        "channel": "Premiere HD"
-      },
-      {
-        "name": "Fuente 2 Globo",
-        "channel": "Globo"
-      },
-      {
-        "name": "Fuente 3 SporTV",
-        "channel": "SporTV"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio do Maracana",
-    "category": "brasil",
-    "votes": {
-      "team1": 2240,
-      "draw": 650,
-      "team2": 2400
-    }
-  },
   {
     "id": "espn-401841316",
     "slug": "corinthians-vs-botafogo",
@@ -215,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Botafogo",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
     "utcKickoff": "2026-11-19T00:30Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "55'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -255,8 +55,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Bahia",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
     "utcKickoff": "2026-11-19T00:30Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "54'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -283,6 +83,126 @@ window.LIBREGOL_MATCHES = [
       "team1": 2080,
       "draw": 600,
       "team2": 1875
+    }
+  },
+  {
+    "id": "espn-401841308",
+    "slug": "vasco-da-gama-vs-internacional",
+    "tournament": "Brasileirão",
+    "flag": "img/flags/br.svg",
+    "homeTeam": "Vasco da Gama",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+    "awayTeam": "Internacional",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+    "utcKickoff": "2026-11-19T22:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Premiere HD",
+        "channel": "Premiere HD"
+      },
+      {
+        "name": "Fuente 2 Globo",
+        "channel": "Globo"
+      },
+      {
+        "name": "Fuente 3 SporTV",
+        "channel": "SporTV"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estádio São Januário",
+    "category": "brasil",
+    "votes": {
+      "team1": 2640,
+      "draw": 775,
+      "team2": 2475
+    }
+  },
+  {
+    "id": "espn-401841317",
+    "slug": "vitoria-vs-red-bull-bragantino",
+    "tournament": "Brasileirão",
+    "flag": "img/flags/br.svg",
+    "homeTeam": "Vitória",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
+    "awayTeam": "Red Bull Bragantino",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+    "utcKickoff": "2026-11-19T22:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Premiere HD",
+        "channel": "Premiere HD"
+      },
+      {
+        "name": "Fuente 2 Globo",
+        "channel": "Globo"
+      },
+      {
+        "name": "Fuente 3 SporTV",
+        "channel": "SporTV"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Manoel Barradas",
+    "category": "brasil",
+    "votes": {
+      "team1": 2160,
+      "draw": 625,
+      "team2": 2925
+    }
+  },
+  {
+    "id": "espn-401841309",
+    "slug": "sao-paulo-vs-fluminense",
+    "tournament": "Brasileirão",
+    "flag": "img/flags/br.svg",
+    "homeTeam": "São Paulo",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
+    "awayTeam": "Fluminense",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+    "utcKickoff": "2026-11-20T00:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Premiere HD",
+        "channel": "Premiere HD"
+      },
+      {
+        "name": "Fuente 2 Globo",
+        "channel": "Globo"
+      },
+      {
+        "name": "Fuente 3 SporTV",
+        "channel": "SporTV"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estádio Cícero Pompeu de Toledo",
+    "category": "brasil",
+    "votes": {
+      "team1": 2320,
+      "draw": 675,
+      "team2": 2250
     }
   },
   {
