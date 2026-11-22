@@ -1,210 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-22 05:37:29Z
+ * Last Updated: 2026-11-22 15:59:53Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401875008",
-    "slug": "juventus-vs-venezia",
-    "tournament": "Serie A",
-    "flag": "img/flags/it.svg",
-    "homeTeam": "Juventus",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
-    "awayTeam": "Venezia",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
-    "utcKickoff": "2026-11-22T11:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ Premium",
-        "channel": "Disney+ Premium"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Allianz Stadium",
-    "category": "europa",
-    "votes": {
-      "team1": 2240,
-      "draw": 650,
-      "team2": 2025
-    }
-  },
-  {
-    "id": "espn-401882804",
-    "slug": "barcelona-vs-villarreal",
-    "tournament": "LaLiga EA Sports",
-    "flag": "img/flags/es.svg",
-    "homeTeam": "Barcelona",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-    "awayTeam": "Villarreal",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-    "utcKickoff": "2026-11-22T13:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Movistar Plus+",
-        "channel": "Movistar Plus+"
-      },
-      {
-        "name": "Fuente 2 DAZN LaLiga",
-        "channel": "DAZN LaLiga"
-      },
-      {
-        "name": "Fuente 3 ESPN Deportes",
-        "channel": "ESPN Deportes"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Spotify Camp Nou",
-    "category": "espana",
-    "votes": {
-      "team1": 2320,
-      "draw": 675,
-      "team2": 2250
-    }
-  },
-  {
-    "id": "espn-401875047",
-    "slug": "bologna-vs-udinese",
-    "tournament": "Serie A",
-    "flag": "img/flags/it.svg",
-    "homeTeam": "Bologna",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
-    "awayTeam": "Udinese",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
-    "utcKickoff": "2026-11-22T14:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ Premium",
-        "channel": "Disney+ Premium"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Renato Dall'Ara",
-    "category": "europa",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 2025
-    }
-  },
-  {
-    "id": "espn-401874960",
-    "slug": "sassuolo-vs-genoa",
-    "tournament": "Serie A",
-    "flag": "img/flags/it.svg",
-    "homeTeam": "Sassuolo",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
-    "awayTeam": "Genoa",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
-    "utcKickoff": "2026-11-22T14:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ Premium",
-        "channel": "Disney+ Premium"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Mapei Stadium",
-    "category": "europa",
-    "votes": {
-      "team1": 2240,
-      "draw": 650,
-      "team2": 1875
-    }
-  },
-  {
-    "id": "espn-401879234",
-    "slug": "hull-city-vs-brighton-hove-albion",
-    "tournament": "Premier League",
-    "flag": "img/flags/england.svg",
-    "homeTeam": "Hull City",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-    "awayTeam": "Brighton & Hove Albion",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
-    "utcKickoff": "2026-11-22T14:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 DAZN 1",
-        "channel": "DAZN 1"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "The MKM Stadium",
-    "category": "europa",
-    "votes": {
-      "team1": 2320,
-      "draw": 675,
-      "team2": 3150
-    }
-  },
   {
     "id": "espn-401850697",
     "slug": "huachipato-vs-deportes-concepcion",
@@ -215,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Deportes Concepcion",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/8110.png",
     "utcKickoff": "2026-11-22T15:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "45'+3'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -251,8 +51,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Real Sociedad",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
     "utcKickoff": "2026-11-22T15:15Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "44'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -402,46 +202,6 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
-    "id": "espn-401841318",
-    "slug": "athletico-pr-vs-remo",
-    "tournament": "Brasileirão",
-    "flag": "img/flags/br.svg",
-    "homeTeam": "Athletico-PR",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
-    "awayTeam": "Remo",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
-    "utcKickoff": "2026-11-22T19:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Premiere HD",
-        "channel": "Premiere HD"
-      },
-      {
-        "name": "Fuente 2 Globo",
-        "channel": "Globo"
-      },
-      {
-        "name": "Fuente 3 SporTV",
-        "channel": "SporTV"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Arena da Baixada",
-    "category": "brasil",
-    "votes": {
-      "team1": 2560,
-      "draw": 750,
-      "team2": 1800
-    }
-  },
-  {
     "id": "espn-401933759",
     "slug": "rosario-central-vs-gimnasia-mendoza",
     "tournament": "Liga Profesional",
@@ -479,6 +239,46 @@ window.LIBREGOL_MATCHES = [
       "team1": 2800,
       "draw": 825,
       "team2": 2850
+    }
+  },
+  {
+    "id": "espn-401841318",
+    "slug": "athletico-pr-vs-remo",
+    "tournament": "Brasileirão",
+    "flag": "img/flags/br.svg",
+    "homeTeam": "Athletico-PR",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
+    "awayTeam": "Remo",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
+    "utcKickoff": "2026-11-22T19:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Premiere HD",
+        "channel": "Premiere HD"
+      },
+      {
+        "name": "Fuente 2 Globo",
+        "channel": "Globo"
+      },
+      {
+        "name": "Fuente 3 SporTV",
+        "channel": "SporTV"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Arena da Baixada",
+    "category": "brasil",
+    "votes": {
+      "team1": 2560,
+      "draw": 750,
+      "team2": 1800
     }
   },
   {
