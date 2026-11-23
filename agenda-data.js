@@ -1,7 +1,7 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-23 06:19:17Z
+ * Last Updated: 2026-11-23 19:55:47Z
  */
 
 window.LIBREGOL_MATCHES = [
@@ -15,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Guabirá",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9497.png",
     "utcKickoff": "2026-11-23T19:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "45'+5'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -47,8 +47,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Defensor Sporting",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1007.png",
     "utcKickoff": "2026-11-23T19:30Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "25'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -87,8 +87,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Fiorentina",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
     "utcKickoff": "2026-11-23T19:45Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "10'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -115,46 +115,6 @@ window.LIBREGOL_MATCHES = [
       "team1": 2000,
       "draw": 575,
       "team2": 2250
-    }
-  },
-  {
-    "id": "espn-401882802",
-    "slug": "levante-vs-elche",
-    "tournament": "LaLiga EA Sports",
-    "flag": "img/flags/es.svg",
-    "homeTeam": "Levante",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-    "awayTeam": "Elche",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-    "utcKickoff": "2026-11-23T20:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Movistar Plus+",
-        "channel": "Movistar Plus+"
-      },
-      {
-        "name": "Fuente 2 DAZN LaLiga",
-        "channel": "DAZN LaLiga"
-      },
-      {
-        "name": "Fuente 3 ESPN Deportes",
-        "channel": "ESPN Deportes"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadi Ciutat de València",
-    "category": "espana",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 1875
     }
   },
   {
@@ -195,6 +155,46 @@ window.LIBREGOL_MATCHES = [
       "team1": 2320,
       "draw": 675,
       "team2": 2025
+    }
+  },
+  {
+    "id": "espn-401882802",
+    "slug": "levante-vs-elche",
+    "tournament": "LaLiga EA Sports",
+    "flag": "img/flags/es.svg",
+    "homeTeam": "Levante",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+    "awayTeam": "Elche",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+    "utcKickoff": "2026-11-23T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Movistar Plus+",
+        "channel": "Movistar Plus+"
+      },
+      {
+        "name": "Fuente 2 DAZN LaLiga",
+        "channel": "DAZN LaLiga"
+      },
+      {
+        "name": "Fuente 3 ESPN Deportes",
+        "channel": "ESPN Deportes"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadi Ciutat de València",
+    "category": "espana",
+    "votes": {
+      "team1": 2160,
+      "draw": 625,
+      "team2": 1875
     }
   },
   {
