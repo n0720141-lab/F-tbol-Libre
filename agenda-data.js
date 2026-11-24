@@ -1,7 +1,7 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-24 04:40:02Z
+ * Last Updated: 2026-11-24 19:24:14Z
  */
 
 window.LIBREGOL_MATCHES = [
@@ -15,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "LASK Linz",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
     "utcKickoff": "2026-11-24T17:45Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "82'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -55,8 +55,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Aston Villa",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
     "utcKickoff": "2026-11-24T17:45Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "83'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -475,6 +475,126 @@ window.LIBREGOL_MATCHES = [
       "team1": 2800,
       "draw": 825,
       "team2": 2550
+    }
+  },
+  {
+    "id": "espn-401933757",
+    "slug": "boca-juniors-vs-independiente-rivadavia",
+    "tournament": "Liga Profesional",
+    "flag": "img/flags/ar.svg",
+    "homeTeam": "Boca Juniors",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+    "awayTeam": "Independiente Rivadavia",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
+    "utcKickoff": "2026-11-26T00:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN Premium HD",
+        "channel": "ESPN Premium HD"
+      },
+      {
+        "name": "Fuente 2 TNT Sports HD",
+        "channel": "TNT Sports HD"
+      },
+      {
+        "name": "Fuente 3 TyC Sports",
+        "channel": "TyC Sports"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Alberto José Armando (La Bombonera)",
+    "category": "argentina",
+    "votes": {
+      "team1": 2560,
+      "draw": 750,
+      "team2": 3225
+    }
+  },
+  {
+    "id": "espn-401931986",
+    "slug": "toluca-vs-atlas",
+    "tournament": "Liga MX",
+    "flag": "img/flags/mx.svg",
+    "homeTeam": "Toluca",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/223.png",
+    "awayTeam": "Atlas",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/216.png",
+    "utcKickoff": "2026-11-26T01:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 TUDN En Vivo",
+        "channel": "TUDN En Vivo"
+      },
+      {
+        "name": "Fuente 2 ViX Premium",
+        "channel": "ViX Premium"
+      },
+      {
+        "name": "Fuente 3 Canal 5 HD",
+        "channel": "Canal 5 HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Nemesio Díez Riega",
+    "category": "mexico",
+    "votes": {
+      "team1": 2080,
+      "draw": 600,
+      "team2": 1875
+    }
+  },
+  {
+    "id": "espn-401931998",
+    "slug": "monterrey-vs-america",
+    "tournament": "Liga MX",
+    "flag": "img/flags/mx.svg",
+    "homeTeam": "Monterrey",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/220.png",
+    "awayTeam": "América",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png",
+    "utcKickoff": "2026-11-26T03:10Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 TUDN En Vivo",
+        "channel": "TUDN En Vivo"
+      },
+      {
+        "name": "Fuente 2 ViX Premium",
+        "channel": "ViX Premium"
+      },
+      {
+        "name": "Fuente 3 Canal 5 HD",
+        "channel": "Canal 5 HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio BBVA",
+    "category": "mexico",
+    "votes": {
+      "team1": 2320,
+      "draw": 675,
+      "team2": 2025
     }
   },
   {
@@ -1195,6 +1315,230 @@ window.LIBREGOL_MATCHES = [
       "team1": 2720,
       "draw": 800,
       "team2": 2475
+    }
+  },
+  {
+    "id": "espn-401930026",
+    "slug": "abb-vs-real-tomayapo",
+    "tournament": "División Profesional Bolivia",
+    "flag": "img/flags/bo.svg",
+    "homeTeam": "ABB",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/130875.png",
+    "awayTeam": "Real Tomayapo",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/20890.png",
+    "utcKickoff": "2026-11-27T19:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Tigo Sports Bolivia",
+        "channel": "Tigo Sports Bolivia"
+      },
+      {
+        "name": "Fuente 2 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Municipal Villa Ingenio",
+    "category": "bolivia",
+    "votes": {
+      "team1": 1840,
+      "draw": 525,
+      "team2": 2475
+    }
+  },
+  {
+    "id": "espn-401875004",
+    "slug": "venezia-vs-bologna",
+    "tournament": "Serie A",
+    "flag": "img/flags/it.svg",
+    "homeTeam": "Venezia",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
+    "awayTeam": "Bologna",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+    "utcKickoff": "2026-11-27T19:45Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 1 HD",
+        "channel": "ESPN 1 HD"
+      },
+      {
+        "name": "Fuente 2 Star+ HD",
+        "channel": "Star+ HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ Premium",
+        "channel": "Disney+ Premium"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Stadio Pier Luigi Penzo",
+    "category": "europa",
+    "votes": {
+      "team1": 2160,
+      "draw": 625,
+      "team2": 2025
+    }
+  },
+  {
+    "id": "espn-401882791",
+    "slug": "levante-vs-racing-santander",
+    "tournament": "LaLiga EA Sports",
+    "flag": "img/flags/es.svg",
+    "homeTeam": "Levante",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+    "awayTeam": "Racing Santander",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+    "utcKickoff": "2026-11-27T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Movistar Plus+",
+        "channel": "Movistar Plus+"
+      },
+      {
+        "name": "Fuente 2 DAZN LaLiga",
+        "channel": "DAZN LaLiga"
+      },
+      {
+        "name": "Fuente 3 ESPN Deportes",
+        "channel": "ESPN Deportes"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadi Ciutat de València",
+    "category": "espana",
+    "votes": {
+      "team1": 2160,
+      "draw": 625,
+      "team2": 2700
+    }
+  },
+  {
+    "id": "espn-401879225",
+    "slug": "nottingham-forest-vs-chelsea",
+    "tournament": "Premier League",
+    "flag": "img/flags/england.svg",
+    "homeTeam": "Nottingham Forest",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+    "awayTeam": "Chelsea",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+    "utcKickoff": "2026-11-27T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 1 HD",
+        "channel": "ESPN 1 HD"
+      },
+      {
+        "name": "Fuente 2 DAZN 1",
+        "channel": "DAZN 1"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "The City Ground",
+    "category": "europa",
+    "votes": {
+      "team1": 2960,
+      "draw": 875,
+      "team2": 2025
+    }
+  },
+  {
+    "id": "espn-401930037",
+    "slug": "independiente-petrolero-vs-real-oruro",
+    "tournament": "División Profesional Bolivia",
+    "flag": "img/flags/bo.svg",
+    "homeTeam": "Independiente Petrolero",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/20889.png",
+    "awayTeam": "Real Oruro",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/22523.png",
+    "utcKickoff": "2026-11-27T23:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Tigo Sports Bolivia",
+        "channel": "Tigo Sports Bolivia"
+      },
+      {
+        "name": "Fuente 2 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Olímpico Patria",
+    "category": "bolivia",
+    "votes": {
+      "team1": 3440,
+      "draw": 1025,
+      "team2": 2250
+    }
+  },
+  {
+    "id": "espn-401936333",
+    "slug": "racing-montevideo-vs-liverpool",
+    "tournament": "Primera División Uruguay",
+    "flag": "img/flags/uy.svg",
+    "homeTeam": "Racing (Montevideo)",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9903.png",
+    "awayTeam": "Liverpool",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5492.png",
+    "utcKickoff": "2026-11-27T23:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 VTV Plus",
+        "channel": "VTV Plus"
+      },
+      {
+        "name": "Fuente 2 Star+ HD",
+        "channel": "Star+ HD"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Domingo Burgueño Miguel",
+    "category": "uruguay",
+    "votes": {
+      "team1": 3120,
+      "draw": 925,
+      "team2": 2175
     }
   },
   {
