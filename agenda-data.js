@@ -1,46 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-25 03:25:17Z
+ * Last Updated: 2026-11-25 13:58:18Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401934706",
-    "slug": "america-de-cali-vs-deportivo-cali",
-    "tournament": "Liga BetPlay",
-    "flag": "img/flags/co.svg",
-    "homeTeam": "América de Cali",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/8109.png",
-    "awayTeam": "Deportivo Cali",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2672.png",
-    "utcKickoff": "2026-11-25T01:30Z",
-    "status": "LIVE",
-    "minute": "90'+6'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Win Sports+",
-        "channel": "Win Sports+"
-      },
-      {
-        "name": "Fuente 2 Win Sports Online",
-        "channel": "Win Sports Online"
-      },
-      {
-        "name": "Fuente 3 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Pascual Guerrero",
-    "category": "colombia",
-    "votes": {
-      "team1": 2800,
-      "draw": 825,
-      "team2": 2550
-    }
-  },
   {
     "id": "espn-401915378",
     "slug": "sabah-fk-vs-barcelona",
@@ -1539,13 +1503,13 @@ window.LIBREGOL_MATCHES = [
   },
   {
     "id": "espn-401936333",
-    "slug": "racing-montevideo-vs-liverpool",
+    "slug": "liverpool-vs-racing-montevideo",
     "tournament": "Primera División Uruguay",
     "flag": "img/flags/uy.svg",
-    "homeTeam": "Racing (Montevideo)",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9903.png",
-    "awayTeam": "Liverpool",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5492.png",
+    "homeTeam": "Liverpool",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/5492.png",
+    "awayTeam": "Racing (Montevideo)",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9903.png",
     "utcKickoff": "2026-11-27T23:30Z",
     "status": "UPCOMING",
     "minute": "",
@@ -1572,9 +1536,9 @@ window.LIBREGOL_MATCHES = [
     "venue": "Estadio Domingo Burgueño Miguel",
     "category": "uruguay",
     "votes": {
-      "team1": 3120,
-      "draw": 925,
-      "team2": 2175
+      "team1": 2320,
+      "draw": 675,
+      "team2": 2925
     }
   },
   {
@@ -1615,6 +1579,118 @@ window.LIBREGOL_MATCHES = [
       "team1": 2320,
       "draw": 675,
       "team2": 3225
+    }
+  },
+  {
+    "id": "espn-401936435",
+    "slug": "sport-huancayo-vs-universitario",
+    "tournament": "Liga 1 MAX",
+    "flag": "img/flags/pe.svg",
+    "homeTeam": "Sport Huancayo",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10318.png",
+    "awayTeam": "Universitario",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2685.png",
+    "utcKickoff": "2026-11-28T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Liga 1 MAX HD",
+        "channel": "Liga 1 MAX HD"
+      },
+      {
+        "name": "Fuente 2 Liga 1 Play",
+        "channel": "Liga 1 Play"
+      },
+      {
+        "name": "Fuente 3 Gol Perú HD",
+        "channel": "Gol Perú HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Huancayo",
+    "category": "peru",
+    "votes": {
+      "team1": 2720,
+      "draw": 800,
+      "team2": 2475
+    }
+  },
+  {
+    "id": "espn-401850705",
+    "slug": "coquimbo-unido-vs-deportes-limache",
+    "tournament": "Primera División Chile",
+    "flag": "img/flags/cl.svg",
+    "homeTeam": "Coquimbo Unido",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/8186.png",
+    "awayTeam": "Deportes Limache",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/19195.png",
+    "utcKickoff": "2026-11-28T21:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 TNT Sports Chile",
+        "channel": "TNT Sports Chile"
+      },
+      {
+        "name": "Fuente 2 Estadio TNT",
+        "channel": "Estadio TNT"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Francisco Sánchez Rumoroso",
+    "category": "chile",
+    "votes": {
+      "team1": 2720,
+      "draw": 800,
+      "team2": 2700
+    }
+  },
+  {
+    "id": "espn-401850706",
+    "slug": "colo-colo-vs-la-serena",
+    "tournament": "Primera División Chile",
+    "flag": "img/flags/cl.svg",
+    "homeTeam": "Colo Colo",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2688.png",
+    "awayTeam": "La Serena",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4137.png",
+    "utcKickoff": "2026-11-28T23:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 TNT Sports Chile",
+        "channel": "TNT Sports Chile"
+      },
+      {
+        "name": "Fuente 2 Estadio TNT",
+        "channel": "Estadio TNT"
+      },
+      {
+        "name": "Fuente 3 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Monumental David Arellano",
+    "category": "chile",
+    "votes": {
+      "team1": 2320,
+      "draw": 675,
+      "team2": 2175
     }
   },
   {
