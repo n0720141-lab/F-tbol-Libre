@@ -1,162 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-27 13:33:03Z
+ * Last Updated: 2026-11-27 23:56:06Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401930026",
-    "slug": "abb-vs-real-tomayapo",
-    "tournament": "División Profesional Bolivia",
-    "flag": "img/flags/bo.svg",
-    "homeTeam": "ABB",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/130875.png",
-    "awayTeam": "Real Tomayapo",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/20890.png",
-    "utcKickoff": "2026-11-27T19:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Tigo Sports Bolivia",
-        "channel": "Tigo Sports Bolivia"
-      },
-      {
-        "name": "Fuente 2 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Municipal Villa Ingenio",
-    "category": "bolivia",
-    "votes": {
-      "team1": 1840,
-      "draw": 525,
-      "team2": 2475
-    }
-  },
-  {
-    "id": "espn-401875004",
-    "slug": "venezia-vs-bologna",
-    "tournament": "Serie A",
-    "flag": "img/flags/it.svg",
-    "homeTeam": "Venezia",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
-    "awayTeam": "Bologna",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
-    "utcKickoff": "2026-11-27T19:45Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ Premium",
-        "channel": "Disney+ Premium"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Stadio Pier Luigi Penzo",
-    "category": "europa",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 2025
-    }
-  },
-  {
-    "id": "espn-401879225",
-    "slug": "nottingham-forest-vs-chelsea",
-    "tournament": "Premier League",
-    "flag": "img/flags/england.svg",
-    "homeTeam": "Nottingham Forest",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
-    "awayTeam": "Chelsea",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-    "utcKickoff": "2026-11-27T20:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 DAZN 1",
-        "channel": "DAZN 1"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "The City Ground",
-    "category": "europa",
-    "votes": {
-      "team1": 2960,
-      "draw": 875,
-      "team2": 2025
-    }
-  },
-  {
-    "id": "espn-401882791",
-    "slug": "levante-vs-racing-santander",
-    "tournament": "LaLiga EA Sports",
-    "flag": "img/flags/es.svg",
-    "homeTeam": "Levante",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-    "awayTeam": "Racing Santander",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
-    "utcKickoff": "2026-11-27T20:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Movistar Plus+",
-        "channel": "Movistar Plus+"
-      },
-      {
-        "name": "Fuente 2 DAZN LaLiga",
-        "channel": "DAZN LaLiga"
-      },
-      {
-        "name": "Fuente 3 ESPN Deportes",
-        "channel": "ESPN Deportes"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadi Ciutat de València",
-    "category": "espana",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 2700
-    }
-  },
   {
     "id": "espn-401841337",
     "slug": "fluminense-vs-cruzeiro",
@@ -167,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Cruzeiro",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
     "utcKickoff": "2026-11-27T23:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "45'+2'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -207,8 +55,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Real Oruro",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/22523.png",
     "utcKickoff": "2026-11-27T23:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "45'+2'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -239,8 +87,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Racing (Montevideo)",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9903.png",
     "utcKickoff": "2026-11-27T23:30Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "26'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -279,8 +127,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Atlético Bucaramanga",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6137.png",
     "utcKickoff": "2026-11-27T23:35Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "21'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -303,6 +151,38 @@ window.LIBREGOL_MATCHES = [
       "team1": 2720,
       "draw": 800,
       "team2": 3000
+    }
+  },
+  {
+    "id": "espn-401930026",
+    "slug": "abb-vs-real-tomayapo",
+    "tournament": "División Profesional Bolivia",
+    "flag": "img/flags/bo.svg",
+    "homeTeam": "ABB",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/130875.png",
+    "awayTeam": "Real Tomayapo",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/20890.png",
+    "utcKickoff": "2026-11-28T00:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Tigo Sports Bolivia",
+        "channel": "Tigo Sports Bolivia"
+      },
+      {
+        "name": "Fuente 2 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Municipal Villa Ingenio",
+    "category": "bolivia",
+    "votes": {
+      "team1": 1840,
+      "draw": 525,
+      "team2": 2475
     }
   },
   {
