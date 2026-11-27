@@ -1,130 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-27 00:21:26Z
+ * Last Updated: 2026-11-27 13:33:03Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401841329",
-    "slug": "sao-paulo-vs-remo",
-    "tournament": "Brasileirão",
-    "flag": "img/flags/br.svg",
-    "homeTeam": "São Paulo",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
-    "awayTeam": "Remo",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
-    "utcKickoff": "2026-11-26T23:00Z",
-    "status": "LIVE",
-    "minute": "57'",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Premiere HD",
-        "channel": "Premiere HD"
-      },
-      {
-        "name": "Fuente 2 Globo",
-        "channel": "Globo"
-      },
-      {
-        "name": "Fuente 3 SporTV",
-        "channel": "SporTV"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estádio Cícero Pompeu de Toledo",
-    "category": "brasil",
-    "votes": {
-      "team1": 2320,
-      "draw": 675,
-      "team2": 1800
-    }
-  },
-  {
-    "id": "espn-401931982",
-    "slug": "pachuca-vs-guadalajara",
-    "tournament": "Liga MX",
-    "flag": "img/flags/mx.svg",
-    "homeTeam": "Pachuca",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/234.png",
-    "awayTeam": "Guadalajara",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/219.png",
-    "utcKickoff": "2026-11-27T01:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 TUDN En Vivo",
-        "channel": "TUDN En Vivo"
-      },
-      {
-        "name": "Fuente 2 ViX Premium",
-        "channel": "ViX Premium"
-      },
-      {
-        "name": "Fuente 3 Canal 5 HD",
-        "channel": "Canal 5 HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Hidalgo",
-    "category": "mexico",
-    "votes": {
-      "team1": 2160,
-      "draw": 625,
-      "team2": 2325
-    }
-  },
-  {
-    "id": "espn-401931995",
-    "slug": "leon-vs-cruz-azul",
-    "tournament": "Liga MX",
-    "flag": "img/flags/mx.svg",
-    "homeTeam": "León",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/228.png",
-    "awayTeam": "Cruz Azul",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/218.png",
-    "utcKickoff": "2026-11-27T03:10Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 TUDN En Vivo",
-        "channel": "TUDN En Vivo"
-      },
-      {
-        "name": "Fuente 2 ViX Premium",
-        "channel": "ViX Premium"
-      },
-      {
-        "name": "Fuente 3 Canal 5 HD",
-        "channel": "Canal 5 HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio León",
-    "category": "mexico",
-    "votes": {
-      "team1": 1920,
-      "draw": 550,
-      "team2": 2175
-    }
-  },
   {
     "id": "espn-401930026",
     "slug": "abb-vs-real-tomayapo",
@@ -502,46 +382,6 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
-    "id": "espn-401936435",
-    "slug": "sport-huancayo-vs-universitario",
-    "tournament": "Liga 1 MAX",
-    "flag": "img/flags/pe.svg",
-    "homeTeam": "Sport Huancayo",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10318.png",
-    "awayTeam": "Universitario",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2685.png",
-    "utcKickoff": "2026-11-28T20:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Liga 1 MAX HD",
-        "channel": "Liga 1 MAX HD"
-      },
-      {
-        "name": "Fuente 2 Liga 1 Play",
-        "channel": "Liga 1 Play"
-      },
-      {
-        "name": "Fuente 3 Gol Perú HD",
-        "channel": "Gol Perú HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio Huancayo",
-    "category": "peru",
-    "votes": {
-      "team1": 2720,
-      "draw": 800,
-      "team2": 2475
-    }
-  },
-  {
     "id": "espn-401850705",
     "slug": "coquimbo-unido-vs-deportes-limache",
     "tournament": "Primera División Chile",
@@ -691,6 +531,126 @@ window.LIBREGOL_MATCHES = [
       "team1": 3120,
       "draw": 925,
       "team2": 2325
+    }
+  },
+  {
+    "id": "espn-401931997",
+    "slug": "atlas-vs-toluca",
+    "tournament": "Liga MX",
+    "flag": "img/flags/mx.svg",
+    "homeTeam": "Atlas",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/216.png",
+    "awayTeam": "Toluca",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/223.png",
+    "utcKickoff": "2026-11-29T01:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 TUDN En Vivo",
+        "channel": "TUDN En Vivo"
+      },
+      {
+        "name": "Fuente 2 ViX Premium",
+        "channel": "ViX Premium"
+      },
+      {
+        "name": "Fuente 3 Canal 5 HD",
+        "channel": "Canal 5 HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Jalisco",
+    "category": "mexico",
+    "votes": {
+      "team1": 2000,
+      "draw": 575,
+      "team2": 1950
+    }
+  },
+  {
+    "id": "espn-401931996",
+    "slug": "america-vs-monterrey",
+    "tournament": "Liga MX",
+    "flag": "img/flags/mx.svg",
+    "homeTeam": "América",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png",
+    "awayTeam": "Monterrey",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/220.png",
+    "utcKickoff": "2026-11-29T03:10Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 TUDN En Vivo",
+        "channel": "TUDN En Vivo"
+      },
+      {
+        "name": "Fuente 2 ViX Premium",
+        "channel": "ViX Premium"
+      },
+      {
+        "name": "Fuente 3 Canal 5 HD",
+        "channel": "Canal 5 HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Banorte",
+    "category": "mexico",
+    "votes": {
+      "team1": 2160,
+      "draw": 625,
+      "team2": 2175
+    }
+  },
+  {
+    "id": "espn-401936435",
+    "slug": "sport-huancayo-vs-universitario",
+    "tournament": "Liga 1 MAX",
+    "flag": "img/flags/pe.svg",
+    "homeTeam": "Sport Huancayo",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10318.png",
+    "awayTeam": "Universitario",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2685.png",
+    "utcKickoff": "2026-11-29T20:00Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 Liga 1 MAX HD",
+        "channel": "Liga 1 MAX HD"
+      },
+      {
+        "name": "Fuente 2 Liga 1 Play",
+        "channel": "Liga 1 Play"
+      },
+      {
+        "name": "Fuente 3 Gol Perú HD",
+        "channel": "Gol Perú HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Estadio Huancayo",
+    "category": "peru",
+    "votes": {
+      "team1": 2720,
+      "draw": 800,
+      "team2": 2475
     }
   },
   {
