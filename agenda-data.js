@@ -1,90 +1,10 @@
 /**
  * Fútbol Libre Full HD — Live Matches Feed (Auto-Synced via Pipeline)
  * Based on LIBREGOL_LIVE_19_SEP
- * Last Updated: 2026-11-28 07:01:53Z
+ * Last Updated: 2026-11-28 16:40:28Z
  */
 
 window.LIBREGOL_MATCHES = [
-  {
-    "id": "espn-401882796",
-    "slug": "real-betis-vs-rayo-vallecano",
-    "tournament": "LaLiga EA Sports",
-    "flag": "img/flags/es.svg",
-    "homeTeam": "Real Betis",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-    "awayTeam": "Rayo Vallecano",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-    "utcKickoff": "2026-11-28T13:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 Movistar Plus+",
-        "channel": "Movistar Plus+"
-      },
-      {
-        "name": "Fuente 2 DAZN LaLiga",
-        "channel": "DAZN LaLiga"
-      },
-      {
-        "name": "Fuente 3 ESPN Deportes",
-        "channel": "ESPN Deportes"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Estadio La Cartuja",
-    "category": "espana",
-    "votes": {
-      "team1": 2400,
-      "draw": 700,
-      "team2": 2550
-    }
-  },
-  {
-    "id": "espn-401875081",
-    "slug": "frosinone-vs-parma",
-    "tournament": "Serie A",
-    "flag": "img/flags/it.svg",
-    "homeTeam": "Frosinone",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
-    "awayTeam": "Parma",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
-    "utcKickoff": "2026-11-28T14:00Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 Star+ HD",
-        "channel": "Star+ HD"
-      },
-      {
-        "name": "Fuente 3 Disney+ Premium",
-        "channel": "Disney+ Premium"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Stadio Benito Stirpe",
-    "category": "europa",
-    "votes": {
-      "team1": 2320,
-      "draw": 675,
-      "team2": 1875
-    }
-  },
   {
     "id": "espn-401879227",
     "slug": "leeds-united-vs-coventry-city",
@@ -95,8 +15,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Coventry City",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
     "utcKickoff": "2026-11-28T15:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "83'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -135,8 +55,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Brentford",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
     "utcKickoff": "2026-11-28T15:00Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "82'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -175,8 +95,8 @@ window.LIBREGOL_MATCHES = [
     "awayTeam": "Athletic Club",
     "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
     "utcKickoff": "2026-11-28T15:15Z",
-    "status": "UPCOMING",
-    "minute": "",
+    "status": "LIVE",
+    "minute": "64'",
     "homeScore": null,
     "awayScore": null,
     "channels": [
@@ -246,46 +166,6 @@ window.LIBREGOL_MATCHES = [
     }
   },
   {
-    "id": "espn-401878752",
-    "slug": "ipswich-town-vs-aston-villa",
-    "tournament": "Premier League",
-    "flag": "img/flags/england.svg",
-    "homeTeam": "Ipswich Town",
-    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
-    "awayTeam": "Aston Villa",
-    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-    "utcKickoff": "2026-11-28T17:30Z",
-    "status": "UPCOMING",
-    "minute": "",
-    "homeScore": null,
-    "awayScore": null,
-    "channels": [
-      {
-        "name": "Fuente 1 ESPN 1 HD",
-        "channel": "ESPN 1 HD"
-      },
-      {
-        "name": "Fuente 2 DAZN 1",
-        "channel": "DAZN 1"
-      },
-      {
-        "name": "Fuente 3 Disney+ HD",
-        "channel": "Disney+ HD"
-      },
-      {
-        "name": "Fuente 4 Directo HD",
-        "channel": "Directo HD"
-      }
-    ],
-    "venue": "Portman Road",
-    "category": "europa",
-    "votes": {
-      "team1": 2560,
-      "draw": 750,
-      "team2": 2325
-    }
-  },
-  {
     "id": "espn-401882793",
     "slug": "elche-vs-atletico-madrid",
     "tournament": "LaLiga EA Sports",
@@ -323,6 +203,46 @@ window.LIBREGOL_MATCHES = [
       "team1": 2000,
       "draw": 575,
       "team2": 2625
+    }
+  },
+  {
+    "id": "espn-401878752",
+    "slug": "ipswich-town-vs-aston-villa",
+    "tournament": "Premier League",
+    "flag": "img/flags/england.svg",
+    "homeTeam": "Ipswich Town",
+    "homeLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
+    "awayTeam": "Aston Villa",
+    "awayLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+    "utcKickoff": "2026-11-28T17:30Z",
+    "status": "UPCOMING",
+    "minute": "",
+    "homeScore": null,
+    "awayScore": null,
+    "channels": [
+      {
+        "name": "Fuente 1 ESPN 1 HD",
+        "channel": "ESPN 1 HD"
+      },
+      {
+        "name": "Fuente 2 DAZN 1",
+        "channel": "DAZN 1"
+      },
+      {
+        "name": "Fuente 3 Disney+ HD",
+        "channel": "Disney+ HD"
+      },
+      {
+        "name": "Fuente 4 Directo HD",
+        "channel": "Directo HD"
+      }
+    ],
+    "venue": "Portman Road",
+    "category": "europa",
+    "votes": {
+      "team1": 2560,
+      "draw": 750,
+      "team2": 2325
     }
   },
   {
